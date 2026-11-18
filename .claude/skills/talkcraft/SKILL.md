@@ -1,11 +1,11 @@
 ---
 name: talkcraft
-description: "Use the workspace Video Talkcraft stages for narration videos."
-argument-hint: "<project> [stage]"
+description: "Run Talkcraft on a project directory containing a recorded narration and words.json, or add a reusable video design from a reference."
+argument-hint: "<project> [--design <id>] [--preview]"
 ---
 
-Read the workspace [Video Talkcraft skill](../../../.agents/skills/video-talkcraft/SKILL.md) and follow its stage routing with these arguments:
+Read the workspace [Talkcraft skill](../../../talkcraft/SKILL.md) and follow its project run instructions using these arguments:
 
 $ARGUMENTS
 
-Run from the workspace root. With no stage, show status and the next command. Preserve the preview approval checkpoint and run only the requested stage.
+Treat the arguments as project paths and options. Run from the workspace root. For a project without `--preview`, carry the workflow through verification and delivery of the complete video.
