@@ -1,0 +1,17 @@
+{
+  "id": "fac6dfca89a76d3ebae2f69190a07e13df2b9ff7faa92b809420c882d207f4b3",
+  "image": "image-library/objects/f6a8e35589e4add049c1935c2edf428bb0897c4dc293f5389a1f5dfd6c911de7.webp",
+  "sha256": "f6a8e35589e4add049c1935c2edf428bb0897c4dc293f5389a1f5dfd6c911de7",
+  "name": "quiet-stall",
+  "project": "projects/stock-volume/talkcraft-remake",
+  "design": "gary-chen",
+  "category": "概念插畫",
+  "tags": [
+    "台灣夜市",
+    "雞排攤",
+    "量縮價跌"
+  ],
+  "provider": "openai",
+  "model": "gpt-image-2.5-sunburst",
+  "prompt": "Flat vector editorial illustration for a Traditional Chinese technology-finance explainer. Canvas uniformly filled with charcoal #252525. Simple bold geometric forms, warm amber orange #ed9640 as the single focal accent, controlled steel blue #669cdb as secondary, pale warm white #f5f4f1 line accents. Low visual noise, no text, no numbers, no logos, no brand marks, no watermarks. Centered single subject with ample margin and a clean dark perimeter that blends into a dark video backdrop.\n\nOne open Taiwanese fried-chicken stall under a striped amber canopy. Steel-blue counter and a tiny amber-lit paper bag. One small vendor silhouette behind the counter and empty charcoal around the stall, especially along the side where customers would stand. Compact centered object group, matching the shape and colors of the opening-night-market concept."
+}

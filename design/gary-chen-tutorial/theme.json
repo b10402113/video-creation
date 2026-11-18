@@ -1,0 +1,7 @@
+{
+  "name": "Gary Chen｜教程介面",
+  "colors": {"background":"#262626","panel":"#323232","ink":"#ffffff","muted":"#b4b4b4","accent":"#fe8d00","secondary":"#a8cce9","success":"#0fb086","line":"#484848","caption":"#090909","paper":"#ffffff"},
+  "font": {"sans":"PingFang TC, Microsoft JhengHei, system-ui, sans-serif","mono":"ui-monospace, SFMono-Regular, monospace"},
+  "subtitle": {"size":42,"bottom":54,"radius":8,"maxWidth":1520},
+  "motion": {"push":1.04}
+}

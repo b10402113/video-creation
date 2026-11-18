@@ -1,0 +1,17 @@
+{
+  "id": "0a61b0e1973eaec5287b79a87d7b0c8b2216d7dbf3f419286e8eb139e9e2f9fa",
+  "image": "image-library/objects/e2ac39aa7031a517c7ec40099f6dd9351560c97d15c78578f234c324e9a9eeb3.webp",
+  "sha256": "e2ac39aa7031a517c7ec40099f6dd9351560c97d15c78578f234c324e9a9eeb3",
+  "name": "trust-breach",
+  "project": "projects/test-project2/talkcraft-remake",
+  "design": "gary-chen",
+  "category": "概念插畫",
+  "tags": [
+    "隱私",
+    "信任",
+    "上傳"
+  ],
+  "provider": "openai",
+  "model": "gpt-image-2.5-sunburst",
+  "prompt": "Flat vector editorial illustration for a Traditional Chinese technology-finance explainer. Canvas uniformly filled with charcoal #252525. Simple bold geometric forms, warm amber orange #ed9640 as the single focal accent, controlled steel blue #669cdb as secondary, pale warm white #f5f4f1 line accents. Low visual noise, no text, no numbers, no logos, no brand marks, no watermarks. Centered single subject with ample margin and a clean dark perimeter that blends into a dark video backdrop.\n\nA sealed dark document vault with a clean amber orange keyhole, and one thin bright line of tiny dots streaming away upward out of an unnoticed gap in the vault wall. Restrained, no alarm imagery. Editorial metaphor for a workspace silently uploaded."
+}

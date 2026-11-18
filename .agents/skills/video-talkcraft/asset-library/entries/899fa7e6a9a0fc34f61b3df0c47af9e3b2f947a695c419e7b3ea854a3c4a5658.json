@@ -1,0 +1,38 @@
+{
+  "id": "899fa7e6a9a0fc34f61b3df0c47af9e3b2f947a695c419e7b3ea854a3c4a5658",
+  "kind": "animation",
+  "title": "Soft fade",
+  "tag": "動畫效果",
+  "summary": "Existing adjustable motion recipe. Replay and copy the source in Motion Studio.",
+  "semantic": "動畫效果 · Motion · animation · gsap · fade · 淡入",
+  "source": "",
+  "doc": "references/robonuggets-animate.md",
+  "thumb": "",
+  "image": "",
+  "audio": "",
+  "video": "",
+  "demo": "video-talkcraft/assets/robonuggets-animate/library/motion-studio.html",
+  "extraLinks": [],
+  "provenance": {
+    "name": "Animate contributors (RoboNuggets)",
+    "sourceId": "asset-14",
+    "archiveSha256": "dcadcdfe35557359eca1efd9e3ba254ed9f52652927e962f250c1707c2f320e3",
+    "licenseFile": "video-talkcraft/assets/robonuggets-animate/LICENSE",
+    "thirdPartyNotices": "video-talkcraft/assets/robonuggets-animate/THIRD-PARTY-NOTICES.md",
+    "originalMetadata": {
+      "category": "Motion",
+      "name": "Soft fade",
+      "description": "Existing adjustable motion recipe. Replay and copy the source in Motion Studio.",
+      "status": "Reusable",
+      "demo": "fade",
+      "tags": [
+        "animation",
+        "gsap",
+        "fade"
+      ],
+      "links": [],
+      "id": "asset-14"
+    }
+  },
+  "format": "HTML／GSAP 參考"
+}

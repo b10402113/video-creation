@@ -1,0 +1,120 @@
+{
+  "id": "b20f96fee6872ca368aba388e5ae1f0a78bf4ed4e79fec2adc554f4e11b56706",
+  "kind": "animation",
+  "title": "Huly Contextual Collaboration",
+  "tag": "資訊圖表",
+  "summary": "Native concept rebuilt as independent HTML/SVG parts with staged entry and subtle continuous hold motion.",
+  "semantic": "資訊圖表 · Infographics · Huly · editable · HTML · SVG · image reference · continuous motion · collaboration",
+  "source": "video-talkcraft/assets/robonuggets-animate/assets/items/177-huly-layers.js",
+  "doc": "references/robonuggets-animate.md",
+  "thumb": "video-talkcraft/assets/robonuggets-animate/assets/items/176-poster.png",
+  "image": "video-talkcraft/assets/robonuggets-animate/assets/items/176-poster.png",
+  "audio": "",
+  "video": "video-talkcraft/assets/robonuggets-animate/assets/items/174-preview.mp4",
+  "demo": "video-talkcraft/assets/robonuggets-animate/assets/brand-components/collaboration/index.html",
+  "extraLinks": [
+    [
+      "Animated scene preview",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/174-preview.mp4"
+    ],
+    [
+      "Scene timing",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/175-timing.json"
+    ],
+    [
+      "Editable animated scene",
+      "video-talkcraft/assets/robonuggets-animate/assets/brand-components/collaboration/index.html"
+    ],
+    [
+      "Source reuse guide",
+      "video-talkcraft/assets/robonuggets-animate/assets/brand-components/collaboration/README.md"
+    ],
+    [
+      "Image / SVG source",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/176-poster.png"
+    ]
+  ],
+  "provenance": {
+    "name": "Animate contributors (RoboNuggets)",
+    "sourceId": "asset-187",
+    "archiveSha256": "dcadcdfe35557359eca1efd9e3ba254ed9f52652927e962f250c1707c2f320e3",
+    "licenseFile": "video-talkcraft/assets/robonuggets-animate/LICENSE",
+    "thirdPartyNotices": "video-talkcraft/assets/robonuggets-animate/THIRD-PARTY-NOTICES.md",
+    "originalMetadata": {
+      "key": "huly-v9-editable-collaboration",
+      "name": "Huly Contextual Collaboration",
+      "category": "Infographics",
+      "status": "Reusable",
+      "shareable": true,
+      "componentClip": true,
+      "engine": "HulyLayers",
+      "kind": "collaboration",
+      "depthConfig": {
+        "depth": 1,
+        "tiltX": -4,
+        "tiltY": -7,
+        "motionStrength": 1,
+        "variant": "collaboration"
+      },
+      "enginePath": "assets/items/177-huly-layers.js",
+      "image": "assets/items/176-poster.png",
+      "componentTiming": "assets/items/175-timing.json",
+      "componentPortableRoot": "assets/brand-components/collaboration",
+      "componentPortableHtml": "assets/brand-components/collaboration/index.html",
+      "tags": [
+        "Huly",
+        "editable",
+        "HTML",
+        "SVG",
+        "image reference",
+        "continuous motion",
+        "collaboration"
+      ],
+      "description": "Native concept rebuilt as independent HTML/SVG parts with staged entry and subtle continuous hold motion.",
+      "provenance": {
+        "source": "Huly v9 reconstructed concepts",
+        "variant": "collaboration",
+        "referenceRole": "Generated image used as blueprint; no whole-scene raster in component",
+        "realMeshGeometry": false,
+        "nativeReferenceKey": "native-current-huly-collaboration"
+      },
+      "links": [
+        {
+          "label": "Animated scene preview",
+          "path": "assets/items/174-preview.mp4"
+        },
+        {
+          "label": "Scene timing",
+          "path": "assets/items/175-timing.json"
+        },
+        {
+          "label": "Editable animated scene",
+          "path": "assets/brand-components/collaboration/index.html"
+        },
+        {
+          "label": "Source reuse guide",
+          "path": "assets/brand-components/collaboration/README.md"
+        },
+        {
+          "label": "Image / SVG source",
+          "path": "assets/items/176-poster.png"
+        }
+      ],
+      "background": "#090a0c",
+      "aspectVariants": {
+        "wide": {
+          "image": "assets/items/176-poster.png",
+          "video": "assets/items/174-preview.mp4"
+        },
+        "portrait": {
+          "image": "assets/items/187-poster.png",
+          "video": "assets/items/188-preview.mp4"
+        }
+      },
+      "id": "asset-187",
+      "video": "assets/items/174-preview.mp4",
+      "html": "assets/brand-components/collaboration/index.html"
+    }
+  },
+  "format": "HTML／GSAP 參考"
+}

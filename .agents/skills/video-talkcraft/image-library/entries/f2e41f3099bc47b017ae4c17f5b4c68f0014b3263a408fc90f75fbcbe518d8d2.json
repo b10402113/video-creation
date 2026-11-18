@@ -1,0 +1,62 @@
+{
+  "id": "f2e41f3099bc47b017ae4c17f5b4c68f0014b3263a408fc90f75fbcbe518d8d2",
+  "name": "OpenAI",
+  "project": "共用素材",
+  "design": "通用",
+  "category": "圖示與標誌",
+  "tags": [
+    "圖示與標誌",
+    "Icons",
+    "svg",
+    "brand",
+    "logo",
+    "openai"
+  ],
+  "provider": "imported",
+  "sourceFile": "video-talkcraft/assets/robonuggets-animate/assets/items/044-openai.svg",
+  "provenance": {
+    "name": "Animate contributors (RoboNuggets)",
+    "sourceId": "asset-79",
+    "archiveSha256": "dcadcdfe35557359eca1efd9e3ba254ed9f52652927e962f250c1707c2f320e3",
+    "licenseFile": "video-talkcraft/assets/robonuggets-animate/LICENSE",
+    "thirdPartyNotices": "video-talkcraft/assets/robonuggets-animate/THIRD-PARTY-NOTICES.md",
+    "originalMetadata": {
+      "category": "Icons",
+      "name": "OpenAI",
+      "description": "OpenAI knot. Faithful source SVG with transparent background.",
+      "status": "Reusable",
+      "image": "assets/items/044-openai.svg",
+      "tags": [
+        "svg",
+        "brand",
+        "logo",
+        "openai"
+      ],
+      "license": "MIT",
+      "rightsNote": "Brand trademarks belong to their respective owners. Repository artwork license does not grant trademark rights or endorsement.",
+      "publicAsset": true,
+      "links": [
+        {
+          "label": "Image / SVG source",
+          "path": "assets/items/044-openai.svg"
+        },
+        {
+          "label": "Source manifest",
+          "path": "assets/ai-logos/manifest.json"
+        },
+        {
+          "label": "License",
+          "path": "assets/ai-logos/LICENSE-LobeHub.txt"
+        }
+      ],
+      "id": "asset-79",
+      "external": "https://github.com/lobehub/lobe-icons"
+    },
+    "sourceSha256": "a595df6b423920c67a7f8f73c063e4bfb72d415948097b6cac063a2366bb5186",
+    "changes": [
+      "SVG rendered to a 1200-pixel-wide transparent WebP for the shared image workflow; original SVG retained."
+    ]
+  },
+  "image": "image-library/objects/bd61c38278deb62f7b438d0d0dcea848d537e2b1bcf379a46f66f06606b72e23.webp",
+  "sha256": "bd61c38278deb62f7b438d0d0dcea848d537e2b1bcf379a46f66f06606b72e23"
+}

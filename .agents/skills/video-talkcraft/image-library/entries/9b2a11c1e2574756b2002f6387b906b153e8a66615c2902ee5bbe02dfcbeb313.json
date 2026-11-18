@@ -1,0 +1,59 @@
+{
+  "id": "9b2a11c1e2574756b2002f6387b906b153e8a66615c2902ee5bbe02dfcbeb313",
+  "name": "Generic output machine",
+  "project": "共用素材",
+  "design": "通用",
+  "category": "概念插畫",
+  "tags": [
+    "概念插畫",
+    "Graphics",
+    "transparent",
+    "AI",
+    "website",
+    "generic",
+    "native-generated"
+  ],
+  "provider": "imported",
+  "sourceFile": "video-talkcraft/assets/robonuggets-animate/assets/items/182-generic-output.png",
+  "provenance": {
+    "name": "Animate contributors (RoboNuggets)",
+    "sourceId": "asset-189",
+    "archiveSha256": "dcadcdfe35557359eca1efd9e3ba254ed9f52652927e962f250c1707c2f320e3",
+    "licenseFile": "video-talkcraft/assets/robonuggets-animate/LICENSE",
+    "thirdPartyNotices": "video-talkcraft/assets/robonuggets-animate/THIRD-PARTY-NOTICES.md",
+    "originalMetadata": {
+      "key": "l0069-generic-output-machine",
+      "name": "Generic output machine",
+      "category": "Graphics",
+      "image": "assets/items/182-generic-output.png",
+      "shareable": true,
+      "tags": [
+        "transparent",
+        "AI",
+        "website",
+        "generic",
+        "native-generated"
+      ],
+      "provenance": {
+        "provider": "OpenAI native image generation",
+        "prompt": "Create a premium editorial 3D illustration for a vertical creator video about generic AI design output. A small conveyor of three IDENTICAL boring miniature website panels stamped out of one matte cream mechanical mould, with one vivid orange ceramic creative spark hovering above them. No characters, no faces, no letters, no legible UI text, no fake logos. The panels are tangible little cream product objects with blank black placeholder bars and a tiny orange rectangle. Sophisticated clean art direction, satin ivory ceramic, soft warm highlights, graphite details, subtle physical depth and bevels, studio render, restrained orange #ff6b1a accent, centered isolated object group fitting landscape 4:3. Entire background MUST be truly transparent alpha, no white rectangular backdrop, no checkerboard, no floor, no cast shadow outside the object, no text. Crisp silhouettes, visually simple and readable at phone size. This illustrates monotonous templated output, not a screenshot of any actual product.\n",
+        "sourceImage": "exec-d52284ed-0050-4569-92e9-d30eb57e3deb.png"
+      },
+      "links": [
+        {
+          "label": "Image / SVG source",
+          "path": "assets/items/182-generic-output.png"
+        }
+      ],
+      "status": "Reusable",
+      "sha256": "21c8047fc920519dac138bd624acdf180bbb43b48fa15fd416d5fe53b8793ace",
+      "id": "asset-189"
+    },
+    "sourceSha256": "21c8047fc920519dac138bd624acdf180bbb43b48fa15fd416d5fe53b8793ace",
+    "changes": [
+      "WebP copy for the shared image workflow; original file retained."
+    ]
+  },
+  "image": "image-library/objects/6bba32eb31a781ccd82b520c90bc9410a1fb29aa3084e3d3cce0e6bee9a8e659.webp",
+  "sha256": "6bba32eb31a781ccd82b520c90bc9410a1fb29aa3084e3d3cce0e6bee9a8e659"
+}

@@ -1,0 +1,76 @@
+{
+  "id": "05b6c3062ee9e7e03b9a73ed2d855fea0c6f4e660a82a7f00d0fc76269c89b99",
+  "kind": "model",
+  "title": "MindMarket Research iPhone",
+  "tag": "3D 模型",
+  "summary": "",
+  "semantic": "3D 模型 · 3D objects · MindMarket · landscape · editable · iPhone",
+  "source": "video-talkcraft/assets/robonuggets-animate/assets/items/112-iphone-research.glb",
+  "doc": "references/robonuggets-animate.md",
+  "thumb": "video-talkcraft/assets/robonuggets-animate/assets/items/111-iphone-poster.png",
+  "image": "video-talkcraft/assets/robonuggets-animate/assets/items/111-iphone-poster.png",
+  "audio": "",
+  "video": "video-talkcraft/assets/robonuggets-animate/assets/items/110-iphone-component.mp4",
+  "demo": "video-talkcraft/assets/robonuggets-animate/assets/items/110-iphone-component.mp4",
+  "extraLinks": [
+    [
+      "Animated scene preview",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/110-iphone-component.mp4"
+    ],
+    [
+      "Editable GLB",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/112-iphone-research.glb"
+    ],
+    [
+      "Image / SVG source",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/111-iphone-poster.png"
+    ]
+  ],
+  "provenance": {
+    "name": "Animate contributors (RoboNuggets)",
+    "sourceId": "asset-146",
+    "archiveSha256": "dcadcdfe35557359eca1efd9e3ba254ed9f52652927e962f250c1707c2f320e3",
+    "licenseFile": "video-talkcraft/assets/robonuggets-animate/LICENSE",
+    "thirdPartyNotices": "video-talkcraft/assets/robonuggets-animate/THIRD-PARTY-NOTICES.md",
+    "originalMetadata": {
+      "key": "mindmarket-v5-component-0",
+      "name": "MindMarket Research iPhone",
+      "category": "3D objects",
+      "image": "assets/items/111-iphone-poster.png",
+      "componentClip": true,
+      "model": "assets/items/112-iphone-research.glb",
+      "shareable": true,
+      "tags": [
+        "MindMarket",
+        "landscape",
+        "editable",
+        "iPhone"
+      ],
+      "provenance": {
+        "source": "MindMarket video v5",
+        "duration": 3,
+        "start": 4,
+        "end": 7
+      },
+      "links": [
+        {
+          "label": "Animated scene preview",
+          "path": "assets/items/110-iphone-component.mp4"
+        },
+        {
+          "label": "Editable GLB",
+          "path": "assets/items/112-iphone-research.glb"
+        },
+        {
+          "label": "Image / SVG source",
+          "path": "assets/items/111-iphone-poster.png"
+        }
+      ],
+      "status": "Reusable",
+      "sha256": "6e62a4a68c7195bbac5a138fe8b637a2cd3b790156484aa3579064534be0cf9d",
+      "id": "asset-146",
+      "video": "assets/items/110-iphone-component.mp4"
+    }
+  },
+  "format": "GLB／3D"
+}

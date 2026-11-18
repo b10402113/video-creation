@@ -1,0 +1,101 @@
+{
+  "id": "6f2bfc22343fc0e1168e344120e744ab944c264fb4c48c6d2e982419f254c108",
+  "kind": "animation",
+  "title": "Huly task workflow",
+  "tag": "資訊圖表",
+  "summary": "",
+  "semantic": "資訊圖表 · Infographics · brand · Huly · animated · reusable · infographic",
+  "source": "video-talkcraft/assets/robonuggets-animate/assets/items/101-workflow.svg",
+  "doc": "references/robonuggets-animate.md",
+  "thumb": "video-talkcraft/assets/robonuggets-animate/assets/items/103-poster.png",
+  "image": "video-talkcraft/assets/robonuggets-animate/assets/items/103-poster.png",
+  "audio": "",
+  "video": "video-talkcraft/assets/robonuggets-animate/assets/items/100-preview.mp4",
+  "demo": "video-talkcraft/assets/robonuggets-animate/assets/brand-components/05-orbitdesk/components/workflow.html",
+  "extraLinks": [
+    [
+      "Animated scene preview",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/100-preview.mp4"
+    ],
+    [
+      "Editable SVG artwork",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/101-workflow.svg"
+    ],
+    [
+      "Scene timing",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/102-timing.json"
+    ],
+    [
+      "Editable animated scene",
+      "video-talkcraft/assets/robonuggets-animate/assets/brand-components/05-orbitdesk/components/workflow.html"
+    ],
+    [
+      "Source reuse guide",
+      "video-talkcraft/assets/robonuggets-animate/assets/brand-components/05-orbitdesk/README.md"
+    ],
+    [
+      "Image / SVG source",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/103-poster.png"
+    ]
+  ],
+  "provenance": {
+    "name": "Animate contributors (RoboNuggets)",
+    "sourceId": "asset-134",
+    "archiveSha256": "dcadcdfe35557359eca1efd9e3ba254ed9f52652927e962f250c1707c2f320e3",
+    "licenseFile": "video-talkcraft/assets/robonuggets-animate/LICENSE",
+    "thirdPartyNotices": "video-talkcraft/assets/robonuggets-animate/THIRD-PARTY-NOTICES.md",
+    "originalMetadata": {
+      "key": "brand-v3-component-05-orbitdesk-0",
+      "name": "Huly task workflow",
+      "category": "Infographics",
+      "status": "Reusable",
+      "shareable": true,
+      "nativeAspect": "16:9",
+      "width": 1920,
+      "height": 1080,
+      "image": "assets/items/103-poster.png",
+      "componentClip": true,
+      "componentSvg": "assets/items/101-workflow.svg",
+      "componentTiming": "assets/items/102-timing.json",
+      "tags": [
+        "brand",
+        "Huly",
+        "animated",
+        "reusable",
+        "infographic"
+      ],
+      "links": [
+        {
+          "label": "Animated scene preview",
+          "path": "assets/items/100-preview.mp4"
+        },
+        {
+          "label": "Editable SVG artwork",
+          "path": "assets/items/101-workflow.svg"
+        },
+        {
+          "label": "Scene timing",
+          "path": "assets/items/102-timing.json"
+        },
+        {
+          "label": "Editable animated scene",
+          "path": "assets/brand-components/05-orbitdesk/components/workflow.html"
+        },
+        {
+          "label": "Source reuse guide",
+          "path": "assets/brand-components/05-orbitdesk/README.md"
+        },
+        {
+          "label": "Image / SVG source",
+          "path": "assets/items/103-poster.png"
+        }
+      ],
+      "componentPortableRoot": "assets/brand-components/05-orbitdesk",
+      "componentPortableHtml": "assets/brand-components/05-orbitdesk/components/workflow.html",
+      "id": "asset-134",
+      "video": "assets/items/100-preview.mp4",
+      "html": "assets/brand-components/05-orbitdesk/components/workflow.html"
+    }
+  },
+  "format": "HTML／GSAP 參考"
+}

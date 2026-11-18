@@ -1,0 +1,58 @@
+{
+  "id": "e4b3030138b86302a9bde4709a948f2919d9067368d1c308cf8bb6754d98afec",
+  "kind": "animation",
+  "title": "RUBRIC wave",
+  "tag": "背景",
+  "summary": "",
+  "semantic": "背景 · Backgrounds · wave · getrubric.app · 30 percent opacity · dot matrix",
+  "source": "video-talkcraft/assets/robonuggets-animate/assets/items/075-robo-backgrounds.js",
+  "doc": "references/robonuggets-animate.md",
+  "thumb": "video-talkcraft/assets/robonuggets-animate/assets/items/109-rubric-wave.png",
+  "image": "video-talkcraft/assets/robonuggets-animate/assets/items/109-rubric-wave.png",
+  "audio": "",
+  "video": "",
+  "demo": "video-talkcraft/assets/robonuggets-animate/library/index.html#category=Backgrounds&q=RUBRIC+wave",
+  "extraLinks": [
+    [
+      "Image / SVG source",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/109-rubric-wave.png"
+    ]
+  ],
+  "provenance": {
+    "name": "Animate contributors (RoboNuggets)",
+    "sourceId": "asset-142",
+    "archiveSha256": "dcadcdfe35557359eca1efd9e3ba254ed9f52652927e962f250c1707c2f320e3",
+    "licenseFile": "video-talkcraft/assets/robonuggets-animate/LICENSE",
+    "thirdPartyNotices": "video-talkcraft/assets/robonuggets-animate/THIRD-PARTY-NOTICES.md",
+    "originalMetadata": {
+      "key": "rubric-site-wave",
+      "name": "RUBRIC wave",
+      "category": "Backgrounds",
+      "image": "assets/items/109-rubric-wave.png",
+      "backgroundKind": "rubric",
+      "backgroundEnginePath": "assets/items/075-robo-backgrounds.js",
+      "shareable": true,
+      "tags": [
+        "wave",
+        "getrubric.app",
+        "30 percent opacity",
+        "dot matrix"
+      ],
+      "provenance": {
+        "source": "https://getrubric.app",
+        "function": "bgFn / rubricBgFn",
+        "effectiveOpacity": 0.3
+      },
+      "links": [
+        {
+          "label": "Image / SVG source",
+          "path": "assets/items/109-rubric-wave.png"
+        }
+      ],
+      "status": "Reusable",
+      "sha256": "96cf360f25cf5e1b3680232573de4ccad2b502e9ce38920baf9d10c2989ef226",
+      "id": "asset-142"
+    }
+  },
+  "format": "HTML／GSAP 參考"
+}

@@ -1,0 +1,62 @@
+{
+  "id": "9ecb2d9fe100abbc55d73d579ecf51c4d94f886a285bf62b7911b6a009429fbe",
+  "name": "Qwen",
+  "project": "共用素材",
+  "design": "通用",
+  "category": "圖示與標誌",
+  "tags": [
+    "圖示與標誌",
+    "Icons",
+    "svg",
+    "brand",
+    "logo",
+    "qwen-color"
+  ],
+  "provider": "imported",
+  "sourceFile": "video-talkcraft/assets/robonuggets-animate/assets/items/056-qwen-color.svg",
+  "provenance": {
+    "name": "Animate contributors (RoboNuggets)",
+    "sourceId": "asset-91",
+    "archiveSha256": "dcadcdfe35557359eca1efd9e3ba254ed9f52652927e962f250c1707c2f320e3",
+    "licenseFile": "video-talkcraft/assets/robonuggets-animate/LICENSE",
+    "thirdPartyNotices": "video-talkcraft/assets/robonuggets-animate/THIRD-PARTY-NOTICES.md",
+    "originalMetadata": {
+      "category": "Icons",
+      "name": "Qwen",
+      "description": "Qwen mark. Faithful source SVG with transparent background.",
+      "status": "Reusable",
+      "image": "assets/items/056-qwen-color.svg",
+      "tags": [
+        "svg",
+        "brand",
+        "logo",
+        "qwen-color"
+      ],
+      "license": "MIT",
+      "rightsNote": "Brand trademarks belong to their respective owners. Repository artwork license does not grant trademark rights or endorsement.",
+      "publicAsset": true,
+      "links": [
+        {
+          "label": "Image / SVG source",
+          "path": "assets/items/056-qwen-color.svg"
+        },
+        {
+          "label": "Source manifest",
+          "path": "assets/ai-logos/manifest.json"
+        },
+        {
+          "label": "License",
+          "path": "assets/ai-logos/LICENSE-LobeHub.txt"
+        }
+      ],
+      "id": "asset-91",
+      "external": "https://github.com/lobehub/lobe-icons"
+    },
+    "sourceSha256": "77f5768c66d08ce1d3d14e73373975c1bc0454be88c81523ddd0ffd7e2974029",
+    "changes": [
+      "SVG rendered to a 1200-pixel-wide transparent WebP for the shared image workflow; original SVG retained."
+    ]
+  },
+  "image": "image-library/objects/6c2d2aae17a3433cda8c0f0c401f0de533b10b188a17ef99e87d596c5ed218c6.webp",
+  "sha256": "6c2d2aae17a3433cda8c0f0c401f0de533b10b188a17ef99e87d596c5ed218c6"
+}

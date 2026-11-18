@@ -1,0 +1,17 @@
+{
+  "id": "b05bb85667f411667b24feb9628eef8ae72cc2da1c22f1069d60e57978945c68",
+  "image": "image-library/objects/8726307ad35d74b2266af0e8858b6c8e2d82e7b934957857037c687fc59bacd0.webp",
+  "sha256": "8726307ad35d74b2266af0e8858b6c8e2d82e7b934957857037c687fc59bacd0",
+  "name": "rising-curve-break",
+  "project": "projects/test-project2/talkcraft-remake",
+  "design": "gary-chen",
+  "category": "圖表與流程",
+  "tags": [
+    "股價",
+    "崩跌",
+    "市值"
+  ],
+  "provider": "openai",
+  "model": "gpt-image-2.5-sunburst",
+  "prompt": "Flat vector editorial illustration for a Traditional Chinese technology-finance explainer. Canvas uniformly filled with charcoal #252525. Simple bold geometric forms, warm amber orange #ed9640 as the single focal accent, controlled steel blue #669cdb as secondary, pale warm white #f5f4f1 line accents. Low visual noise, no text, no numbers, no logos, no brand marks, no watermarks. Centered single subject with ample margin and a clean dark perimeter that blends into a dark video backdrop.\n\nA tall glowing amber orange line chart that rockets upward then crashes down sharply, ending in a broken fragmented segment. Behind it a wide band of dull blue. One coherent chart-like silhouette, no axis labels. Landscape metaphor for a stock that quadrupled then lost eighty percent."
+}

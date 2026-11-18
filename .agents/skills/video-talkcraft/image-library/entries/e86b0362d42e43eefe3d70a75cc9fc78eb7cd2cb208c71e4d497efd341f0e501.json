@@ -1,0 +1,62 @@
+{
+  "id": "e86b0362d42e43eefe3d70a75cc9fc78eb7cd2cb208c71e4d497efd341f0e501",
+  "name": "Anthropic",
+  "project": "共用素材",
+  "design": "通用",
+  "category": "圖示與標誌",
+  "tags": [
+    "圖示與標誌",
+    "Icons",
+    "svg",
+    "brand",
+    "logo",
+    "anthropic"
+  ],
+  "provider": "imported",
+  "sourceFile": "video-talkcraft/assets/robonuggets-animate/assets/items/045-anthropic.svg",
+  "provenance": {
+    "name": "Animate contributors (RoboNuggets)",
+    "sourceId": "asset-80",
+    "archiveSha256": "dcadcdfe35557359eca1efd9e3ba254ed9f52652927e962f250c1707c2f320e3",
+    "licenseFile": "video-talkcraft/assets/robonuggets-animate/LICENSE",
+    "thirdPartyNotices": "video-talkcraft/assets/robonuggets-animate/THIRD-PARTY-NOTICES.md",
+    "originalMetadata": {
+      "category": "Icons",
+      "name": "Anthropic",
+      "description": "Company monogram. Faithful source SVG with transparent background.",
+      "status": "Reusable",
+      "image": "assets/items/045-anthropic.svg",
+      "tags": [
+        "svg",
+        "brand",
+        "logo",
+        "anthropic"
+      ],
+      "license": "MIT",
+      "rightsNote": "Brand trademarks belong to their respective owners. Repository artwork license does not grant trademark rights or endorsement.",
+      "publicAsset": true,
+      "links": [
+        {
+          "label": "Image / SVG source",
+          "path": "assets/items/045-anthropic.svg"
+        },
+        {
+          "label": "Source manifest",
+          "path": "assets/ai-logos/manifest.json"
+        },
+        {
+          "label": "License",
+          "path": "assets/ai-logos/LICENSE-LobeHub.txt"
+        }
+      ],
+      "id": "asset-80",
+      "external": "https://github.com/lobehub/lobe-icons"
+    },
+    "sourceSha256": "e833fdfa7e7187a86a05b870925067556a506dcd4239089aed73e1e58c9366a3",
+    "changes": [
+      "SVG rendered to a 1200-pixel-wide transparent WebP for the shared image workflow; original SVG retained."
+    ]
+  },
+  "image": "image-library/objects/fdb59ef441dd9b26de490ab10f2f0a823c72fb0add4589c63911c0f102079206.webp",
+  "sha256": "fdb59ef441dd9b26de490ab10f2f0a823c72fb0add4589c63911c0f102079206"
+}

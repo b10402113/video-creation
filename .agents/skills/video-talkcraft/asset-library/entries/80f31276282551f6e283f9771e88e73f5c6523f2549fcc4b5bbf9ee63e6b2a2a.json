@@ -1,0 +1,101 @@
+{
+  "id": "80f31276282551f6e283f9771e88e73f5c6523f2549fcc4b5bbf9ee63e6b2a2a",
+  "kind": "animation",
+  "title": "Huly deliverable convergence",
+  "tag": "資訊圖表",
+  "summary": "",
+  "semantic": "資訊圖表 · Infographics · brand · Huly · animated · reusable · infographic",
+  "source": "video-talkcraft/assets/robonuggets-animate/assets/items/105-convergence.svg",
+  "doc": "references/robonuggets-animate.md",
+  "thumb": "video-talkcraft/assets/robonuggets-animate/assets/items/107-poster.png",
+  "image": "video-talkcraft/assets/robonuggets-animate/assets/items/107-poster.png",
+  "audio": "",
+  "video": "video-talkcraft/assets/robonuggets-animate/assets/items/104-preview.mp4",
+  "demo": "video-talkcraft/assets/robonuggets-animate/assets/brand-components/05-orbitdesk/components/convergence.html",
+  "extraLinks": [
+    [
+      "Animated scene preview",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/104-preview.mp4"
+    ],
+    [
+      "Editable SVG artwork",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/105-convergence.svg"
+    ],
+    [
+      "Scene timing",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/106-timing.json"
+    ],
+    [
+      "Editable animated scene",
+      "video-talkcraft/assets/robonuggets-animate/assets/brand-components/05-orbitdesk/components/convergence.html"
+    ],
+    [
+      "Source reuse guide",
+      "video-talkcraft/assets/robonuggets-animate/assets/brand-components/05-orbitdesk/README.md"
+    ],
+    [
+      "Image / SVG source",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/107-poster.png"
+    ]
+  ],
+  "provenance": {
+    "name": "Animate contributors (RoboNuggets)",
+    "sourceId": "asset-135",
+    "archiveSha256": "dcadcdfe35557359eca1efd9e3ba254ed9f52652927e962f250c1707c2f320e3",
+    "licenseFile": "video-talkcraft/assets/robonuggets-animate/LICENSE",
+    "thirdPartyNotices": "video-talkcraft/assets/robonuggets-animate/THIRD-PARTY-NOTICES.md",
+    "originalMetadata": {
+      "key": "brand-v3-component-05-orbitdesk-1",
+      "name": "Huly deliverable convergence",
+      "category": "Infographics",
+      "status": "Reusable",
+      "shareable": true,
+      "nativeAspect": "16:9",
+      "width": 1920,
+      "height": 1080,
+      "image": "assets/items/107-poster.png",
+      "componentClip": true,
+      "componentSvg": "assets/items/105-convergence.svg",
+      "componentTiming": "assets/items/106-timing.json",
+      "tags": [
+        "brand",
+        "Huly",
+        "animated",
+        "reusable",
+        "infographic"
+      ],
+      "links": [
+        {
+          "label": "Animated scene preview",
+          "path": "assets/items/104-preview.mp4"
+        },
+        {
+          "label": "Editable SVG artwork",
+          "path": "assets/items/105-convergence.svg"
+        },
+        {
+          "label": "Scene timing",
+          "path": "assets/items/106-timing.json"
+        },
+        {
+          "label": "Editable animated scene",
+          "path": "assets/brand-components/05-orbitdesk/components/convergence.html"
+        },
+        {
+          "label": "Source reuse guide",
+          "path": "assets/brand-components/05-orbitdesk/README.md"
+        },
+        {
+          "label": "Image / SVG source",
+          "path": "assets/items/107-poster.png"
+        }
+      ],
+      "componentPortableRoot": "assets/brand-components/05-orbitdesk",
+      "componentPortableHtml": "assets/brand-components/05-orbitdesk/components/convergence.html",
+      "id": "asset-135",
+      "video": "assets/items/104-preview.mp4",
+      "html": "assets/brand-components/05-orbitdesk/components/convergence.html"
+    }
+  },
+  "format": "HTML／GSAP 參考"
+}

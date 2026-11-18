@@ -1,0 +1,48 @@
+{
+  "id": "1c86ae779b3271b90f509e545343215cd243b2bebe6a4631a00db21220e95e98",
+  "name": "Writing pencil",
+  "project": "共用素材",
+  "design": "通用",
+  "category": "圖示與標誌",
+  "tags": [
+    "圖示與標誌",
+    "Icons",
+    "svg",
+    "pixel",
+    "icon"
+  ],
+  "provider": "imported",
+  "sourceFile": "video-talkcraft/assets/robonuggets-animate/assets/items/028-writing.svg",
+  "provenance": {
+    "name": "Animate contributors (RoboNuggets)",
+    "sourceId": "asset-31",
+    "archiveSha256": "dcadcdfe35557359eca1efd9e3ba254ed9f52652927e962f250c1707c2f320e3",
+    "licenseFile": "video-talkcraft/assets/robonuggets-animate/LICENSE",
+    "thirdPartyNotices": "video-talkcraft/assets/robonuggets-animate/THIRD-PARTY-NOTICES.md",
+    "originalMetadata": {
+      "category": "Icons",
+      "name": "Writing pencil",
+      "description": "Crisp, editable pixel SVG icon. Use it inside infographics and titles, not as a title-side decoration.",
+      "status": "Reusable",
+      "image": "assets/items/028-writing.svg",
+      "tags": [
+        "svg",
+        "pixel",
+        "icon"
+      ],
+      "links": [
+        {
+          "label": "Image / SVG source",
+          "path": "assets/items/028-writing.svg"
+        }
+      ],
+      "id": "asset-31"
+    },
+    "sourceSha256": "64e9da87f38273d55b20df5d2203c050ff0e5e5ad199949df0113ee265e8a177",
+    "changes": [
+      "SVG rendered to a 1200-pixel-wide transparent WebP for the shared image workflow; original SVG retained."
+    ]
+  },
+  "image": "image-library/objects/4e68bb782e85ca833b2d32029d308495e3bb76c5634c183314098a78670a4517.webp",
+  "sha256": "4e68bb782e85ca833b2d32029d308495e3bb76c5634c183314098a78670a4517"
+}

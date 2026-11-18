@@ -1,0 +1,159 @@
+import assert from "node:assert/strict";
+import { mkdtempSync, mkdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
+import { tmpdir } from "node:os";
+import { dirname, join } from "node:path";
+import test from "node:test";
+import {
+  MAX_STEP_IMAGES,
+  REPO_IMAGE_STYLE,
+  assertPlanAnchors,
+  buildBrief,
+  buildRequest,
+  polishedRecordPath,
+  jobFiles,
+  normalizeStepPlan,
+  readStepPlan,
+} from "./article-agent-bridge.mjs";
+
+function write(root, relative, content) {
+  const file = join(root, relative);
+  mkdirSync(dirname(file), { recursive: true });
+  writeFileSync(file, content);
+}
+
+function fixture(t) {
+  const root = mkdtempSync(join(tmpdir(), "bridge-fixture-"));
+  t.after(() => rmSync(root, { recursive: true, force: true }));
+  write(root, "prompts/image.txt", "Make one figure.\n");
+  return root;
+}
+
+const entry = { id: "s1", title: "Step One", purpose: "Explain one thing." };
+
+test("jobFiles keeps every step artifact in one folder and the plan beside the node", () => {
+  const files = jobFiles("/repo", { subject: "test", node: "n1", step: "s1" });
+  assert.equal(files.dir, "/repo/learn/test/output/n1/s1");
+  assert.equal(files.material, "/repo/learn/test/output/n1/s1/material.json");
+  assert.equal(files.original, "/repo/learn/test/output/n1/s1/original.md");
+  assert.equal(files.polish, "/repo/learn/test/output/n1/s1/polish.md");
+  assert.equal(files.blocks, "/repo/learn/test/output/n1/s1/blocks.json");
+  assert.equal(files.result, "/repo/learn/test/output/n1/s1/result.json");
+  assert.equal(files.humanized, "/repo/learn/test/output/n1/s1/humanized.md");
+  assert.equal(files.humanizedPlan, "/repo/learn/test/output/n1/s1/humanized.plan.json");
+  assert.equal(files.plan, "/repo/learn/test/nodes/n1/s1.plan.json");
+  assert.equal(files.legacyPlan, undefined);
+  assert.equal(files.marked, undefined);
+});
+
+test("readStepPlan reads the plan from the node directory and validates anchors", (t) => {
+  const root = fixture(t);
+  write(
+    root,
+    "learn/test/nodes/n1/s1.plan.json",
+    JSON.stringify([{ heading: "A", anchor: "one  sentence", prompt: "draw it" }]),
+  );
+  const plan = readStepPlan(root, { subject: "test", node: "n1", step: "s1" }, "one sentence.");
+  assert.equal(plan.length, 1);
+  assert.equal(plan[0].index, 1);
+  assert.throws(
+    () => readStepPlan(root, { subject: "test", node: "n1", step: "s1" }, "Another sentence."),
+    /not verbatim/,
+  );
+});
+
+test("the polish record sits under the subject output directory", () => {
+  const ids = { subject: "test", node: "n1", step: "s1" };
+  assert.equal(polishedRecordPath("/repo", ids), "/repo/learn/test/output/polished/n1/s1.json");
+});
+
+test("buildBrief keeps the step purpose and drops node neighbours", () => {
+  const brief = buildBrief(entry, { hasCode: true });
+  assert.match(brief, /Explain one thing/);
+  assert.match(brief, /<!--code:N-->/);
+  assert.doesNotMatch(brief, /上一課|下一課|第 1\//);
+});
+
+test("buildBrief in translate mode asks for a faithful translation", () => {
+  const brief = buildBrief(entry, { mode: "translate" });
+  assert.match(brief, /忠實翻成台灣繁體中文/);
+  assert.doesNotMatch(brief, /改寫成清楚、自然/);
+});
+
+test("normalizeStepPlan accepts 1-5 items and numbers them", () => {
+  const plan = normalizeStepPlan([
+    { heading: "A", anchor: "one sentence", prompt: "draw it" },
+    { anchor: "another", prompt: "draw that" },
+  ]);
+  assert.deepEqual(plan, [
+    { index: 1, heading: "A", anchor: "one sentence", prompt: "draw it" },
+    { index: 2, heading: "", anchor: "another", prompt: "draw that" },
+  ]);
+});
+
+test("normalizeStepPlan rejects empty, oversized and malformed plans", () => {
+  assert.throws(() => normalizeStepPlan([]), /1-5 items/);
+  assert.throws(
+    () => normalizeStepPlan(Array.from({ length: MAX_STEP_IMAGES + 1 }, () => ({ anchor: "a", prompt: "p" }))),
+    /1-5 items/,
+  );
+  assert.equal(normalizeStepPlan([{ heading: "h", prompt: "p" }])[0].anchor, undefined);
+  assert.throws(() => normalizeStepPlan([{ heading: "h" }]), /non-empty prompt/);
+  assert.throws(() => normalizeStepPlan("not json"), SyntaxError);
+});
+
+test("assertPlanAnchors matches after normalizing whitespace", () => {
+  const plan = normalizeStepPlan([{ anchor: "the  quick\nbrown fox", prompt: "p" }]);
+  assert.doesNotThrow(() => assertPlanAnchors(plan, "Before the quick brown fox jumps."));
+  assert.throws(() => assertPlanAnchors(plan, "Before the slow fox jumps."), /not verbatim/);
+});
+
+test("readStepPlan fails when the publisher wrote no plan", (t) => {
+  const root = fixture(t);
+  assert.throws(
+    () => readStepPlan(root, { subject: "test", node: "n1", step: "s1" }, "# One"),
+    /image plan not found/,
+  );
+});
+
+test("buildRequest carries the plan, repo style and repo image template", (t) => {
+  const root = fixture(t);
+  const files = jobFiles(root, { subject: "test", node: "n1", step: "s1" });
+  const request = buildRequest(root, {
+    subject: "test",
+    files,
+    entry,
+    plan: normalizeStepPlan([{ anchor: "a sentence", prompt: "draw it" }]),
+    hasCode: false,
+  });
+  assert.equal(request.articleFile, files.protected);
+  assert.equal(request.imagePlan.length, 1);
+  assert.equal(request.imagePlan[0].anchor, "a sentence");
+  assert.equal(request.imageStyle, REPO_IMAGE_STYLE);
+  assert.equal(request.imageTemplate, readFileSync(join(root, "prompts/image.txt"), "utf8"));
+  assert.equal(request.outputRoot, join(root, "learn/test/output"));
+  assert.equal(request.markersOnly, undefined);
+});
+
+test("buildRequest can stop the pipeline at markers", (t) => {
+  const root = fixture(t);
+  const files = jobFiles(root, { subject: "test", node: "n1", step: "s1" });
+  const request = buildRequest(root, {
+    subject: "test",
+    files,
+    entry,
+    plan: normalizeStepPlan([{ anchor: "a sentence", prompt: "draw it" }]),
+    hasCode: false,
+    markersOnly: true,
+  });
+  assert.equal(request.markersOnly, true);
+});
+
+test("buildRequest omits image fields for a text-only legacy run", (t) => {
+  const root = fixture(t);
+  const files = jobFiles(root, { subject: "test", node: "n1", step: "s1" });
+  const request = buildRequest(root, { subject: "test", files, entry, hasCode: false });
+  assert.equal(request.imagePlan, undefined);
+  assert.equal(request.imageStyle, undefined);
+  assert.equal(request.imageTemplate, undefined);
+  assert.equal(request.markersOnly, undefined);
+});

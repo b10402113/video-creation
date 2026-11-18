@@ -1,0 +1,84 @@
+{
+  "id": "25c85151b5d2296f007166079f394eb812f5af9003eec646da755d48f066b757",
+  "kind": "model",
+  "title": "Polished laptop turn",
+  "tag": "3D 模型",
+  "summary": "",
+  "semantic": "3D 模型 · 3D objects · 02-apple · landscape · editable",
+  "source": "video-talkcraft/assets/robonuggets-animate/assets/items/139-laptop.glb",
+  "doc": "references/robonuggets-animate.md",
+  "thumb": "video-talkcraft/assets/robonuggets-animate/assets/items/138-polished-laptop.png",
+  "image": "video-talkcraft/assets/robonuggets-animate/assets/items/138-polished-laptop.png",
+  "audio": "",
+  "video": "video-talkcraft/assets/robonuggets-animate/assets/items/136-polished-laptop.mp4",
+  "demo": "video-talkcraft/assets/robonuggets-animate/assets/items/136-polished-laptop.mp4",
+  "extraLinks": [
+    [
+      "Animated scene preview",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/136-polished-laptop.mp4"
+    ],
+    [
+      "Scene timing",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/137-polished-laptop.json"
+    ],
+    [
+      "Editable GLB",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/139-laptop.glb"
+    ],
+    [
+      "Image / SVG source",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/138-polished-laptop.png"
+    ]
+  ],
+  "provenance": {
+    "name": "Animate contributors (RoboNuggets)",
+    "sourceId": "asset-165",
+    "archiveSha256": "dcadcdfe35557359eca1efd9e3ba254ed9f52652927e962f250c1707c2f320e3",
+    "licenseFile": "video-talkcraft/assets/robonuggets-animate/LICENSE",
+    "thirdPartyNotices": "video-talkcraft/assets/robonuggets-animate/THIRD-PARTY-NOTICES.md",
+    "originalMetadata": {
+      "key": "brand-v7-02-apple-component-1",
+      "name": "Polished laptop turn",
+      "category": "3D objects",
+      "image": "assets/items/138-polished-laptop.png",
+      "componentClip": true,
+      "model": "assets/items/139-laptop.glb",
+      "componentTiming": "assets/items/137-polished-laptop.json",
+      "shareable": true,
+      "tags": [
+        "02-apple",
+        "landscape",
+        "editable"
+      ],
+      "provenance": {
+        "source": "Brand studies v7",
+        "duration": 3,
+        "start": 0,
+        "end": 3
+      },
+      "links": [
+        {
+          "label": "Animated scene preview",
+          "path": "assets/items/136-polished-laptop.mp4"
+        },
+        {
+          "label": "Scene timing",
+          "path": "assets/items/137-polished-laptop.json"
+        },
+        {
+          "label": "Editable GLB",
+          "path": "assets/items/139-laptop.glb"
+        },
+        {
+          "label": "Image / SVG source",
+          "path": "assets/items/138-polished-laptop.png"
+        }
+      ],
+      "status": "Reusable",
+      "sha256": "a1f046d685c1b04c85e430322d2362eea83f9901d6b0460160c57d49781bd57e",
+      "id": "asset-165",
+      "video": "assets/items/136-polished-laptop.mp4"
+    }
+  },
+  "format": "GLB／3D"
+}

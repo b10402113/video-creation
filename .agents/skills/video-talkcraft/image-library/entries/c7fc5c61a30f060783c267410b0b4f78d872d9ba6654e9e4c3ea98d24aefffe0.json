@@ -1,0 +1,16 @@
+{
+  "id": "c7fc5c61a30f060783c267410b0b4f78d872d9ba6654e9e4c3ea98d24aefffe0",
+  "image": "image-library/objects/5acaae5f935bbea191aa4d51822031789507c70749148f39ca68ebd636d89773.webp",
+  "sha256": "5acaae5f935bbea191aa4d51822031789507c70749148f39ca68ebd636d89773",
+  "name": "memory-sort",
+  "project": "projects/test-project/talkcraft-remake",
+  "design": "gary-chen",
+  "category": "圖表與流程",
+  "tags": [
+    "記憶分類",
+    "長期記憶"
+  ],
+  "provider": "openai",
+  "model": "gpt-image-2.5-sunburst",
+  "prompt": "Flat vector-like illustration for a Taiwanese technology explainer. Canvas uniformly filled with charcoal #1b1b1e. Simple graphic forms, warm burnt orange #eb7e48 with controlled electric blue #467ecb and pale white accents. Little visual noise, no writing, no numbers, no brands, no watermarks. Centered subject with ample margin and a perfectly clean dark perimeter that can be blended into a dark video backdrop.\n\nA compact glowing orange crescent above a small blue stack of blank records, with only two floating orange geometric fragments. Simplified vector editorial icon, subject fills center 60 percent of image."
+}

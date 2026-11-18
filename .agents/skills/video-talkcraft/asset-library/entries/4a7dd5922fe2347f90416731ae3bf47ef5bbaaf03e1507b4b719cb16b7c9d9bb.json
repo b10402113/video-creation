@@ -1,0 +1,111 @@
+{
+  "id": "4a7dd5922fe2347f90416731ae3bf47ef5bbaaf03e1507b4b719cb16b7c9d9bb",
+  "kind": "animation",
+  "title": "Huly Editable Productivity Depth",
+  "tag": "資訊圖表",
+  "summary": "Four editable SVG planes with CSS perspective. This is layered depth, not mesh geometry.",
+  "semantic": "資訊圖表 · Infographics · current · landscape · editable",
+  "source": "video-talkcraft/assets/robonuggets-animate/assets/items/163-huly-depth.js",
+  "doc": "references/robonuggets-animate.md",
+  "thumb": "video-talkcraft/assets/robonuggets-animate/assets/items/162-poster.png",
+  "image": "video-talkcraft/assets/robonuggets-animate/assets/items/162-poster.png",
+  "audio": "",
+  "video": "video-talkcraft/assets/robonuggets-animate/assets/items/160-preview.mp4",
+  "demo": "video-talkcraft/assets/robonuggets-animate/assets/brand-components/huly-depth/index.html",
+  "extraLinks": [
+    [
+      "Animated scene preview",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/160-preview.mp4"
+    ],
+    [
+      "Scene timing",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/161-timing.json"
+    ],
+    [
+      "Editable animated scene",
+      "video-talkcraft/assets/robonuggets-animate/assets/brand-components/huly-depth/index.html"
+    ],
+    [
+      "Source reuse guide",
+      "video-talkcraft/assets/robonuggets-animate/assets/brand-components/huly-depth/README.md"
+    ],
+    [
+      "Image / SVG source",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/162-poster.png"
+    ]
+  ],
+  "provenance": {
+    "name": "Animate contributors (RoboNuggets)",
+    "sourceId": "asset-183",
+    "archiveSha256": "dcadcdfe35557359eca1efd9e3ba254ed9f52652927e962f250c1707c2f320e3",
+    "licenseFile": "video-talkcraft/assets/robonuggets-animate/LICENSE",
+    "thirdPartyNotices": "video-talkcraft/assets/robonuggets-animate/THIRD-PARTY-NOTICES.md",
+    "originalMetadata": {
+      "key": "current-brand-studies-v8-05-huly-1",
+      "name": "Huly Editable Productivity Depth",
+      "category": "Infographics",
+      "image": "assets/items/162-poster.png",
+      "componentClip": true,
+      "componentTiming": "assets/items/161-timing.json",
+      "shareable": true,
+      "tags": [
+        "current",
+        "landscape",
+        "editable"
+      ],
+      "provenance": {
+        "source": "brand-studies-v8/05-huly",
+        "duration": 4,
+        "start": 11,
+        "end": 15
+      },
+      "links": [
+        {
+          "label": "Animated scene preview",
+          "path": "assets/items/160-preview.mp4"
+        },
+        {
+          "label": "Scene timing",
+          "path": "assets/items/161-timing.json"
+        },
+        {
+          "label": "Editable animated scene",
+          "path": "assets/brand-components/huly-depth/index.html"
+        },
+        {
+          "label": "Source reuse guide",
+          "path": "assets/brand-components/huly-depth/README.md"
+        },
+        {
+          "label": "Image / SVG source",
+          "path": "assets/items/162-poster.png"
+        }
+      ],
+      "engine": "HulyDepth",
+      "kind": "layered-interface",
+      "enginePath": "assets/items/163-huly-depth.js",
+      "depthConfig": {
+        "depth": 1,
+        "tiltX": -5,
+        "tiltY": -9
+      },
+      "componentPortableRoot": "assets/brand-components/huly-depth",
+      "componentPortableHtml": "assets/brand-components/huly-depth/index.html",
+      "description": "Four editable SVG planes with CSS perspective. This is layered depth, not mesh geometry.",
+      "aspectVariants": {
+        "wide": {
+          "image": "assets/items/162-poster.png",
+          "video": "assets/items/160-preview.mp4"
+        },
+        "portrait": {
+          "image": "assets/items/183-poster.png",
+          "video": "assets/items/184-preview.mp4"
+        }
+      },
+      "id": "asset-183",
+      "video": "assets/items/160-preview.mp4",
+      "html": "assets/brand-components/huly-depth/index.html"
+    }
+  },
+  "format": "HTML／GSAP 參考"
+}

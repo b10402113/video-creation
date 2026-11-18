@@ -1,0 +1,42 @@
+{
+  "id": "037dd04fb9ada854b70a6fd1aea103553a571ade2bb96557fb187e78356000aa",
+  "kind": "animation",
+  "title": "GATEWAY",
+  "tag": "背景",
+  "summary": "Animated dot matrix from the ROBO background library.",
+  "semantic": "背景 · Backgrounds · dot matrix · robo · animated · gateway · 動態點陣",
+  "source": "video-talkcraft/assets/robonuggets-animate/assets/items/075-robo-backgrounds.js",
+  "doc": "references/robonuggets-animate.md",
+  "thumb": "",
+  "image": "",
+  "audio": "",
+  "video": "",
+  "demo": "video-talkcraft/assets/robonuggets-animate/library/index.html#category=Backgrounds&q=GATEWAY",
+  "extraLinks": [],
+  "provenance": {
+    "name": "Animate contributors (RoboNuggets)",
+    "sourceId": "asset-117",
+    "archiveSha256": "dcadcdfe35557359eca1efd9e3ba254ed9f52652927e962f250c1707c2f320e3",
+    "licenseFile": "video-talkcraft/assets/robonuggets-animate/LICENSE",
+    "thirdPartyNotices": "video-talkcraft/assets/robonuggets-animate/THIRD-PARTY-NOTICES.md",
+    "originalMetadata": {
+      "key": "robo-bg-gateway",
+      "category": "Backgrounds",
+      "name": "GATEWAY",
+      "description": "Animated dot matrix from the ROBO background library.",
+      "status": "Reusable",
+      "demo": "dots",
+      "backgroundKind": "gateway",
+      "backgroundEnginePath": "assets/items/075-robo-backgrounds.js",
+      "tags": [
+        "dot matrix",
+        "robo",
+        "animated",
+        "gateway"
+      ],
+      "links": [],
+      "id": "asset-117"
+    }
+  },
+  "format": "HTML／GSAP 參考"
+}

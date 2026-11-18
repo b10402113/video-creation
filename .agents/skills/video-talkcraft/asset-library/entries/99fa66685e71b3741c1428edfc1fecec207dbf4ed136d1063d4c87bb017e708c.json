@@ -1,0 +1,42 @@
+{
+  "id": "99fa66685e71b3741c1428edfc1fecec207dbf4ed136d1063d4c87bb017e708c",
+  "kind": "animation",
+  "title": "TIDE",
+  "tag": "背景",
+  "summary": "Animated dot matrix from the ROBO background library.",
+  "semantic": "背景 · Backgrounds · dot matrix · robo · animated · tide · 動態點陣",
+  "source": "video-talkcraft/assets/robonuggets-animate/assets/items/075-robo-backgrounds.js",
+  "doc": "references/robonuggets-animate.md",
+  "thumb": "",
+  "image": "",
+  "audio": "",
+  "video": "",
+  "demo": "video-talkcraft/assets/robonuggets-animate/library/index.html#category=Backgrounds&q=TIDE",
+  "extraLinks": [],
+  "provenance": {
+    "name": "Animate contributors (RoboNuggets)",
+    "sourceId": "asset-116",
+    "archiveSha256": "dcadcdfe35557359eca1efd9e3ba254ed9f52652927e962f250c1707c2f320e3",
+    "licenseFile": "video-talkcraft/assets/robonuggets-animate/LICENSE",
+    "thirdPartyNotices": "video-talkcraft/assets/robonuggets-animate/THIRD-PARTY-NOTICES.md",
+    "originalMetadata": {
+      "key": "robo-bg-tide",
+      "category": "Backgrounds",
+      "name": "TIDE",
+      "description": "Animated dot matrix from the ROBO background library.",
+      "status": "Reusable",
+      "demo": "dots",
+      "backgroundKind": "tide",
+      "backgroundEnginePath": "assets/items/075-robo-backgrounds.js",
+      "tags": [
+        "dot matrix",
+        "robo",
+        "animated",
+        "tide"
+      ],
+      "links": [],
+      "id": "asset-116"
+    }
+  },
+  "format": "HTML／GSAP 參考"
+}

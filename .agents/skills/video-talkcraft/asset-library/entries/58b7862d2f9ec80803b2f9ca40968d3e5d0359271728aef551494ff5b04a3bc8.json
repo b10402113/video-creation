@@ -1,0 +1,95 @@
+{
+  "id": "58b7862d2f9ec80803b2f9ca40968d3e5d0359271728aef551494ff5b04a3bc8",
+  "kind": "animation",
+  "title": "Tool category strip",
+  "tag": "資訊圖表",
+  "summary": "Three distinct tool categories reveal one at a time, horizontally in landscape and vertically in portrait.",
+  "semantic": "資訊圖表 · Infographics · pattern · editable · sequential · 16:9 · 9:16 · strip",
+  "source": "video-talkcraft/assets/robonuggets-animate/assets/patterns/pattern-engine.js",
+  "doc": "references/robonuggets-animate.md",
+  "thumb": "video-talkcraft/assets/robonuggets-animate/assets/items/037-strip.svg",
+  "image": "video-talkcraft/assets/robonuggets-animate/assets/items/037-strip.svg",
+  "audio": "",
+  "video": "",
+  "demo": "video-talkcraft/assets/robonuggets-animate/assets/patterns/strip.html",
+  "extraLinks": [
+    [
+      "Image / SVG source",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/037-strip.svg"
+    ],
+    [
+      "Reusable pattern source",
+      "video-talkcraft/assets/robonuggets-animate/assets/patterns/pattern-engine.js"
+    ],
+    [
+      "Editable configuration",
+      "video-talkcraft/assets/robonuggets-animate/assets/patterns/strip.json"
+    ],
+    [
+      "Integration guide",
+      "video-talkcraft/assets/robonuggets-animate/assets/patterns/README.md"
+    ]
+  ],
+  "provenance": {
+    "name": "Animate contributors (RoboNuggets)",
+    "sourceId": "asset-72",
+    "archiveSha256": "dcadcdfe35557359eca1efd9e3ba254ed9f52652927e962f250c1707c2f320e3",
+    "licenseFile": "video-talkcraft/assets/robonuggets-animate/LICENSE",
+    "thirdPartyNotices": "video-talkcraft/assets/robonuggets-animate/THIRD-PARTY-NOTICES.md",
+    "originalMetadata": {
+      "category": "Infographics",
+      "name": "Tool category strip",
+      "description": "Three distinct tool categories reveal one at a time, horizontally in landscape and vertically in portrait.",
+      "status": "Reusable",
+      "pattern": "strip",
+      "patternConfig": {
+        "title": "Tool category strip",
+        "items": [
+          {
+            "label": "Model",
+            "icon": "model"
+          },
+          {
+            "label": "Tools",
+            "icon": "tools"
+          },
+          {
+            "label": "Memory",
+            "icon": "memory"
+          }
+        ]
+      },
+      "patternEnginePath": "assets/patterns/pattern-engine.js",
+      "image": "assets/items/037-strip.svg",
+      "tags": [
+        "pattern",
+        "editable",
+        "sequential",
+        "16:9",
+        "9:16",
+        "strip"
+      ],
+      "links": [
+        {
+          "label": "Image / SVG source",
+          "path": "assets/items/037-strip.svg"
+        },
+        {
+          "label": "Reusable pattern source",
+          "path": "assets/patterns/pattern-engine.js"
+        },
+        {
+          "label": "Editable configuration",
+          "path": "assets/patterns/strip.json"
+        },
+        {
+          "label": "Integration guide",
+          "path": "assets/patterns/README.md"
+        }
+      ],
+      "id": "asset-72",
+      "html": "assets/patterns/strip.html"
+    }
+  },
+  "format": "HTML／GSAP 參考"
+}

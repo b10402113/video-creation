@@ -1,0 +1,38 @@
+{
+  "id": "d528434cf4a68a31e135eff85cef7d75386a8ac3cc52a91b8437e31debd88f12",
+  "kind": "animation",
+  "title": "Active-word captions",
+  "tag": "動畫效果",
+  "summary": "At most two Outfit subtitle words at once on a dark plate. Orange spoken-word highlight; no underline.",
+  "semantic": "動畫效果 · Motion · subtitles · outfit · highlight · 逐字字幕",
+  "source": "",
+  "doc": "references/robonuggets-animate.md",
+  "thumb": "",
+  "image": "",
+  "audio": "",
+  "video": "",
+  "demo": "video-talkcraft/assets/robonuggets-animate/library/index.html#category=Motion&q=Active-word+captions",
+  "extraLinks": [],
+  "provenance": {
+    "name": "Animate contributors (RoboNuggets)",
+    "sourceId": "asset-25",
+    "archiveSha256": "dcadcdfe35557359eca1efd9e3ba254ed9f52652927e962f250c1707c2f320e3",
+    "licenseFile": "video-talkcraft/assets/robonuggets-animate/LICENSE",
+    "thirdPartyNotices": "video-talkcraft/assets/robonuggets-animate/THIRD-PARTY-NOTICES.md",
+    "originalMetadata": {
+      "category": "Motion",
+      "name": "Active-word captions",
+      "description": "At most two Outfit subtitle words at once on a dark plate. Orange spoken-word highlight; no underline.",
+      "status": "Current default",
+      "demo": "captions",
+      "tags": [
+        "subtitles",
+        "outfit",
+        "highlight"
+      ],
+      "links": [],
+      "id": "asset-25"
+    }
+  },
+  "format": "HTML／GSAP 參考"
+}

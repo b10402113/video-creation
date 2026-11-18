@@ -1,0 +1,62 @@
+{
+  "id": "96f2ce04fda8f84a5ff91d64e2a8d2a958a073c5069f9f27a9bce92eaa229f6a",
+  "name": "GitHub Copilot",
+  "project": "共用素材",
+  "design": "通用",
+  "category": "圖示與標誌",
+  "tags": [
+    "圖示與標誌",
+    "Icons",
+    "svg",
+    "brand",
+    "logo",
+    "githubcopilot"
+  ],
+  "provider": "imported",
+  "sourceFile": "video-talkcraft/assets/robonuggets-animate/assets/items/054-githubcopilot.svg",
+  "provenance": {
+    "name": "Animate contributors (RoboNuggets)",
+    "sourceId": "asset-89",
+    "archiveSha256": "dcadcdfe35557359eca1efd9e3ba254ed9f52652927e962f250c1707c2f320e3",
+    "licenseFile": "video-talkcraft/assets/robonuggets-animate/LICENSE",
+    "thirdPartyNotices": "video-talkcraft/assets/robonuggets-animate/THIRD-PARTY-NOTICES.md",
+    "originalMetadata": {
+      "category": "Icons",
+      "name": "GitHub Copilot",
+      "description": "Copilot mark. Faithful source SVG with transparent background.",
+      "status": "Reusable",
+      "image": "assets/items/054-githubcopilot.svg",
+      "tags": [
+        "svg",
+        "brand",
+        "logo",
+        "githubcopilot"
+      ],
+      "license": "MIT",
+      "rightsNote": "Brand trademarks belong to their respective owners. Repository artwork license does not grant trademark rights or endorsement.",
+      "publicAsset": true,
+      "links": [
+        {
+          "label": "Image / SVG source",
+          "path": "assets/items/054-githubcopilot.svg"
+        },
+        {
+          "label": "Source manifest",
+          "path": "assets/ai-logos/manifest.json"
+        },
+        {
+          "label": "License",
+          "path": "assets/ai-logos/LICENSE-LobeHub.txt"
+        }
+      ],
+      "id": "asset-89",
+      "external": "https://github.com/lobehub/lobe-icons"
+    },
+    "sourceSha256": "bbc7fddc13448236e5edea8c399d2072dc40aa5da5bca07f7a2f412405c500a3",
+    "changes": [
+      "SVG rendered to a 1200-pixel-wide transparent WebP for the shared image workflow; original SVG retained."
+    ]
+  },
+  "image": "image-library/objects/b869c599de8f86101308c6943acada2f199f7201770bd17beb0e8a99bcdee762.webp",
+  "sha256": "b869c599de8f86101308c6943acada2f199f7201770bd17beb0e8a99bcdee762"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "40b168675a57d2ea39dcabb09edbf764d0518a04da4937f2193f177b7a20bde8",
+  "kind": "animation",
+  "title": "From the right",
+  "tag": "動畫效果",
+  "summary": "Existing adjustable motion recipe. Replay and copy the source in Motion Studio.",
+  "semantic": "動畫效果 · Motion · animation · gsap · right · 右側滑入",
+  "source": "",
+  "doc": "references/robonuggets-animate.md",
+  "thumb": "",
+  "image": "",
+  "audio": "",
+  "video": "",
+  "demo": "video-talkcraft/assets/robonuggets-animate/library/motion-studio.html",
+  "extraLinks": [],
+  "provenance": {
+    "name": "Animate contributors (RoboNuggets)",
+    "sourceId": "asset-11",
+    "archiveSha256": "dcadcdfe35557359eca1efd9e3ba254ed9f52652927e962f250c1707c2f320e3",
+    "licenseFile": "video-talkcraft/assets/robonuggets-animate/LICENSE",
+    "thirdPartyNotices": "video-talkcraft/assets/robonuggets-animate/THIRD-PARTY-NOTICES.md",
+    "originalMetadata": {
+      "category": "Motion",
+      "name": "From the right",
+      "description": "Existing adjustable motion recipe. Replay and copy the source in Motion Studio.",
+      "status": "Reusable",
+      "demo": "right",
+      "tags": [
+        "animation",
+        "gsap",
+        "right"
+      ],
+      "links": [],
+      "id": "asset-11"
+    }
+  },
+  "format": "HTML／GSAP 參考"
+}

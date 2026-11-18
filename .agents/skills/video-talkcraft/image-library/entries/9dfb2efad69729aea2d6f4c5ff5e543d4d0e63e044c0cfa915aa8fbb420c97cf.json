@@ -1,0 +1,50 @@
+{
+  "id": "9dfb2efad69729aea2d6f4c5ff5e543d4d0e63e044c0cfa915aa8fbb420c97cf",
+  "name": "Builder agent",
+  "project": "共用素材",
+  "design": "通用",
+  "category": "圖示與標誌",
+  "tags": [
+    "圖示與標誌",
+    "Icons",
+    "svg",
+    "pixel",
+    "icon",
+    "agent"
+  ],
+  "provider": "imported",
+  "sourceFile": "video-talkcraft/assets/robonuggets-animate/assets/items/024-devo.svg",
+  "provenance": {
+    "name": "Animate contributors (RoboNuggets)",
+    "sourceId": "asset-27",
+    "archiveSha256": "dcadcdfe35557359eca1efd9e3ba254ed9f52652927e962f250c1707c2f320e3",
+    "licenseFile": "video-talkcraft/assets/robonuggets-animate/LICENSE",
+    "thirdPartyNotices": "video-talkcraft/assets/robonuggets-animate/THIRD-PARTY-NOTICES.md",
+    "originalMetadata": {
+      "category": "Icons",
+      "name": "Builder agent",
+      "description": "Crisp, editable pixel SVG icon. Use it inside infographics and titles, not as a title-side decoration.",
+      "status": "Reusable",
+      "image": "assets/items/024-devo.svg",
+      "tags": [
+        "svg",
+        "pixel",
+        "icon",
+        "agent"
+      ],
+      "links": [
+        {
+          "label": "Image / SVG source",
+          "path": "assets/items/024-devo.svg"
+        }
+      ],
+      "id": "asset-27"
+    },
+    "sourceSha256": "62d34b9016c1489cd04c85eb8ecd9aae4d1df9a1fa6d48fb703299805cb51506",
+    "changes": [
+      "SVG rendered to a 1200-pixel-wide transparent WebP for the shared image workflow; original SVG retained."
+    ]
+  },
+  "image": "image-library/objects/ed530fdd6e4fb4115584a84620ecf59f0910328d706419cffb83ad68380b7703.webp",
+  "sha256": "ed530fdd6e4fb4115584a84620ecf59f0910328d706419cffb83ad68380b7703"
+}

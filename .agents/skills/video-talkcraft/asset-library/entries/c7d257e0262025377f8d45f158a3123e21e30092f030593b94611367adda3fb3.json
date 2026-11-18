@@ -1,0 +1,96 @@
+{
+  "id": "c7d257e0262025377f8d45f158a3123e21e30092f030593b94611367adda3fb3",
+  "kind": "animation",
+  "title": "Four-layer parallax (painted sunset example)",
+  "tag": "動畫效果",
+  "summary": "Parallax pattern: four independent layers, a deterministic camera push, editable speeds and offsets. The painted sunset layers are example placeholders; swap in your own layers in the same order and keep the camera path.",
+  "semantic": "動畫效果 · Motion · current · landscape · editable",
+  "source": "video-talkcraft/assets/robonuggets-animate/assets/items/167-parallax.js",
+  "doc": "references/robonuggets-animate.md",
+  "thumb": "video-talkcraft/assets/robonuggets-animate/assets/items/166-poster.png",
+  "image": "video-talkcraft/assets/robonuggets-animate/assets/items/166-poster.png",
+  "audio": "",
+  "video": "video-talkcraft/assets/robonuggets-animate/assets/items/164-preview.mp4",
+  "demo": "video-talkcraft/assets/robonuggets-animate/assets/brand-components/parallax/index.html",
+  "extraLinks": [
+    [
+      "Animated scene preview",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/164-preview.mp4"
+    ],
+    [
+      "Scene timing",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/165-timing.json"
+    ],
+    [
+      "Editable animated scene",
+      "video-talkcraft/assets/robonuggets-animate/assets/brand-components/parallax/index.html"
+    ],
+    [
+      "Source reuse guide",
+      "video-talkcraft/assets/robonuggets-animate/assets/brand-components/parallax/README.md"
+    ],
+    [
+      "Image / SVG source",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/166-poster.png"
+    ]
+  ],
+  "provenance": {
+    "name": "Animate contributors (RoboNuggets)",
+    "sourceId": "asset-184",
+    "archiveSha256": "dcadcdfe35557359eca1efd9e3ba254ed9f52652927e962f250c1707c2f320e3",
+    "licenseFile": "video-talkcraft/assets/robonuggets-animate/LICENSE",
+    "thirdPartyNotices": "video-talkcraft/assets/robonuggets-animate/THIRD-PARTY-NOTICES.md",
+    "originalMetadata": {
+      "key": "current-brand-studies-v8-07-airbnb-parallax-0",
+      "name": "Four-layer parallax (painted sunset example)",
+      "description": "Parallax pattern: four independent layers, a deterministic camera push, editable speeds and offsets. The painted sunset layers are example placeholders; swap in your own layers in the same order and keep the camera path.",
+      "category": "Motion",
+      "image": "assets/items/166-poster.png",
+      "componentClip": true,
+      "componentTiming": "assets/items/165-timing.json",
+      "shareable": true,
+      "tags": [
+        "current",
+        "landscape",
+        "editable"
+      ],
+      "provenance": {
+        "source": "brand-studies-v8/07-airbnb-parallax",
+        "duration": 5,
+        "start": 0,
+        "end": 5
+      },
+      "links": [
+        {
+          "label": "Animated scene preview",
+          "path": "assets/items/164-preview.mp4"
+        },
+        {
+          "label": "Scene timing",
+          "path": "assets/items/165-timing.json"
+        },
+        {
+          "label": "Editable animated scene",
+          "path": "assets/brand-components/parallax/index.html"
+        },
+        {
+          "label": "Source reuse guide",
+          "path": "assets/brand-components/parallax/README.md"
+        },
+        {
+          "label": "Image / SVG source",
+          "path": "assets/items/166-poster.png"
+        }
+      ],
+      "componentPortableRoot": "assets/brand-components/parallax",
+      "componentPortableHtml": "assets/brand-components/parallax/index.html",
+      "engine": "ParallaxLandscape",
+      "kind": "landscape-layers",
+      "enginePath": "assets/items/167-parallax.js",
+      "id": "asset-184",
+      "video": "assets/items/164-preview.mp4",
+      "html": "assets/brand-components/parallax/index.html"
+    }
+  },
+  "format": "HTML／GSAP 參考"
+}

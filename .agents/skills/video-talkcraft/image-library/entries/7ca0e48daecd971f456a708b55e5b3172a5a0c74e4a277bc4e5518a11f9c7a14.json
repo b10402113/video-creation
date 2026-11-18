@@ -1,0 +1,48 @@
+{
+  "id": "7ca0e48daecd971f456a708b55e5b3172a5a0c74e4a277bc4e5518a11f9c7a14",
+  "name": "Code terminal",
+  "project": "共用素材",
+  "design": "通用",
+  "category": "圖示與標誌",
+  "tags": [
+    "圖示與標誌",
+    "Icons",
+    "svg",
+    "pixel",
+    "icon"
+  ],
+  "provider": "imported",
+  "sourceFile": "video-talkcraft/assets/robonuggets-animate/assets/items/029-code.svg",
+  "provenance": {
+    "name": "Animate contributors (RoboNuggets)",
+    "sourceId": "asset-32",
+    "archiveSha256": "dcadcdfe35557359eca1efd9e3ba254ed9f52652927e962f250c1707c2f320e3",
+    "licenseFile": "video-talkcraft/assets/robonuggets-animate/LICENSE",
+    "thirdPartyNotices": "video-talkcraft/assets/robonuggets-animate/THIRD-PARTY-NOTICES.md",
+    "originalMetadata": {
+      "category": "Icons",
+      "name": "Code terminal",
+      "description": "Crisp, editable pixel SVG icon. Use it inside infographics and titles, not as a title-side decoration.",
+      "status": "Reusable",
+      "image": "assets/items/029-code.svg",
+      "tags": [
+        "svg",
+        "pixel",
+        "icon"
+      ],
+      "links": [
+        {
+          "label": "Image / SVG source",
+          "path": "assets/items/029-code.svg"
+        }
+      ],
+      "id": "asset-32"
+    },
+    "sourceSha256": "977bffd1c5c2500e3a85ee292363fc46520d62db3228559428318cd670b83b32",
+    "changes": [
+      "SVG rendered to a 1200-pixel-wide transparent WebP for the shared image workflow; original SVG retained."
+    ]
+  },
+  "image": "image-library/objects/824a98a9ae64895dc9c47d2864bc8a377f0ff26dac3d4fe6efa03536a5eeb263.webp",
+  "sha256": "824a98a9ae64895dc9c47d2864bc8a377f0ff26dac3d4fe6efa03536a5eeb263"
+}

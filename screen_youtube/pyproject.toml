@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "screen_youtube"
+version = "0.1.0"
+description = "Generate timestamped contact sheets from YouTube and local videos."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["Pillow>=9.1", "yt-dlp[default]"]
+
+[project.scripts]
+screen_youtube = "screen_youtube.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

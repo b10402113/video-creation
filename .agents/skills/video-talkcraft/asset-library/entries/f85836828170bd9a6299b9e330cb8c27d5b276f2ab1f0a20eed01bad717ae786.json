@@ -1,0 +1,84 @@
+{
+  "id": "f85836828170bd9a6299b9e330cb8c27d5b276f2ab1f0a20eed01bad717ae786",
+  "kind": "audio",
+  "title": "Confirmation chime",
+  "tag": "音效",
+  "summary": "Short positive completion cue. 0.295 seconds. Audition before selecting.",
+  "semantic": "音效 · Sound effects · audio · sound effect · CC0 · confirmation_001",
+  "source": "video-talkcraft/assets/robonuggets-animate/assets/items/062-confirmation_001.wav",
+  "doc": "references/robonuggets-animate.md",
+  "thumb": "",
+  "image": "",
+  "audio": "video-talkcraft/assets/robonuggets-animate/assets/items/062-confirmation_001.wav",
+  "video": "",
+  "demo": "video-talkcraft/assets/robonuggets-animate/assets/sound-effects/index.html",
+  "extraLinks": [
+    [
+      "Source manifest",
+      "video-talkcraft/assets/robonuggets-animate/assets/sound-effects/manifest.json"
+    ],
+    [
+      "License",
+      "video-talkcraft/assets/robonuggets-animate/assets/sound-effects/LICENSE-Kenney.txt"
+    ],
+    [
+      "Audition and select all sounds",
+      "video-talkcraft/assets/robonuggets-animate/assets/sound-effects/index.html"
+    ],
+    [
+      "Download WAV",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/062-confirmation_001.wav"
+    ]
+  ],
+  "provenance": {
+    "name": "Animate contributors (RoboNuggets)",
+    "sourceId": "asset-97",
+    "archiveSha256": "dcadcdfe35557359eca1efd9e3ba254ed9f52652927e962f250c1707c2f320e3",
+    "licenseFile": "video-talkcraft/assets/robonuggets-animate/LICENSE",
+    "thirdPartyNotices": "video-talkcraft/assets/robonuggets-animate/THIRD-PARTY-NOTICES.md",
+    "originalMetadata": {
+      "category": "Sound effects",
+      "name": "Confirmation chime",
+      "description": "Short positive completion cue. 0.295 seconds. Audition before selecting.",
+      "status": "Reusable",
+      "audio": "assets/items/062-confirmation_001.wav",
+      "tags": [
+        "audio",
+        "sound effect",
+        "CC0",
+        "confirmation_001"
+      ],
+      "license": "CC0-1.0",
+      "publicAsset": true,
+      "duration": 0.295,
+      "personalVideo": {
+        "approved": true,
+        "use": "Power-up, checkmark or success",
+        "gain": 0.3,
+        "gainDb": -10.4576
+      },
+      "links": [
+        {
+          "label": "Source manifest",
+          "path": "assets/sound-effects/manifest.json"
+        },
+        {
+          "label": "License",
+          "path": "assets/sound-effects/LICENSE-Kenney.txt"
+        },
+        {
+          "label": "Audition and select all sounds",
+          "path": "assets/sound-effects/index.html"
+        },
+        {
+          "label": "Download WAV",
+          "path": "assets/items/062-confirmation_001.wav"
+        }
+      ],
+      "id": "asset-97",
+      "external": "https://kenney.nl/assets/interface-sounds",
+      "html": "assets/sound-effects/index.html"
+    }
+  },
+  "format": "音效"
+}

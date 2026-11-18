@@ -1,0 +1,116 @@
+{
+  "id": "6a7dbbff708c933eb581b1e1328c7da6e82d95338b6367d6f135dab7846ff620",
+  "kind": "animation",
+  "title": "Orbital ecosystem",
+  "tag": "資訊圖表",
+  "summary": "A visible item count anchors tools around an elliptical orbit. The count is derived from the configured items, not a claimed product statistic.",
+  "semantic": "資訊圖表 · Infographics · pattern · editable · sequential · 16:9 · 9:16 · orbit",
+  "source": "video-talkcraft/assets/robonuggets-animate/assets/patterns/pattern-engine.js",
+  "doc": "references/robonuggets-animate.md",
+  "thumb": "video-talkcraft/assets/robonuggets-animate/assets/items/036-orbit.svg",
+  "image": "video-talkcraft/assets/robonuggets-animate/assets/items/036-orbit.svg",
+  "audio": "",
+  "video": "",
+  "demo": "video-talkcraft/assets/robonuggets-animate/assets/patterns/orbit.html",
+  "extraLinks": [
+    [
+      "Image / SVG source",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/036-orbit.svg"
+    ],
+    [
+      "Reusable pattern source",
+      "video-talkcraft/assets/robonuggets-animate/assets/patterns/pattern-engine.js"
+    ],
+    [
+      "Editable configuration",
+      "video-talkcraft/assets/robonuggets-animate/assets/patterns/orbit.json"
+    ],
+    [
+      "Integration guide",
+      "video-talkcraft/assets/robonuggets-animate/assets/patterns/README.md"
+    ]
+  ],
+  "provenance": {
+    "name": "Animate contributors (RoboNuggets)",
+    "sourceId": "asset-71",
+    "archiveSha256": "dcadcdfe35557359eca1efd9e3ba254ed9f52652927e962f250c1707c2f320e3",
+    "licenseFile": "video-talkcraft/assets/robonuggets-animate/LICENSE",
+    "thirdPartyNotices": "video-talkcraft/assets/robonuggets-animate/THIRD-PARTY-NOTICES.md",
+    "originalMetadata": {
+      "category": "Infographics",
+      "name": "Orbital ecosystem",
+      "description": "A visible item count anchors tools around an elliptical orbit. The count is derived from the configured items, not a claimed product statistic.",
+      "status": "Reusable",
+      "pattern": "orbit",
+      "patternConfig": {
+        "title": "Orbital ecosystem",
+        "output": "Tools",
+        "items": [
+          {
+            "label": "Model",
+            "icon": "model"
+          },
+          {
+            "label": "Code",
+            "icon": "code"
+          },
+          {
+            "label": "Cloud",
+            "icon": "cloud"
+          },
+          {
+            "label": "Search",
+            "icon": "search"
+          },
+          {
+            "label": "Memory",
+            "icon": "memory"
+          },
+          {
+            "label": "Chat",
+            "icon": "message"
+          },
+          {
+            "label": "Design",
+            "icon": "design"
+          },
+          {
+            "label": "Build",
+            "icon": "tools"
+          }
+        ]
+      },
+      "patternEnginePath": "assets/patterns/pattern-engine.js",
+      "image": "assets/items/036-orbit.svg",
+      "tags": [
+        "pattern",
+        "editable",
+        "sequential",
+        "16:9",
+        "9:16",
+        "orbit"
+      ],
+      "links": [
+        {
+          "label": "Image / SVG source",
+          "path": "assets/items/036-orbit.svg"
+        },
+        {
+          "label": "Reusable pattern source",
+          "path": "assets/patterns/pattern-engine.js"
+        },
+        {
+          "label": "Editable configuration",
+          "path": "assets/patterns/orbit.json"
+        },
+        {
+          "label": "Integration guide",
+          "path": "assets/patterns/README.md"
+        }
+      ],
+      "id": "asset-71",
+      "html": "assets/patterns/orbit.html"
+    }
+  },
+  "format": "HTML／GSAP 參考"
+}

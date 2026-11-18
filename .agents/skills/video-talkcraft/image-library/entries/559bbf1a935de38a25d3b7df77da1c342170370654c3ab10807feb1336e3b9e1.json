@@ -1,0 +1,17 @@
+{
+  "id": "559bbf1a935de38a25d3b7df77da1c342170370654c3ab10807feb1336e3b9e1",
+  "image": "image-library/objects/927e5877b2f62066ce180e3020c838d82d0ddbdef65f137462a28fa008671e9a.webp",
+  "sha256": "927e5877b2f62066ce180e3020c838d82d0ddbdef65f137462a28fa008671e9a",
+  "name": "concert-ticket",
+  "project": "projects/stock-volume/talkcraft-remake",
+  "design": "gary-chen",
+  "category": "概念插畫",
+  "tags": [
+    "演唱會",
+    "門票",
+    "量增價漲"
+  ],
+  "provider": "openai",
+  "model": "gpt-image-2.5-sunburst",
+  "prompt": "Flat vector editorial illustration for a Traditional Chinese technology-finance explainer. Canvas uniformly filled with charcoal #252525. Simple bold geometric forms, warm amber orange #ed9640 as the single focal accent, controlled steel blue #669cdb as secondary, pale warm white #f5f4f1 line accents. Low visual noise, no text, no numbers, no logos, no brand marks, no watermarks. Centered single subject with ample margin and a clean dark perimeter that blends into a dark video backdrop.\n\nTwo overlapping blank admission tickets as one compact, centered silhouette. An amber front ticket and desaturated steel-blue back ticket. Suggest a concert with a single tiny spotlight icon on the front ticket. Perforated edge and cut corners. No hands, arena, crowd or lettering."
+}

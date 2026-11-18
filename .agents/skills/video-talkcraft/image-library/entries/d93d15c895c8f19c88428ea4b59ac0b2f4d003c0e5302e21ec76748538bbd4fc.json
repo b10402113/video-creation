@@ -1,0 +1,62 @@
+{
+  "id": "d93d15c895c8f19c88428ea4b59ac0b2f4d003c0e5302e21ec76748538bbd4fc",
+  "name": "Midjourney",
+  "project": "共用素材",
+  "design": "通用",
+  "category": "圖示與標誌",
+  "tags": [
+    "圖示與標誌",
+    "Icons",
+    "svg",
+    "brand",
+    "logo",
+    "midjourney"
+  ],
+  "provider": "imported",
+  "sourceFile": "video-talkcraft/assets/robonuggets-animate/assets/items/057-midjourney.svg",
+  "provenance": {
+    "name": "Animate contributors (RoboNuggets)",
+    "sourceId": "asset-92",
+    "archiveSha256": "dcadcdfe35557359eca1efd9e3ba254ed9f52652927e962f250c1707c2f320e3",
+    "licenseFile": "video-talkcraft/assets/robonuggets-animate/LICENSE",
+    "thirdPartyNotices": "video-talkcraft/assets/robonuggets-animate/THIRD-PARTY-NOTICES.md",
+    "originalMetadata": {
+      "category": "Icons",
+      "name": "Midjourney",
+      "description": "Sailboat. Faithful source SVG with transparent background.",
+      "status": "Reusable",
+      "image": "assets/items/057-midjourney.svg",
+      "tags": [
+        "svg",
+        "brand",
+        "logo",
+        "midjourney"
+      ],
+      "license": "MIT",
+      "rightsNote": "Brand trademarks belong to their respective owners. Repository artwork license does not grant trademark rights or endorsement.",
+      "publicAsset": true,
+      "links": [
+        {
+          "label": "Image / SVG source",
+          "path": "assets/items/057-midjourney.svg"
+        },
+        {
+          "label": "Source manifest",
+          "path": "assets/ai-logos/manifest.json"
+        },
+        {
+          "label": "License",
+          "path": "assets/ai-logos/LICENSE-LobeHub.txt"
+        }
+      ],
+      "id": "asset-92",
+      "external": "https://github.com/lobehub/lobe-icons"
+    },
+    "sourceSha256": "e09640ccbf6f643b4624e540f198cd704a6bf3d75dc43b0938628caf4e98c30b",
+    "changes": [
+      "SVG rendered to a 1200-pixel-wide transparent WebP for the shared image workflow; original SVG retained."
+    ]
+  },
+  "image": "image-library/objects/af7be79701b86229ca39397bf85fa6333432f3f2d45504513ff46f94ba5d9094.webp",
+  "sha256": "af7be79701b86229ca39397bf85fa6333432f3f2d45504513ff46f94ba5d9094"
+}

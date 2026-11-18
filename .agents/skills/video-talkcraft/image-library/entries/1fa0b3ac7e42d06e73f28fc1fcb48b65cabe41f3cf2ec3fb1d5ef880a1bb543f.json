@@ -1,0 +1,17 @@
+{
+  "id": "1fa0b3ac7e42d06e73f28fc1fcb48b65cabe41f3cf2ec3fb1d5ef880a1bb543f",
+  "image": "image-library/objects/0c4167d77291e7b9606e48a5436ae28a098a38e717ccd2423d829e36a2b8a571.webp",
+  "sha256": "0c4167d77291e7b9606e48a5436ae28a098a38e717ccd2423d829e36a2b8a571",
+  "name": "two-prices",
+  "project": "projects/test-project2/talkcraft-remake",
+  "design": "gary-chen",
+  "category": "概念插畫",
+  "tags": [
+    "估值",
+    "一級市場",
+    "二級市場"
+  ],
+  "provider": "openai",
+  "model": "gpt-image-2.5-sunburst",
+  "prompt": "Flat vector editorial illustration for a Traditional Chinese technology-finance explainer. Canvas uniformly filled with charcoal #252525. Simple bold geometric forms, warm amber orange #ed9640 as the single focal accent, controlled steel blue #669cdb as secondary, pale warm white #f5f4f1 line accents. Low visual noise, no text, no numbers, no logos, no brand marks, no watermarks. Centered single subject with ample margin and a clean dark perimeter that blends into a dark video backdrop.\n\nThe same object drawn twice: on the left a tall amber orange price tag standing on a private road, on the right a much shorter steel blue price tag on a wide public road. Same size canvas, clear vertical gap between them. Editorial metaphor for private-market and public-market valuations diverging."
+}

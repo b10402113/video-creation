@@ -1,0 +1,61 @@
+/* Gary Chen tutorial frames. JPEG samples are approximations; see 畫面要求.md. */
+:root {
+  --palette-charcoal: #262626;
+  --palette-graphite: #323232;
+  --palette-white: #ffffff;
+  --palette-black: #090909;
+  --palette-amber: #fe8d00;
+  --palette-muted: #b4b4b4; /* proposed */
+  --palette-outline: #484848; /* proposed */
+  --palette-amber-dim: #8e5a20; /* approximate M02–O03 */
+  --palette-coral: #ed6146; /* M03 */
+  --palette-mint: #0fb086; /* M04 */
+  --palette-remote-blue: #395072; /* G06 */
+  --palette-ice: #a8cce9; /* proposed M01 approximation */
+
+  --color-bg: var(--palette-charcoal);
+  --color-surface: var(--palette-graphite);
+  --color-text: var(--palette-white);
+  --color-subtitle-bg: var(--palette-black);
+  --color-accent: var(--palette-amber);
+  --color-muted: var(--palette-muted);
+  --color-line: var(--palette-outline);
+  --color-progress-past: var(--palette-amber-dim);
+  --color-progress-track: var(--color-line);
+  --color-warning: var(--palette-coral);
+  --color-success: var(--palette-mint);
+
+  /* 100cqw = production canvas width, e.g. 1920px. Values are recommendations. */
+  --font-ui: "PingFang TC", "Microsoft JhengHei", system-ui, sans-serif;
+  --font-mono: ui-monospace, "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  --weight-base: 500;
+  --weight-strong: 700;
+  --type-index: max(50px, 9.17cqw);
+  --type-hero: max(22px, 4.69cqw);
+  --type-card: max(15px, 2.4cqw);
+  --type-detail: max(12px, 1.67cqw);
+  --type-chapter: max(10px, 1.09cqw);
+  --type-subtitle: max(12px, 2.19cqw);
+  --leading-display: 1.16;
+  --leading-detail: 1.38;
+  --leading-subtitle: 1.28;
+  --space-stage: 5%;
+  --space-stage-start: 13%;
+  --space-stage-end: 21%;
+  --space-caption-bottom: 5%;
+  --size-caption-max: 82%;
+  --space-chapter-left: 2.3%;
+  --space-chapter-top: 2.6%;
+  --space-card: max(8px, 1.25cqw);
+  --space-columns: 2.7cqw;
+  --space-progress: max(1px, .21cqw);
+  --size-progress: max(1px, .15625cqw);
+  --radius-card: max(5px, .94cqw);
+  --radius-caption: max(3px, .42cqw);
+  --radius-pill: 999px;
+  --border-card: max(1px, .104cqw);
+  --shadow-window: 0 .6em 1.35em rgb(0 0 0 / 36%);
+  --color-active-wash: color-mix(in srgb, var(--color-accent) 16%, var(--color-surface));
+}
+[data-variant="remote"] { --color-remote: var(--palette-remote-blue); }
+[data-variant="opener"] { --color-illustration: var(--palette-ice); }

@@ -1,0 +1,62 @@
+{
+  "id": "aea33c6b652f7970de11bbcc03d0829612c31fb0f1058c4702a2361281a48a80",
+  "name": "Hugging Face",
+  "project": "共用素材",
+  "design": "通用",
+  "category": "圖示與標誌",
+  "tags": [
+    "圖示與標誌",
+    "Icons",
+    "svg",
+    "brand",
+    "logo",
+    "huggingface-color"
+  ],
+  "provider": "imported",
+  "sourceFile": "video-talkcraft/assets/robonuggets-animate/assets/items/052-huggingface-color.svg",
+  "provenance": {
+    "name": "Animate contributors (RoboNuggets)",
+    "sourceId": "asset-87",
+    "archiveSha256": "dcadcdfe35557359eca1efd9e3ba254ed9f52652927e962f250c1707c2f320e3",
+    "licenseFile": "video-talkcraft/assets/robonuggets-animate/LICENSE",
+    "thirdPartyNotices": "video-talkcraft/assets/robonuggets-animate/THIRD-PARTY-NOTICES.md",
+    "originalMetadata": {
+      "category": "Icons",
+      "name": "Hugging Face",
+      "description": "Hugging face mark. Faithful source SVG with transparent background.",
+      "status": "Reusable",
+      "image": "assets/items/052-huggingface-color.svg",
+      "tags": [
+        "svg",
+        "brand",
+        "logo",
+        "huggingface-color"
+      ],
+      "license": "MIT",
+      "rightsNote": "Brand trademarks belong to their respective owners. Repository artwork license does not grant trademark rights or endorsement.",
+      "publicAsset": true,
+      "links": [
+        {
+          "label": "Image / SVG source",
+          "path": "assets/items/052-huggingface-color.svg"
+        },
+        {
+          "label": "Source manifest",
+          "path": "assets/ai-logos/manifest.json"
+        },
+        {
+          "label": "License",
+          "path": "assets/ai-logos/LICENSE-LobeHub.txt"
+        }
+      ],
+      "id": "asset-87",
+      "external": "https://github.com/lobehub/lobe-icons"
+    },
+    "sourceSha256": "5d39d66bb6c9b026d3cb5de7bd9978dad3906570df2aca8f00078a6f8a3d0f5e",
+    "changes": [
+      "SVG rendered to a 1200-pixel-wide transparent WebP for the shared image workflow; original SVG retained."
+    ]
+  },
+  "image": "image-library/objects/b1e097bee4fdfd3dedc99d1127c31d76a5e95a227459f8359f0a21ca490a1606.webp",
+  "sha256": "b1e097bee4fdfd3dedc99d1127c31d76a5e95a227459f8359f0a21ca490a1606"
+}

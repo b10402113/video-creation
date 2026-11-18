@@ -1,0 +1,60 @@
+{
+  "id": "e560a0458ae46cc0376312e82cbf89f86c95b8caa0f93302186a471584fbff3b",
+  "kind": "model",
+  "title": "Minimal iPhone",
+  "tag": "3D 模型",
+  "summary": "Real editable geometry, glass display and polished device materials.",
+  "semantic": "3D 模型 · 3D objects · 3D · phone · GLB",
+  "source": "video-talkcraft/assets/robonuggets-animate/assets/items/020-iphone.glb",
+  "doc": "references/robonuggets-animate.md",
+  "thumb": "video-talkcraft/assets/robonuggets-animate/assets/items/019-iphone-thumb.png",
+  "image": "video-talkcraft/assets/robonuggets-animate/assets/items/019-iphone-thumb.png",
+  "audio": "",
+  "video": "",
+  "demo": "video-talkcraft/assets/robonuggets-animate/library/index.html#category=3D+objects&q=Minimal+iPhone",
+  "extraLinks": [
+    [
+      "Editable GLB",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/020-iphone.glb"
+    ],
+    [
+      "Image / SVG source",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/019-iphone-thumb.png"
+    ]
+  ],
+  "provenance": {
+    "name": "Animate contributors (RoboNuggets)",
+    "sourceId": "asset-8",
+    "archiveSha256": "dcadcdfe35557359eca1efd9e3ba254ed9f52652927e962f250c1707c2f320e3",
+    "licenseFile": "video-talkcraft/assets/robonuggets-animate/LICENSE",
+    "thirdPartyNotices": "video-talkcraft/assets/robonuggets-animate/THIRD-PARTY-NOTICES.md",
+    "originalMetadata": {
+      "category": "3D objects",
+      "engine": "Phone3D",
+      "enginePath": "assets/items/021-iphone-preview.bundle.js",
+      "kind": "iphone",
+      "name": "Minimal iPhone",
+      "description": "Real editable geometry, glass display and polished device materials.",
+      "status": "Reusable",
+      "image": "assets/items/019-iphone-thumb.png",
+      "model": "assets/items/020-iphone.glb",
+      "tags": [
+        "3D",
+        "phone",
+        "GLB"
+      ],
+      "links": [
+        {
+          "label": "Editable GLB",
+          "path": "assets/items/020-iphone.glb"
+        },
+        {
+          "label": "Image / SVG source",
+          "path": "assets/items/019-iphone-thumb.png"
+        }
+      ],
+      "id": "asset-8"
+    }
+  },
+  "format": "GLB／3D"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "aa0558aae39514ecf12ee4eb2ccc077f6521a18ca42b3c15ef3056ab5ece64de",
+  "kind": "animation",
+  "title": "Junction hook",
+  "tag": "動畫效果",
+  "summary": "Centred Copernicus, scale-up with moving blur, drop shadow and white glow. Split-layout opening.",
+  "semantic": "動畫效果 · Motion · text · hook · copernicus · split · 開場標題",
+  "source": "video-talkcraft/assets/robonuggets-animate/assets/items/022-scene-00.png",
+  "doc": "references/robonuggets-animate.md",
+  "thumb": "video-talkcraft/assets/robonuggets-animate/assets/items/022-scene-00.png",
+  "image": "video-talkcraft/assets/robonuggets-animate/assets/items/022-scene-00.png",
+  "audio": "",
+  "video": "",
+  "demo": "video-talkcraft/assets/robonuggets-animate/library/index.html#category=Motion&q=Junction+hook",
+  "extraLinks": [
+    [
+      "Image / SVG source",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/022-scene-00.png"
+    ]
+  ],
+  "provenance": {
+    "name": "Animate contributors (RoboNuggets)",
+    "sourceId": "asset-24",
+    "archiveSha256": "dcadcdfe35557359eca1efd9e3ba254ed9f52652927e962f250c1707c2f320e3",
+    "licenseFile": "video-talkcraft/assets/robonuggets-animate/LICENSE",
+    "thirdPartyNotices": "video-talkcraft/assets/robonuggets-animate/THIRD-PARTY-NOTICES.md",
+    "originalMetadata": {
+      "category": "Motion",
+      "name": "Junction hook",
+      "description": "Centred Copernicus, scale-up with moving blur, drop shadow and white glow. Split-layout opening.",
+      "status": "Current default",
+      "demo": "hook",
+      "image": "assets/items/022-scene-00.png",
+      "tags": [
+        "text",
+        "hook",
+        "copernicus",
+        "split"
+      ],
+      "links": [
+        {
+          "label": "Image / SVG source",
+          "path": "assets/items/022-scene-00.png"
+        }
+      ],
+      "id": "asset-24"
+    }
+  },
+  "format": "HTML／GSAP 參考"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "eccc7948645f5302b9445edcafdbec7fd036be0cf8ff0695e26e5f4c71572c37",
+  "image": "image-library/objects/da215d762782966f086d9bb1fe1ca10dd316e2e059ef3e81eaf73e8f6a29f473.webp",
+  "sha256": "da215d762782966f086d9bb1fe1ca10dd316e2e059ef3e81eaf73e8f6a29f473",
+  "name": "price-war",
+  "project": "projects/test-project2/talkcraft-remake",
+  "design": "gary-chen",
+  "category": "圖表與流程",
+  "tags": [
+    "價格戰",
+    "降價",
+    "API"
+  ],
+  "provider": "openai",
+  "model": "gpt-image-2.5-sunburst",
+  "prompt": "Flat vector editorial illustration for a Traditional Chinese technology-finance explainer. Canvas uniformly filled with charcoal #252525. Simple bold geometric forms, warm amber orange #ed9640 as the single focal accent, controlled steel blue #669cdb as secondary, pale warm white #f5f4f1 line accents. Low visual noise, no text, no numbers, no logos, no brand marks, no watermarks. Centered single subject with ample margin and a clean dark perimeter that blends into a dark video backdrop.\n\nThree downward amber orange arrows of decreasing thickness, each one starting lower than the previous, converging toward a small flat baseline. A faint steel blue grid behind. Minimal editorial metaphor for successive API price cuts."
+}

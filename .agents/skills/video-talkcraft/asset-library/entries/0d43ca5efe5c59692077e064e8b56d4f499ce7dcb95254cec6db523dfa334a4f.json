@@ -1,0 +1,101 @@
+{
+  "id": "0d43ca5efe5c59692077e064e8b56d4f499ce7dcb95254cec6db523dfa334a4f",
+  "kind": "animation",
+  "title": "Answers cluster by topic",
+  "tag": "資訊圖表",
+  "summary": "",
+  "semantic": "資訊圖表 · Infographics · brand · MindMarket · animated · reusable · infographic",
+  "source": "video-talkcraft/assets/robonuggets-animate/assets/items/093-answer-clusters.svg",
+  "doc": "references/robonuggets-animate.md",
+  "thumb": "video-talkcraft/assets/robonuggets-animate/assets/items/095-poster.png",
+  "image": "video-talkcraft/assets/robonuggets-animate/assets/items/095-poster.png",
+  "audio": "",
+  "video": "video-talkcraft/assets/robonuggets-animate/assets/items/092-preview.mp4",
+  "demo": "video-talkcraft/assets/robonuggets-animate/assets/brand-components/04-thoughtgarden/components/answer-clusters.html",
+  "extraLinks": [
+    [
+      "Animated scene preview",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/092-preview.mp4"
+    ],
+    [
+      "Editable SVG artwork",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/093-answer-clusters.svg"
+    ],
+    [
+      "Scene timing",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/094-timing.json"
+    ],
+    [
+      "Editable animated scene",
+      "video-talkcraft/assets/robonuggets-animate/assets/brand-components/04-thoughtgarden/components/answer-clusters.html"
+    ],
+    [
+      "Source reuse guide",
+      "video-talkcraft/assets/robonuggets-animate/assets/brand-components/04-thoughtgarden/README.md"
+    ],
+    [
+      "Image / SVG source",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/095-poster.png"
+    ]
+  ],
+  "provenance": {
+    "name": "Animate contributors (RoboNuggets)",
+    "sourceId": "asset-132",
+    "archiveSha256": "dcadcdfe35557359eca1efd9e3ba254ed9f52652927e962f250c1707c2f320e3",
+    "licenseFile": "video-talkcraft/assets/robonuggets-animate/LICENSE",
+    "thirdPartyNotices": "video-talkcraft/assets/robonuggets-animate/THIRD-PARTY-NOTICES.md",
+    "originalMetadata": {
+      "key": "brand-v3-component-04-thoughtgarden-0",
+      "name": "Answers cluster by topic",
+      "category": "Infographics",
+      "status": "Reusable",
+      "shareable": true,
+      "nativeAspect": "16:9",
+      "width": 1920,
+      "height": 1080,
+      "image": "assets/items/095-poster.png",
+      "componentClip": true,
+      "componentSvg": "assets/items/093-answer-clusters.svg",
+      "componentTiming": "assets/items/094-timing.json",
+      "tags": [
+        "brand",
+        "MindMarket",
+        "animated",
+        "reusable",
+        "infographic"
+      ],
+      "links": [
+        {
+          "label": "Animated scene preview",
+          "path": "assets/items/092-preview.mp4"
+        },
+        {
+          "label": "Editable SVG artwork",
+          "path": "assets/items/093-answer-clusters.svg"
+        },
+        {
+          "label": "Scene timing",
+          "path": "assets/items/094-timing.json"
+        },
+        {
+          "label": "Editable animated scene",
+          "path": "assets/brand-components/04-thoughtgarden/components/answer-clusters.html"
+        },
+        {
+          "label": "Source reuse guide",
+          "path": "assets/brand-components/04-thoughtgarden/README.md"
+        },
+        {
+          "label": "Image / SVG source",
+          "path": "assets/items/095-poster.png"
+        }
+      ],
+      "componentPortableRoot": "assets/brand-components/04-thoughtgarden",
+      "componentPortableHtml": "assets/brand-components/04-thoughtgarden/components/answer-clusters.html",
+      "id": "asset-132",
+      "video": "assets/items/092-preview.mp4",
+      "html": "assets/brand-components/04-thoughtgarden/components/answer-clusters.html"
+    }
+  },
+  "format": "HTML／GSAP 參考"
+}

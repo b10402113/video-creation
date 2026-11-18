@@ -1,0 +1,17 @@
+{
+  "id": "bf4e23c92510411b6523c46c046218c98724b61e245ef3834238e00a3151da80",
+  "image": "image-library/objects/146301f553cb6596b4c7c5cd77192c2e27f9914f90bd9db138a9b66998859b19.webp",
+  "sha256": "146301f553cb6596b4c7c5cd77192c2e27f9914f90bd9db138a9b66998859b19",
+  "name": "three-assets",
+  "project": "projects/test-project2/talkcraft-remake",
+  "design": "gary-chen",
+  "category": "概念插畫",
+  "tags": [
+    "資產",
+    "模型",
+    "訂閱"
+  ],
+  "provider": "openai",
+  "model": "gpt-image-2.5-sunburst",
+  "prompt": "Flat vector editorial illustration for a Traditional Chinese technology-finance explainer. Canvas uniformly filled with charcoal #252525. Simple bold geometric forms, warm amber orange #ed9640 as the single focal accent, controlled steel blue #669cdb as secondary, pale warm white #f5f4f1 line accents. Low visual noise, no text, no numbers, no logos, no brand marks, no watermarks. Centered single subject with ample margin and a clean dark perimeter that blends into a dark video backdrop.\n\nThree compact objects arranged in a shallow arc, evenly spaced: a small open-source-style cube outline, a grid of compute nodes, and a recurring subscription loop. Amber orange on the middle object, steel blue on the outer two. Clean flat vector, no text. Editorial metaphor for a model, compute independence and a subscription business."
+}

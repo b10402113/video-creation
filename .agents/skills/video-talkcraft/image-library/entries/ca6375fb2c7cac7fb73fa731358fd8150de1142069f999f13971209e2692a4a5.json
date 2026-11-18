@@ -1,0 +1,17 @@
+{
+  "id": "ca6375fb2c7cac7fb73fa731358fd8150de1142069f999f13971209e2692a4a5",
+  "image": "image-library/objects/d1edcacf88a87f6fef684bd60c853cf6a5a118fbcc8d9f4542a3b7d468de6900.webp",
+  "sha256": "d1edcacf88a87f6fef684bd60c853cf6a5a118fbcc8d9f4542a3b7d468de6900",
+  "name": "cash-burn",
+  "project": "projects/test-project2/talkcraft-remake",
+  "design": "gary-chen",
+  "category": "圖表與流程",
+  "tags": [
+    "現金",
+    "彈藥",
+    "融資"
+  ],
+  "provider": "openai",
+  "model": "gpt-image-2.5-sunburst",
+  "prompt": "Flat vector editorial illustration for a Traditional Chinese technology-finance explainer. Canvas uniformly filled with charcoal #252525. Simple bold geometric forms, warm amber orange #ed9640 as the single focal accent, controlled steel blue #669cdb as secondary, pale warm white #f5f4f1 line accents. Low visual noise, no text, no numbers, no logos, no brand marks, no watermarks. Centered single subject with ample margin and a clean dark perimeter that blends into a dark video backdrop.\n\nA small neat stack of amber orange rectangular fuel rods almost entirely consumed, with only one short stub remaining, and a thin blue progress arc nearly complete. Cool charcoal surround. Editorial metaphor for cash runway almost exhausted."
+}

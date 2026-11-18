@@ -1,0 +1,62 @@
+{
+  "id": "91ea7338d02e94869d42bf552917372486b7ba17dbfa84d5cd298fb237ca1035",
+  "kind": "model",
+  "title": "Minimal terminal",
+  "tag": "3D 模型",
+  "summary": "GRAPHITE / LUMINOUS DISPLAY",
+  "semantic": "3D 模型 · 3D objects · 3D · GLB · editable · shine · shimmer",
+  "source": "video-talkcraft/assets/robonuggets-animate/assets/items/011-object.glb",
+  "doc": "references/robonuggets-animate.md",
+  "thumb": "video-talkcraft/assets/robonuggets-animate/assets/items/010-transparent-object.png",
+  "image": "video-talkcraft/assets/robonuggets-animate/assets/items/010-transparent-object.png",
+  "audio": "",
+  "video": "",
+  "demo": "video-talkcraft/assets/robonuggets-animate/library/index.html#category=3D+objects&q=Minimal+terminal",
+  "extraLinks": [
+    [
+      "Editable GLB",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/011-object.glb"
+    ],
+    [
+      "Image / SVG source",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/010-transparent-object.png"
+    ]
+  ],
+  "provenance": {
+    "name": "Animate contributors (RoboNuggets)",
+    "sourceId": "asset-4",
+    "archiveSha256": "dcadcdfe35557359eca1efd9e3ba254ed9f52652927e962f250c1707c2f320e3",
+    "licenseFile": "video-talkcraft/assets/robonuggets-animate/LICENSE",
+    "thirdPartyNotices": "video-talkcraft/assets/robonuggets-animate/THIRD-PARTY-NOTICES.md",
+    "originalMetadata": {
+      "category": "3D objects",
+      "engine": "Brand3D",
+      "enginePath": "assets/items/003-brand-engine.bundle.js",
+      "kind": "terminal",
+      "name": "Minimal terminal",
+      "description": "GRAPHITE / LUMINOUS DISPLAY",
+      "status": "Reusable",
+      "image": "assets/items/010-transparent-object.png",
+      "model": "assets/items/011-object.glb",
+      "tags": [
+        "3D",
+        "GLB",
+        "editable",
+        "shine",
+        "shimmer"
+      ],
+      "links": [
+        {
+          "label": "Editable GLB",
+          "path": "assets/items/011-object.glb"
+        },
+        {
+          "label": "Image / SVG source",
+          "path": "assets/items/010-transparent-object.png"
+        }
+      ],
+      "id": "asset-4"
+    }
+  },
+  "format": "GLB／3D"
+}

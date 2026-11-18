@@ -1,0 +1,38 @@
+{
+  "id": "938b3d0b54e2c4263c367a4b361074401ea5e04d3d9cd63c51e61dd8bada69ff",
+  "kind": "animation",
+  "title": "Turn, then drift",
+  "tag": "動畫效果",
+  "summary": "Existing adjustable motion recipe. Replay and copy the source in Motion Studio.",
+  "semantic": "動畫效果 · Motion · animation · gsap · yturn · 3D 翻轉漂移",
+  "source": "",
+  "doc": "references/robonuggets-animate.md",
+  "thumb": "",
+  "image": "",
+  "audio": "",
+  "video": "",
+  "demo": "video-talkcraft/assets/robonuggets-animate/library/motion-studio.html",
+  "extraLinks": [],
+  "provenance": {
+    "name": "Animate contributors (RoboNuggets)",
+    "sourceId": "asset-21",
+    "archiveSha256": "dcadcdfe35557359eca1efd9e3ba254ed9f52652927e962f250c1707c2f320e3",
+    "licenseFile": "video-talkcraft/assets/robonuggets-animate/LICENSE",
+    "thirdPartyNotices": "video-talkcraft/assets/robonuggets-animate/THIRD-PARTY-NOTICES.md",
+    "originalMetadata": {
+      "category": "Motion",
+      "name": "Turn, then drift",
+      "description": "Existing adjustable motion recipe. Replay and copy the source in Motion Studio.",
+      "status": "Reusable",
+      "demo": "yturn",
+      "tags": [
+        "animation",
+        "gsap",
+        "yturn"
+      ],
+      "links": [],
+      "id": "asset-21"
+    }
+  },
+  "format": "HTML／GSAP 參考"
+}

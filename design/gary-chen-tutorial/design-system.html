@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gary Chen｜教學畫面設計系統</title>
+<link rel="stylesheet" href="./token.css">
+<style>
+  *{box-sizing:border-box}
+  html{color-scheme:dark}
+  body{margin:0;background:var(--color-bg);color:var(--color-text);font:var(--weight-base) 1rem/1.6 var(--font-ui)}
+  h1,h2,h3,p,figure{margin:0}
+  a{color:inherit;text-underline-offset:.23em}
+  a:focus-visible{outline:2px solid var(--color-accent);outline-offset:4px}
+  .wrap{width:min(91%,74rem);margin-inline:auto}
+  .accent{color:var(--color-accent)}
+  .muted{color:var(--color-muted)}
+  .label,.mono{font-family:var(--font-mono),var(--font-ui)}
+  .label{letter-spacing:.08em;font-size:.78rem}
+  .site-head{padding:3rem 0 1.65rem;border-top:3px solid var(--color-accent)}
+  .site-head h1{font-size:clamp(2.1rem,6vw,4.7rem);line-height:1.12;margin:.45rem 0 .8rem}
+  .site-head p{max-width:47ch}
+  nav{display:flex;gap:.45rem 1.35rem;flex-wrap:wrap;margin-top:1rem}
+  main>section{margin:0 0 3.5rem}
+  h2{font-size:1.9rem;line-height:1.2;margin-bottom:.4rem}
+  .section-note{color:var(--color-muted);margin-bottom:1.1rem}
+  .layout{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1.15rem}
+  .sample{min-width:0;background:var(--color-surface);border:1px solid var(--color-line);border-radius:.75rem;overflow:hidden}
+  .sample figcaption{padding:.7rem .9rem;color:var(--color-muted);font-size:.88rem}
+  .sample figcaption strong{color:var(--color-text);margin-right:.4em}
+  .lead{margin-bottom:2.5rem}
+  .scene{container-type:inline-size;position:relative;isolation:isolate;aspect-ratio:16 / 9;background:var(--color-bg)}
+  .progress{position:absolute;inset:0 0 auto;display:grid;grid-template-columns:repeat(6,1fr);gap:var(--space-progress);height:var(--size-progress)}
+  .progress span{background:var(--color-progress-track)}
+  .progress span.past{background:var(--color-progress-past)}
+  .progress span.now{background:var(--color-accent)}
+  .chapter{position:absolute;top:var(--space-chapter-top);left:var(--space-chapter-left);font-size:var(--type-chapter);line-height:var(--leading-detail);color:var(--color-muted)}
+  .chapter b{color:var(--color-accent);font-family:var(--font-mono);margin-right:.3em}
+  .safe{position:absolute;inset:var(--space-stage-start) var(--space-stage) var(--space-stage-end);display:grid;align-items:center;min-width:0}
+  .subtitle{position:absolute;bottom:var(--space-caption-bottom);left:50%;transform:translateX(-50%);background:var(--color-subtitle-bg);border-radius:var(--radius-caption);font-size:var(--type-subtitle);font-weight:var(--weight-strong);line-height:var(--leading-subtitle);text-align:center;padding:.31em .58em;width:max-content;max-width:var(--size-caption-max)}
+  .beat{text-align:center}
+  .beat-index{color:var(--color-accent);font-family:var(--font-mono);font-weight:var(--weight-strong);font-size:var(--type-index);line-height:1}
+  .beat-index small{font-size:.48em;color:var(--color-muted)}
+  .beat h2{font-size:var(--type-hero);line-height:var(--leading-display);margin:.3em 0 0}
+  .trio,.flow{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--space-columns);align-items:center}
+  .flow{grid-template-columns:minmax(0,.9fr) auto minmax(0,1.1fr)}
+  .tool-card,.window{min-width:0;background:var(--color-surface);border:var(--border-card) solid var(--color-line);border-radius:var(--radius-card)}
+  .tool-card{display:grid;gap:.4em;padding:var(--space-card);font-size:var(--type-detail);line-height:var(--leading-detail)}
+  .tool-card strong{font-size:var(--type-card);line-height:var(--leading-display)}
+  .trio .tool-card{min-height:24cqw;align-content:center}
+  .active{border-color:var(--color-accent)}
+  .future{background:transparent;border-style:dashed;border-color:var(--color-muted);text-align:center;color:var(--color-muted)}
+  .future strong{font-size:calc(var(--type-card) * 1.6)}
+  .badge{justify-self:start;border-radius:var(--radius-pill);background:var(--color-line);padding:.06em .5em;font-size:.9em}
+  .stack{display:grid;gap:.5em}
+  .arrow{color:var(--color-accent);font-size:var(--type-card);line-height:1}
+  .window{box-shadow:var(--shadow-window);font-size:var(--type-detail);line-height:var(--leading-detail);overflow:hidden}
+  .window-title{padding:.45em .6em;border-bottom:var(--border-card) solid var(--color-line);color:var(--color-muted);overflow-wrap:anywhere}
+  .window-body{padding:.55em .6em;display:grid;gap:.35em}
+  .window-body span{overflow-wrap:anywhere}
+  .hotline{color:var(--color-text);border-left:2px solid var(--color-accent);background:var(--color-active-wash);padding-left:.37em}
+  .evidence{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,1fr);gap:var(--space-columns);align-items:center}
+  .remote{background:var(--color-remote);border-radius:var(--radius-pill);padding:.2em .52em;justify-self:start}
+  .diagram{display:block;max-width:100%;width:100%;max-height:100%;overflow:visible}
+  .diagram text{font-family:var(--font-ui)}
+  .timeline .diagram{height:auto;margin:auto}
+  .opener .diagram{height:min(100%, 31cqw);width:min(100%, 48cqw);margin:auto}
+  .palette{display:grid;grid-template-columns:repeat(auto-fit,minmax(8.5rem,1fr));gap:.7rem}
+  .chip{margin:0;border:1px solid var(--color-line);border-radius:.4rem;overflow:hidden;background:var(--color-surface)}
+  .chip dt{padding:.55rem .65rem;background:var(--sample);color:var(--swatch-ink,var(--color-text));font-weight:var(--weight-strong)}
+  .chip dd{margin:0;padding:.4rem .65rem;font-family:var(--font-mono);font-size:.83rem;color:var(--color-muted)}
+  footer{border-top:1px solid var(--color-line);padding:1.15rem 0 2rem;color:var(--color-muted)}
+  footer .wrap{display:flex;gap:.4rem 1.3rem;flex-wrap:wrap}
+  @media(max-width:44rem){.layout{grid-template-columns:minmax(0,1fr)}}
+  @media(max-width:26rem){
+    .flow-scene,.evidence-scene{aspect-ratio:auto;min-height:17rem}
+    .flow,.evidence{grid-template-columns:minmax(0,1fr);gap:.45rem}
+    .flow .stack{grid-template-columns:repeat(2,minmax(0,1fr))}
+    .arrow{transform:rotate(90deg);justify-self:center}
+    .opener .diagram{height:100%}
+  }
+</style>
+</head>
+<body>
+<header class="site-head"><div class="wrap">
+  <div class="label accent">16 FRAMES / 03 VIDEOS</div>
+  <h1>Gary Chen｜教學畫面</h1>
+  <p class="muted">把章節與字幕放在邊緣，中間留給此刻正在講的內容。以下為根據截圖重畫的示意，不含原影片畫面或產品標誌。</p>
+  <nav aria-label="展示頁目錄"><a href="#frames">構圖示意</a><a href="#palette">色票與用途</a><a href="./畫面要求.md">來源索引</a></nav>
+</div></header>
+<main class="wrap">
+  <section class="lead" aria-label="章節與短結論">
+    <figure class="sample">
+      <div class="scene" data-variant="chapter">
+        <div class="progress" aria-hidden="true"><span class="past"></span><span class="now"></span><span></span><span></span><span></span><span></span></div>
+        <div class="chapter"><b>02 / 06</b> 建立工作方式</div>
+        <div class="safe"><div class="beat"><div class="beat-index">01<small> / 07</small></div><h2>先定義完成條件</h2></div></div>
+        <div class="subtitle">把完成的樣子講清楚，再交給工具。</div>
+      </div>
+      <figcaption><strong>01｜大編號與短結論</strong>等寬橘字做提示，白色短標承接結論。參考 O01。</figcaption>
+    </figure>
+  </section>
+  <section id="frames">
+    <h2>同一個畫框，五種內容擺法</h2>
+    <p class="section-note">橘色只標目前內容。來到比較、介面證據或插畫開場，才更換內容構圖。</p>
+    <div class="layout">
+      <figure class="sample">
+        <div class="scene flow-scene" data-variant="flow">
+          <div class="progress" aria-hidden="true"><span class="past"></span><span class="past"></span><span class="now"></span><span></span><span></span><span></span></div>
+          <div class="chapter"><b>03 / 06</b> 找到對應資料</div>
+          <div class="safe"><div class="flow">
+            <div class="stack">
+              <div class="tool-card"><strong>總目錄</strong><span class="mono muted">INDEX.md</span></div>
+              <div class="tool-card active"><strong>主題專頁</strong><span class="muted">當前入口</span></div>
+            </div>
+            <span class="arrow" aria-hidden="true">⟶</span>
+            <div class="window">
+              <div class="window-title mono">project-notes.md</div>
+              <div class="window-body"><span class="muted">背景 → brief.md</span><span class="hotline">規格 → checks.md</span><span class="muted">備忘 → notes.md</span></div>
+            </div>
+          </div></div>
+          <div class="subtitle">沿著索引，只開需要的檔案。</div>
+        </div>
+        <figcaption><strong>02｜文件路徑</strong>入口與內容分欄，橘線和亮行指向同一條路徑。參考 M02–M04。</figcaption>
+      </figure>
+      <figure class="sample">
+        <div class="scene" data-variant="compare">
+          <div class="progress" aria-hidden="true"><span class="past"></span><span class="past"></span><span class="past"></span><span class="past"></span><span class="now"></span><span></span></div>
+          <div class="chapter"><b>05 / 06</b> 工具與步驟</div>
+          <div class="safe"><div class="trio">
+            <div class="tool-card"><span class="badge mono">1</span><strong>來源</strong><span class="muted">收集訊息</span></div>
+            <div class="tool-card active"><span class="badge mono">2</span><strong>流程</strong><span class="muted">依清單處理</span></div>
+            <div class="tool-card future"><strong class="mono">3</strong><span>待揭曉</span></div>
+          </div></div>
+          <div class="subtitle">這一步先確認流程。</div>
+        </div>
+        <figcaption><strong>03｜三等寬對照</strong>橘邊代表當前、虛線代表未揭曉。參考 G03。</figcaption>
+      </figure>
+      <figure class="sample">
+        <div class="scene evidence-scene" data-variant="remote">
+          <div class="progress" aria-hidden="true"><span class="past"></span><span class="past"></span><span class="past"></span><span class="past"></span><span class="past"></span><span class="now"></span></div>
+          <div class="chapter"><b>06 / 06</b> 介面證據</div>
+          <div class="safe"><div class="evidence">
+            <div class="window">
+              <div class="window-title mono">● ○ ○ &nbsp; 工作清單</div>
+              <div class="window-body"><span class="muted">本機　已就緒</span><span class="hotline">待審項目　3 件</span><span class="muted">封存　暫不處理</span></div>
+            </div>
+            <div class="tool-card"><span class="remote">遠端模式</span><strong>一眼看重點</strong><span class="muted">只標要處理的欄位</span></div>
+          </div></div>
+          <div class="subtitle">用原介面定位，避免重畫整個產品。</div>
+        </div>
+        <figcaption><strong>04｜局部介面</strong>大面積留給證據；右側補充模式。遠端藍只作語意標籤。參考 G02、G06。</figcaption>
+      </figure>
+      <figure class="sample">
+        <div class="scene timeline" data-variant="timeline">
+          <div class="progress" aria-hidden="true"><span class="past"></span><span class="past"></span><span class="past"></span><span class="now"></span><span></span><span></span></div>
+          <div class="chapter"><b>04 / 06</b> 設定停點</div>
+          <div class="safe">
+            <svg class="diagram" viewBox="0 0 480 130" role="img" aria-labelledby="time-title">
+              <title id="time-title">時間線：開始、人工確認、風險段</title>
+              <path d="M42 58H439" stroke="var(--color-muted)" stroke-opacity=".6" stroke-width="2"/>
+              <g fill="var(--color-accent)"><circle cx="48" cy="58" r="5"/><circle cx="110" cy="58" r="5"/><circle cx="172" cy="58" r="5"/><circle cx="234" cy="58" r="5"/></g>
+              <path d="M302 43l13 5v11c-1 10-8 16-13 18-5-2-12-8-13-18V48z" stroke="var(--color-accent)" stroke-width="2" fill="var(--color-bg)"/>
+              <path d="m295 59 5 5 9-10" fill="none" stroke="var(--color-accent)" stroke-width="2"/>
+              <g fill="var(--color-warning)"><circle cx="365" cy="58" r="5"/><circle cx="430" cy="58" r="5"/></g>
+              <g text-anchor="middle" font-size="16"><text x="48" y="101" fill="var(--color-muted)">起點</text><text x="302" y="101" fill="var(--color-accent)">人工確認</text><text x="418" y="101" fill="var(--color-warning)">風險段</text></g>
+            </svg>
+          </div>
+        </div>
+        <figcaption><strong>05｜時間線</strong>水平節點配就近標籤；盾牌標明轉折。此例沒有字幕。參考 O02、O03。</figcaption>
+      </figure>
+      <figure class="sample">
+        <div class="scene opener" data-variant="opener">
+          <div class="progress" aria-hidden="true"><span class="now"></span><span></span><span></span><span></span><span></span><span></span></div>
+          <div class="chapter"><b>01 / 06</b> 開場意象</div>
+          <div class="safe">
+            <svg class="diagram" viewBox="0 0 300 185" role="img" aria-labelledby="opener-title">
+              <title id="opener-title">浮在冷藍圓盤上的暖橘燈泡</title>
+              <defs>
+                <radialGradient id="warm"><stop stop-color="var(--color-accent)" stop-opacity=".6"/><stop offset="1" stop-color="var(--color-accent)" stop-opacity="0"/></radialGradient>
+                <radialGradient id="cool"><stop stop-color="var(--color-illustration)" stop-opacity=".6"/><stop offset="1" stop-color="var(--color-illustration)" stop-opacity="0"/></radialGradient>
+              </defs>
+              <ellipse cx="150" cy="143" rx="98" ry="35" fill="url(#cool)"/>
+              <ellipse cx="150" cy="141" rx="59" ry="14" fill="none" stroke="var(--color-illustration)" stroke-width="2"/>
+              <circle cx="150" cy="89" r="74" fill="url(#warm)"/>
+              <path d="M126 84a24 24 0 1 1 48 0c0 12-9 16-13 27h-22c-4-11-13-15-13-27Zm16 35h16m-13 7h10" fill="var(--color-active-wash)" stroke="var(--color-accent)" stroke-width="3"/>
+              <path d="M148 105V89m0 2-9-10m9 10 9-10" fill="none" stroke="var(--color-accent)" stroke-width="2"/>
+              <g fill="none" stroke="var(--color-illustration)" stroke-width="1.5"><circle cx="88" cy="59" r="12"/><circle cx="205" cy="53" r="9"/><path d="m116 21 4 10 10 4-10 4-4 10-4-10-10-4 10-4z"/></g>
+            </svg>
+          </div>
+          <div class="subtitle">先用一個圖像，帶出要講的概念。</div>
+        </div>
+        <figcaption><strong>06｜開場意象</strong>暖橘集中在單一物件，冷藍承托，柔光只留在中心。參考 M01。</figcaption>
+      </figure>
+    </div>
+  </section>
+  <section id="palette">
+    <h2>色票與用途</h2>
+    <p class="section-note">截圖取樣為近似值。標題、文件、字幕和章節使用不同大小與字體角色；原字型未知。</p>
+    <dl class="palette">
+      <div class="chip" style="--sample:var(--color-bg)"><dt>畫布</dt><dd data-token="--color-bg">#262626</dd></div>
+      <div class="chip" style="--sample:var(--color-surface)"><dt>工作卡面</dt><dd data-token="--color-surface">#323232</dd></div>
+      <div class="chip" style="--sample:var(--color-text);--swatch-ink:var(--color-subtitle-bg)"><dt>正文白</dt><dd data-token="--color-text">#ffffff</dd></div>
+      <div class="chip" style="--sample:var(--color-subtitle-bg)"><dt>字幕底</dt><dd data-token="--color-subtitle-bg">#090909</dd></div>
+      <div class="chip" style="--sample:var(--color-accent);--swatch-ink:var(--color-subtitle-bg)"><dt>活動橘</dt><dd data-token="--color-accent">#fe8d00</dd></div>
+      <div class="chip" style="--sample:var(--color-warning);--swatch-ink:var(--color-subtitle-bg)"><dt>風險紅</dt><dd data-token="--color-warning">#ed6146</dd></div>
+      <div class="chip" style="--sample:var(--color-success);--swatch-ink:var(--color-subtitle-bg)"><dt>通過綠</dt><dd data-token="--color-success">#0fb086</dd></div>
+      <div class="chip" data-variant="remote" style="--sample:var(--color-remote)"><dt>遠端藍</dt><dd data-token="--color-remote">#395072</dd></div>
+    </dl>
+  </section>
+</main>
+<footer><div class="wrap"><a href="./design.md">設計方向</a><a href="./畫面要求.md">畫面要求與 16 張來源</a><a href="./token.css">CSS tokens</a></div></footer>
+<script>
+  for (const chip of document.querySelectorAll("[data-token]")) {
+    const value = getComputedStyle(chip).getPropertyValue(chip.dataset.token).trim();
+    if (value) chip.textContent = value;
+  }
+</script>
+</body>
+</html>

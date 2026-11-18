@@ -1,0 +1,71 @@
+{
+  "id": "6516acaedffa5e976ef526fcadce6d9b62fbfe834958b5e90e47a5baebfda8c2",
+  "kind": "video",
+  "title": "Pixel website workshop",
+  "tag": "影片素材",
+  "summary": "",
+  "semantic": "影片素材 · Broll · Kling · 32-bit · pixel · 9:16 · website",
+  "source": "video-talkcraft/assets/robonuggets-animate/assets/items/124-poster-clean.jpg",
+  "doc": "references/robonuggets-animate.md",
+  "thumb": "video-talkcraft/assets/robonuggets-animate/assets/items/124-poster-clean.jpg",
+  "image": "video-talkcraft/assets/robonuggets-animate/assets/items/124-poster-clean.jpg",
+  "audio": "",
+  "video": "video-talkcraft/assets/robonuggets-animate/assets/items/123-pixel-website-clean.mp4",
+  "demo": "video-talkcraft/assets/robonuggets-animate/assets/items/123-pixel-website-clean.mp4",
+  "extraLinks": [
+    [
+      "Animated scene preview",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/123-pixel-website-clean.mp4"
+    ],
+    [
+      "Image / SVG source",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/124-poster-clean.jpg"
+    ]
+  ],
+  "provenance": {
+    "name": "Animate contributors (RoboNuggets)",
+    "sourceId": "asset-154",
+    "archiveSha256": "dcadcdfe35557359eca1efd9e3ba254ed9f52652927e962f250c1707c2f320e3",
+    "licenseFile": "video-talkcraft/assets/robonuggets-animate/LICENSE",
+    "thirdPartyNotices": "video-talkcraft/assets/robonuggets-animate/THIRD-PARTY-NOTICES.md",
+    "originalMetadata": {
+      "key": "kling-v9-pixel-website",
+      "name": "Pixel website workshop",
+      "category": "Broll",
+      "image": "assets/items/124-poster-clean.jpg",
+      "componentClip": true,
+      "shareable": true,
+      "tags": [
+        "Kling",
+        "32-bit",
+        "pixel",
+        "9:16",
+        "website"
+      ],
+      "provenance": {
+        "provider": "Kie AI",
+        "model": "Kling 3.0 Pro",
+        "prompt": "Portrait 9:16 cinematic 32-bit pixel-art animation, crisp deliberate pixel clusters and rich hand-crafted shading like a sophisticated retro game. A warm charcoal creative workshop contains a large cream website canvas standing upright at the center. Orange and cream modular design pieces glide from tidy workbenches into place on the canvas, assembling a beautifully balanced editorial website with a bold rectangular hero image, clear rounded button, and elegant image panels. No legible text, no letters, no numbers, no logos, no brands, no people. Slow smooth camera push toward the finished website, subtle warm desk-lamp light and restrained orange highlights, dimensional diorama depth while maintaining pure pixel-art surfaces and edges. One continuous coherent shot, calm controlled motion, pieces settle cleanly, premium visual craft. Black, warm cream, vivid orange palette. No neon, no holograms, no scan lines, no rapid cuts, no camera shake, no smeared pixels.",
+        "duration": 5,
+        "aspectRatio": "9:16",
+        "audio": false,
+        "postproduction": "Tracked pixel bars replace garbled lettering. Original generated workshop, camera and imagery retained. Original MP4 and cleanup provenance preserved with the master."
+      },
+      "links": [
+        {
+          "label": "Animated scene preview",
+          "path": "assets/items/123-pixel-website-clean.mp4"
+        },
+        {
+          "label": "Image / SVG source",
+          "path": "assets/items/124-poster-clean.jpg"
+        }
+      ],
+      "status": "Reusable",
+      "sha256": "c80ebf4ad0c76bb8d14ad0734fd9a48ab749e68874bddff3bc6c503dffb48c48",
+      "id": "asset-154",
+      "video": "assets/items/123-pixel-website-clean.mp4"
+    }
+  },
+  "format": "影片"
+}

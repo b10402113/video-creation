@@ -1,0 +1,62 @@
+{
+  "id": "4279c021698d8545db55d5dd9127942da9cb6c352db81cbd5b23c948f55475e2",
+  "name": "Meta",
+  "project": "共用素材",
+  "design": "通用",
+  "category": "圖示與標誌",
+  "tags": [
+    "圖示與標誌",
+    "Icons",
+    "svg",
+    "brand",
+    "logo",
+    "meta-color"
+  ],
+  "provider": "imported",
+  "sourceFile": "video-talkcraft/assets/robonuggets-animate/assets/items/051-meta-color.svg",
+  "provenance": {
+    "name": "Animate contributors (RoboNuggets)",
+    "sourceId": "asset-86",
+    "archiveSha256": "dcadcdfe35557359eca1efd9e3ba254ed9f52652927e962f250c1707c2f320e3",
+    "licenseFile": "video-talkcraft/assets/robonuggets-animate/LICENSE",
+    "thirdPartyNotices": "video-talkcraft/assets/robonuggets-animate/THIRD-PARTY-NOTICES.md",
+    "originalMetadata": {
+      "category": "Icons",
+      "name": "Meta",
+      "description": "Infinity mark. Faithful source SVG with transparent background.",
+      "status": "Reusable",
+      "image": "assets/items/051-meta-color.svg",
+      "tags": [
+        "svg",
+        "brand",
+        "logo",
+        "meta-color"
+      ],
+      "license": "MIT",
+      "rightsNote": "Brand trademarks belong to their respective owners. Repository artwork license does not grant trademark rights or endorsement.",
+      "publicAsset": true,
+      "links": [
+        {
+          "label": "Image / SVG source",
+          "path": "assets/items/051-meta-color.svg"
+        },
+        {
+          "label": "Source manifest",
+          "path": "assets/ai-logos/manifest.json"
+        },
+        {
+          "label": "License",
+          "path": "assets/ai-logos/LICENSE-LobeHub.txt"
+        }
+      ],
+      "id": "asset-86",
+      "external": "https://github.com/lobehub/lobe-icons"
+    },
+    "sourceSha256": "adf9f2c1a646ccd3a37ca8c2e7e5985d64630cd633f4b95fba393d1d44e0578c",
+    "changes": [
+      "SVG rendered to a 1200-pixel-wide transparent WebP for the shared image workflow; original SVG retained."
+    ]
+  },
+  "image": "image-library/objects/fbde41fd7c0c835fcdaedaa464d162e4707d7685633dfa4bb1057e15fc47aa1e.webp",
+  "sha256": "fbde41fd7c0c835fcdaedaa464d162e4707d7685633dfa4bb1057e15fc47aa1e"
+}

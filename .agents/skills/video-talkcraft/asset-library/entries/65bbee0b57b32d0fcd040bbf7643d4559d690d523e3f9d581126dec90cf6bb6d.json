@@ -1,0 +1,38 @@
+{
+  "id": "65bbee0b57b32d0fcd040bbf7643d4559d690d523e3f9d581126dec90cf6bb6d",
+  "kind": "animation",
+  "title": "Zoom into focus",
+  "tag": "動畫效果",
+  "summary": "Existing adjustable motion recipe. Replay and copy the source in Motion Studio.",
+  "semantic": "動畫效果 · Motion · animation · gsap · zoom · 縮放聚焦",
+  "source": "",
+  "doc": "references/robonuggets-animate.md",
+  "thumb": "",
+  "image": "",
+  "audio": "",
+  "video": "",
+  "demo": "video-talkcraft/assets/robonuggets-animate/library/motion-studio.html",
+  "extraLinks": [],
+  "provenance": {
+    "name": "Animate contributors (RoboNuggets)",
+    "sourceId": "asset-15",
+    "archiveSha256": "dcadcdfe35557359eca1efd9e3ba254ed9f52652927e962f250c1707c2f320e3",
+    "licenseFile": "video-talkcraft/assets/robonuggets-animate/LICENSE",
+    "thirdPartyNotices": "video-talkcraft/assets/robonuggets-animate/THIRD-PARTY-NOTICES.md",
+    "originalMetadata": {
+      "category": "Motion",
+      "name": "Zoom into focus",
+      "description": "Existing adjustable motion recipe. Replay and copy the source in Motion Studio.",
+      "status": "Reusable",
+      "demo": "zoom",
+      "tags": [
+        "animation",
+        "gsap",
+        "zoom"
+      ],
+      "links": [],
+      "id": "asset-15"
+    }
+  },
+  "format": "HTML／GSAP 參考"
+}

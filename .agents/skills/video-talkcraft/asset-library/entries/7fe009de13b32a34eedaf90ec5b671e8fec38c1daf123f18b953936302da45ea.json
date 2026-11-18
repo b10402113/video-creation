@@ -1,0 +1,62 @@
+{
+  "id": "7fe009de13b32a34eedaf90ec5b671e8fec38c1daf123f18b953936302da45ea",
+  "kind": "model",
+  "title": "Prism Core",
+  "tag": "3D 模型",
+  "summary": "BEVELED GLASS / AMBER CORE",
+  "semantic": "3D 模型 · 3D objects · 3D · GLB · editable · shine · shimmer",
+  "source": "video-talkcraft/assets/robonuggets-animate/assets/items/013-object.glb",
+  "doc": "references/robonuggets-animate.md",
+  "thumb": "video-talkcraft/assets/robonuggets-animate/assets/items/012-transparent-object.png",
+  "image": "video-talkcraft/assets/robonuggets-animate/assets/items/012-transparent-object.png",
+  "audio": "",
+  "video": "",
+  "demo": "video-talkcraft/assets/robonuggets-animate/library/index.html#category=3D+objects&q=Prism+Core",
+  "extraLinks": [
+    [
+      "Editable GLB",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/013-object.glb"
+    ],
+    [
+      "Image / SVG source",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/012-transparent-object.png"
+    ]
+  ],
+  "provenance": {
+    "name": "Animate contributors (RoboNuggets)",
+    "sourceId": "asset-5",
+    "archiveSha256": "dcadcdfe35557359eca1efd9e3ba254ed9f52652927e962f250c1707c2f320e3",
+    "licenseFile": "video-talkcraft/assets/robonuggets-animate/LICENSE",
+    "thirdPartyNotices": "video-talkcraft/assets/robonuggets-animate/THIRD-PARTY-NOTICES.md",
+    "originalMetadata": {
+      "category": "3D objects",
+      "engine": "Robo3D",
+      "enginePath": "assets/items/014-object-engine.bundle.js",
+      "kind": "prism",
+      "name": "Prism Core",
+      "description": "BEVELED GLASS / AMBER CORE",
+      "status": "Reusable",
+      "image": "assets/items/012-transparent-object.png",
+      "model": "assets/items/013-object.glb",
+      "tags": [
+        "3D",
+        "GLB",
+        "editable",
+        "shine",
+        "shimmer"
+      ],
+      "links": [
+        {
+          "label": "Editable GLB",
+          "path": "assets/items/013-object.glb"
+        },
+        {
+          "label": "Image / SVG source",
+          "path": "assets/items/012-transparent-object.png"
+        }
+      ],
+      "id": "asset-5"
+    }
+  },
+  "format": "GLB／3D"
+}

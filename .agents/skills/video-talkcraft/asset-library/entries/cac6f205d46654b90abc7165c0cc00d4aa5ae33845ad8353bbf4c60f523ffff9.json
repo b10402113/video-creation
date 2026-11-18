@@ -1,0 +1,101 @@
+{
+  "id": "cac6f205d46654b90abc7165c0cc00d4aa5ae33845ad8353bbf4c60f523ffff9",
+  "kind": "animation",
+  "title": "Many-to-one collection",
+  "tag": "資訊圖表",
+  "summary": "Several distinct inputs become one collected document. Sources reveal individually, paths trace, then signals converge.",
+  "semantic": "資訊圖表 · Infographics · pattern · editable · sequential · 16:9 · 9:16 · collection",
+  "source": "video-talkcraft/assets/robonuggets-animate/assets/patterns/pattern-engine.js",
+  "doc": "references/robonuggets-animate.md",
+  "thumb": "video-talkcraft/assets/robonuggets-animate/assets/items/034-collection.svg",
+  "image": "video-talkcraft/assets/robonuggets-animate/assets/items/034-collection.svg",
+  "audio": "",
+  "video": "",
+  "demo": "video-talkcraft/assets/robonuggets-animate/assets/patterns/collection.html",
+  "extraLinks": [
+    [
+      "Image / SVG source",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/034-collection.svg"
+    ],
+    [
+      "Reusable pattern source",
+      "video-talkcraft/assets/robonuggets-animate/assets/patterns/pattern-engine.js"
+    ],
+    [
+      "Editable configuration",
+      "video-talkcraft/assets/robonuggets-animate/assets/patterns/collection.json"
+    ],
+    [
+      "Integration guide",
+      "video-talkcraft/assets/robonuggets-animate/assets/patterns/README.md"
+    ]
+  ],
+  "provenance": {
+    "name": "Animate contributors (RoboNuggets)",
+    "sourceId": "asset-69",
+    "archiveSha256": "dcadcdfe35557359eca1efd9e3ba254ed9f52652927e962f250c1707c2f320e3",
+    "licenseFile": "video-talkcraft/assets/robonuggets-animate/LICENSE",
+    "thirdPartyNotices": "video-talkcraft/assets/robonuggets-animate/THIRD-PARTY-NOTICES.md",
+    "originalMetadata": {
+      "category": "Infographics",
+      "name": "Many-to-one collection",
+      "description": "Several distinct inputs become one collected document. Sources reveal individually, paths trace, then signals converge.",
+      "status": "Reusable",
+      "pattern": "collection",
+      "patternConfig": {
+        "title": "Many-to-one collection",
+        "output": "Brief",
+        "outputIcon": "article",
+        "items": [
+          {
+            "label": "Posts",
+            "icon": "message"
+          },
+          {
+            "label": "Images",
+            "icon": "camera"
+          },
+          {
+            "label": "Articles",
+            "icon": "article"
+          },
+          {
+            "label": "Audio",
+            "icon": "audio"
+          }
+        ]
+      },
+      "patternEnginePath": "assets/patterns/pattern-engine.js",
+      "image": "assets/items/034-collection.svg",
+      "tags": [
+        "pattern",
+        "editable",
+        "sequential",
+        "16:9",
+        "9:16",
+        "collection"
+      ],
+      "links": [
+        {
+          "label": "Image / SVG source",
+          "path": "assets/items/034-collection.svg"
+        },
+        {
+          "label": "Reusable pattern source",
+          "path": "assets/patterns/pattern-engine.js"
+        },
+        {
+          "label": "Editable configuration",
+          "path": "assets/patterns/collection.json"
+        },
+        {
+          "label": "Integration guide",
+          "path": "assets/patterns/README.md"
+        }
+      ],
+      "id": "asset-69",
+      "html": "assets/patterns/collection.html"
+    }
+  },
+  "format": "HTML／GSAP 參考"
+}

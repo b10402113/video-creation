@@ -1,0 +1,16 @@
+{
+  "id": "98b89206dcae930186a142c56dc4dbc198047e103764ed9666bf308fc4c6fc54",
+  "image": "image-library/objects/fe49cd9ab3c6866322a0d30ddbc1ef16d9c4a3ed71cdc822e0045e8590674799.webp",
+  "sha256": "fe49cd9ab3c6866322a0d30ddbc1ef16d9c4a3ed71cdc822e0045e8590674799",
+  "name": "memory-folders",
+  "project": "projects/test-project/talkcraft-remake",
+  "design": "gary-chen",
+  "category": "介面示意",
+  "tags": [
+    "記憶管理",
+    "資料夾"
+  ],
+  "provider": "openai",
+  "model": "gpt-image-2.5-sunburst",
+  "prompt": "Flat vector-like illustration for a Taiwanese technology explainer. Canvas uniformly filled with charcoal #1b1b1e. Simple graphic forms, warm burnt orange #eb7e48 with controlled electric blue #467ecb and pale white accents. Little visual noise, no writing, no numbers, no brands, no watermarks. Centered subject with ample margin and a perfectly clean dark perimeter that can be blended into a dark video backdrop.\n\nAn orange outline folder in front of three stacked flat blue index cards, with a small lens in front. Clean bold shapes in a single compact cluster."
+}

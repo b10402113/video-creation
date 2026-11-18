@@ -1,0 +1,38 @@
+{
+  "id": "92d2e0e77c60bb54e57555c02b2fe9a3eca1e13ef5d5d49eade6a591eff12faf",
+  "kind": "animation",
+  "title": "Drop into place",
+  "tag": "動畫效果",
+  "summary": "Existing adjustable motion recipe. Replay and copy the source in Motion Studio.",
+  "semantic": "動畫效果 · Motion · animation · gsap · down · 向下滑入",
+  "source": "",
+  "doc": "references/robonuggets-animate.md",
+  "thumb": "",
+  "image": "",
+  "audio": "",
+  "video": "",
+  "demo": "video-talkcraft/assets/robonuggets-animate/library/motion-studio.html",
+  "extraLinks": [],
+  "provenance": {
+    "name": "Animate contributors (RoboNuggets)",
+    "sourceId": "asset-13",
+    "archiveSha256": "dcadcdfe35557359eca1efd9e3ba254ed9f52652927e962f250c1707c2f320e3",
+    "licenseFile": "video-talkcraft/assets/robonuggets-animate/LICENSE",
+    "thirdPartyNotices": "video-talkcraft/assets/robonuggets-animate/THIRD-PARTY-NOTICES.md",
+    "originalMetadata": {
+      "category": "Motion",
+      "name": "Drop into place",
+      "description": "Existing adjustable motion recipe. Replay and copy the source in Motion Studio.",
+      "status": "Reusable",
+      "demo": "down",
+      "tags": [
+        "animation",
+        "gsap",
+        "down"
+      ],
+      "links": [],
+      "id": "asset-13"
+    }
+  },
+  "format": "HTML／GSAP 參考"
+}

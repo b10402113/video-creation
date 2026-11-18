@@ -1,0 +1,60 @@
+{
+  "id": "7c6391311643097239cf6074280560bbfd56eac1255cbc8f3b33c86ae31daa56",
+  "name": "Website design ingredients",
+  "project": "共用素材",
+  "design": "通用",
+  "category": "概念插畫",
+  "tags": [
+    "概念插畫",
+    "Graphics",
+    "native image generation",
+    "transparent",
+    "orange",
+    "cream",
+    "reel"
+  ],
+  "provider": "imported",
+  "sourceFile": "video-talkcraft/assets/robonuggets-animate/assets/items/108-design-ingredients.png",
+  "provenance": {
+    "name": "Animate contributors (RoboNuggets)",
+    "sourceId": "asset-140",
+    "archiveSha256": "dcadcdfe35557359eca1efd9e3ba254ed9f52652927e962f250c1707c2f320e3",
+    "licenseFile": "video-talkcraft/assets/robonuggets-animate/LICENSE",
+    "thirdPartyNotices": "video-talkcraft/assets/robonuggets-animate/THIRD-PARTY-NOTICES.md",
+    "originalMetadata": {
+      "key": "native-v8-design-ingredients",
+      "name": "Website design ingredients",
+      "category": "Graphics",
+      "image": "assets/items/108-design-ingredients.png",
+      "tags": [
+        "native image generation",
+        "transparent",
+        "orange",
+        "cream",
+        "reel"
+      ],
+      "shareable": true,
+      "links": [
+        {
+          "label": "Image / SVG source",
+          "path": "assets/items/108-design-ingredients.png"
+        }
+      ],
+      "description": "Native-generated conceptual artwork, not a resource capture.",
+      "provenance": {
+        "provider": "OpenAI native image_gen",
+        "prompt": "Create a premium editorial 3D-style illustration asset for a professional video explaining how good design tools turn website ingredients into a polished webpage. One coherent isolated sculpture: an elegant ivory browser panel with a beautifully composed abstract orange-and-black website layout (large orange circular product photograph motif, balanced black geometric typography shapes with NO readable text, cream whitespace) and three tangible design ingredients arranged closely around it: orange color swatch tile, ivory typography block bearing only a large black A, and a black geometric layout grid tile. Sophisticated physical materials, subtly glossy lacquer, soft studio lighting, detailed beveled edges, controlled shadows falling only on the objects themselves, front three-quarter view. Restrained palette warm cream, ink black, vivid #ff6b1a orange. Central compact composition with generous padding. True transparent alpha background, no floor, no backdrop, no checkerboard, no caption, no watermark, no brand logos. Image will be placed in upper half of portrait presenter video and must read immediately at small screen size. Make it surprisingly beautiful, crafted and coherent rather than a collage of random icons.",
+        "generatedAt": "2026-09-12T10:24:44.586Z"
+      },
+      "status": "Reusable",
+      "sha256": "679be29a1469f1b2a2d27f71cf6478f8c60dda24bc88609b1ed3e82c35a0c35b",
+      "id": "asset-140"
+    },
+    "sourceSha256": "679be29a1469f1b2a2d27f71cf6478f8c60dda24bc88609b1ed3e82c35a0c35b",
+    "changes": [
+      "WebP copy for the shared image workflow; original file retained."
+    ]
+  },
+  "image": "image-library/objects/37cfe2760b5c0610c2a57dab0f60ac680af79b957f261707a837f0f7c5c6d02c.webp",
+  "sha256": "37cfe2760b5c0610c2a57dab0f60ac680af79b957f261707a837f0f7c5c6d02c"
+}

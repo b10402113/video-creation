@@ -1,0 +1,7 @@
+{
+  "name": "ROBO｜紙白、黑墨與橘",
+  "colors": {"background":"#f9f8f3","panel":"#f0eee7","ink":"#181818","muted":"#65615b","accent":"#d94e13","secondary":"#576c9f","success":"#257957","line":"#bdb9ac","caption":"#171717","paper":"#ffffff"},
+  "font": {"sans":"Outfit, PingFang TC, Noto Sans CJK TC, sans-serif","mono":"Doto, Menlo, monospace"},
+  "subtitle": {"size":42,"bottom":60,"radius":4,"maxWidth":1480},
+  "motion": {"push":1.03}
+}

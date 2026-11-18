@@ -1,0 +1,75 @@
+{
+  "id": "1c183d0da79ec8d212075c730c9be9983dc354bda03cdbcd6e367af721f7ea18",
+  "kind": "model",
+  "title": "MindMarket Journey iPhone",
+  "tag": "3D 模型",
+  "summary": "",
+  "semantic": "3D 模型 · 3D objects · 04-mindmarket · landscape · editable",
+  "source": "video-talkcraft/assets/robonuggets-animate/assets/items/128-iphone-research.glb",
+  "doc": "references/robonuggets-animate.md",
+  "thumb": "video-talkcraft/assets/robonuggets-animate/assets/items/127-iphone-poster.png",
+  "image": "video-talkcraft/assets/robonuggets-animate/assets/items/127-iphone-poster.png",
+  "audio": "",
+  "video": "video-talkcraft/assets/robonuggets-animate/assets/items/126-iphone-component.mp4",
+  "demo": "video-talkcraft/assets/robonuggets-animate/assets/items/126-iphone-component.mp4",
+  "extraLinks": [
+    [
+      "Animated scene preview",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/126-iphone-component.mp4"
+    ],
+    [
+      "Editable GLB",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/128-iphone-research.glb"
+    ],
+    [
+      "Image / SVG source",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/127-iphone-poster.png"
+    ]
+  ],
+  "provenance": {
+    "name": "Animate contributors (RoboNuggets)",
+    "sourceId": "asset-162",
+    "archiveSha256": "dcadcdfe35557359eca1efd9e3ba254ed9f52652927e962f250c1707c2f320e3",
+    "licenseFile": "video-talkcraft/assets/robonuggets-animate/LICENSE",
+    "thirdPartyNotices": "video-talkcraft/assets/robonuggets-animate/THIRD-PARTY-NOTICES.md",
+    "originalMetadata": {
+      "key": "brand-v7-04-mindmarket-component-0",
+      "name": "MindMarket Journey iPhone",
+      "category": "3D objects",
+      "image": "assets/items/127-iphone-poster.png",
+      "componentClip": true,
+      "model": "assets/items/128-iphone-research.glb",
+      "shareable": true,
+      "tags": [
+        "04-mindmarket",
+        "landscape",
+        "editable"
+      ],
+      "provenance": {
+        "source": "Brand studies v7",
+        "duration": 3,
+        "start": 7,
+        "end": 10
+      },
+      "links": [
+        {
+          "label": "Animated scene preview",
+          "path": "assets/items/126-iphone-component.mp4"
+        },
+        {
+          "label": "Editable GLB",
+          "path": "assets/items/128-iphone-research.glb"
+        },
+        {
+          "label": "Image / SVG source",
+          "path": "assets/items/127-iphone-poster.png"
+        }
+      ],
+      "status": "Reusable",
+      "sha256": "6d18eefa5c885954ed6aaed53c9e3936d5cd2302c75ca3099515fc92fe24eef3",
+      "id": "asset-162",
+      "video": "assets/items/126-iphone-component.mp4"
+    }
+  },
+  "format": "GLB／3D"
+}

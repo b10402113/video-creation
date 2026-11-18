@@ -1,0 +1,62 @@
+{
+  "id": "09b431d231567a0ac28f5b7a253c45d891703c570f3d843c68b361e82bdd98ea",
+  "kind": "model",
+  "title": "Claude spark",
+  "tag": "3D 模型",
+  "summary": "TERRACOTTA / SATIN METAL",
+  "semantic": "3D 模型 · 3D objects · 3D · GLB · editable · shine · shimmer",
+  "source": "video-talkcraft/assets/robonuggets-animate/assets/items/007-object.glb",
+  "doc": "references/robonuggets-animate.md",
+  "thumb": "video-talkcraft/assets/robonuggets-animate/assets/items/006-transparent-object.png",
+  "image": "video-talkcraft/assets/robonuggets-animate/assets/items/006-transparent-object.png",
+  "audio": "",
+  "video": "",
+  "demo": "video-talkcraft/assets/robonuggets-animate/library/index.html#category=3D+objects&q=Claude+spark",
+  "extraLinks": [
+    [
+      "Editable GLB",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/007-object.glb"
+    ],
+    [
+      "Image / SVG source",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/006-transparent-object.png"
+    ]
+  ],
+  "provenance": {
+    "name": "Animate contributors (RoboNuggets)",
+    "sourceId": "asset-2",
+    "archiveSha256": "dcadcdfe35557359eca1efd9e3ba254ed9f52652927e962f250c1707c2f320e3",
+    "licenseFile": "video-talkcraft/assets/robonuggets-animate/LICENSE",
+    "thirdPartyNotices": "video-talkcraft/assets/robonuggets-animate/THIRD-PARTY-NOTICES.md",
+    "originalMetadata": {
+      "category": "3D objects",
+      "engine": "Brand3D",
+      "enginePath": "assets/items/003-brand-engine.bundle.js",
+      "kind": "claude",
+      "name": "Claude spark",
+      "description": "TERRACOTTA / SATIN METAL",
+      "status": "Reusable",
+      "image": "assets/items/006-transparent-object.png",
+      "model": "assets/items/007-object.glb",
+      "tags": [
+        "3D",
+        "GLB",
+        "editable",
+        "shine",
+        "shimmer"
+      ],
+      "links": [
+        {
+          "label": "Editable GLB",
+          "path": "assets/items/007-object.glb"
+        },
+        {
+          "label": "Image / SVG source",
+          "path": "assets/items/006-transparent-object.png"
+        }
+      ],
+      "id": "asset-2"
+    }
+  },
+  "format": "GLB／3D"
+}

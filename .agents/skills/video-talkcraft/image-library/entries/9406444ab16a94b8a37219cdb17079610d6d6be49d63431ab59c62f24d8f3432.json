@@ -1,0 +1,17 @@
+{
+  "id": "9406444ab16a94b8a37219cdb17079610d6d6be49d63431ab59c62f24d8f3432",
+  "image": "image-library/objects/e521d8a893acfb992f4cedcac333c2c576a21058b5b41e5a1292c3a19b285379.webp",
+  "sha256": "e521d8a893acfb992f4cedcac333c2c576a21058b5b41e5a1292c3a19b285379",
+  "name": "two-outcomes",
+  "project": "projects/test-project2/talkcraft-remake",
+  "design": "gary-chen",
+  "category": "圖表與流程",
+  "tags": [
+    "亞馬遜",
+    "思科",
+    "結局"
+  ],
+  "provider": "openai",
+  "model": "gpt-image-2.5-sunburst",
+  "prompt": "Flat vector editorial illustration for a Traditional Chinese technology-finance explainer. Canvas uniformly filled with charcoal #252525. Simple bold geometric forms, warm amber orange #ed9640 as the single focal accent, controlled steel blue #669cdb as secondary, pale warm white #f5f4f1 line accents. Low visual noise, no text, no numbers, no logos, no brand marks, no watermarks. Centered single subject with ample margin and a clean dark perimeter that blends into a dark video backdrop.\n\nTwo identical starting blocks at the top, each sending a single line downward. The left line dives far then climbs steeply into a tall rising amber orange staircase. The right line dives similarly but stays flat and low in muted steel blue. Editorial metaphor for two companies that crashed the same amount and ended differently."
+}

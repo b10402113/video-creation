@@ -1,0 +1,62 @@
+{
+  "id": "818c1c62da417f249e490d69f3e87dbc70234f1f4637292c87023126668e8308",
+  "name": "Perplexity",
+  "project": "共用素材",
+  "design": "通用",
+  "category": "圖示與標誌",
+  "tags": [
+    "圖示與標誌",
+    "Icons",
+    "svg",
+    "brand",
+    "logo",
+    "perplexity-color"
+  ],
+  "provider": "imported",
+  "sourceFile": "video-talkcraft/assets/robonuggets-animate/assets/items/049-perplexity-color.svg",
+  "provenance": {
+    "name": "Animate contributors (RoboNuggets)",
+    "sourceId": "asset-84",
+    "archiveSha256": "dcadcdfe35557359eca1efd9e3ba254ed9f52652927e962f250c1707c2f320e3",
+    "licenseFile": "video-talkcraft/assets/robonuggets-animate/LICENSE",
+    "thirdPartyNotices": "video-talkcraft/assets/robonuggets-animate/THIRD-PARTY-NOTICES.md",
+    "originalMetadata": {
+      "category": "Icons",
+      "name": "Perplexity",
+      "description": "Geometric search mark. Faithful source SVG with transparent background.",
+      "status": "Reusable",
+      "image": "assets/items/049-perplexity-color.svg",
+      "tags": [
+        "svg",
+        "brand",
+        "logo",
+        "perplexity-color"
+      ],
+      "license": "MIT",
+      "rightsNote": "Brand trademarks belong to their respective owners. Repository artwork license does not grant trademark rights or endorsement.",
+      "publicAsset": true,
+      "links": [
+        {
+          "label": "Image / SVG source",
+          "path": "assets/items/049-perplexity-color.svg"
+        },
+        {
+          "label": "Source manifest",
+          "path": "assets/ai-logos/manifest.json"
+        },
+        {
+          "label": "License",
+          "path": "assets/ai-logos/LICENSE-LobeHub.txt"
+        }
+      ],
+      "id": "asset-84",
+      "external": "https://github.com/lobehub/lobe-icons"
+    },
+    "sourceSha256": "8353f3ab20822f1a933224b0ea32cc39f0c32d5740f4af8c254b0f418e0a3a70",
+    "changes": [
+      "SVG rendered to a 1200-pixel-wide transparent WebP for the shared image workflow; original SVG retained."
+    ]
+  },
+  "image": "image-library/objects/8bb9ff7a550697f1ca130647ded98b73d089e7e57aa9c202d0181d8cc9d8b880.webp",
+  "sha256": "8bb9ff7a550697f1ca130647ded98b73d089e7e57aa9c202d0181d8cc9d8b880"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "b5bb4502ab85b90b31e0c46b432c9dd675c03b5f42b221b677260cbc569cabeb",
+  "image": "image-library/objects/37343a358aa5792f337d952cc833c67b25ace17f73ceb9a54bf744888f35a7d3.webp",
+  "sha256": "37343a358aa5792f337d952cc833c67b25ace17f73ceb9a54bf744888f35a7d3",
+  "name": "session-replay",
+  "project": "projects/test-project/talkcraft-remake",
+  "design": "gary-chen",
+  "category": "介面示意",
+  "tags": [
+    "Claude",
+    "工作紀錄"
+  ],
+  "provider": "openai",
+  "model": "gpt-image-2.5-sunburst",
+  "prompt": "Flat vector-like illustration for a Taiwanese technology explainer. Canvas uniformly filled with charcoal #1b1b1e. Simple graphic forms, warm burnt orange #eb7e48 with controlled electric blue #467ecb and pale white accents. Little visual noise, no writing, no numbers, no brands, no watermarks. Centered subject with ample margin and a perfectly clean dark perimeter that can be blended into a dark video backdrop.\n\nA small dark blue console rectangle and three thin floating blue document sheets surrounding a warm orange eight-ray asterisk. Clean graphic concept for an AI reviewing session records."
+}

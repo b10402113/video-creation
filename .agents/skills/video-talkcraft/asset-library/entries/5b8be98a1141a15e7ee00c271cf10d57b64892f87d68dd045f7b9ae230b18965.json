@@ -1,0 +1,109 @@
+{
+  "id": "5b8be98a1141a15e7ee00c271cf10d57b64892f87d68dd045f7b9ae230b18965",
+  "kind": "animation",
+  "title": "Hub-and-spoke system",
+  "tag": "資訊圖表",
+  "summary": "A central model connects to six editable system ports. Each branch traces after its icon enters.",
+  "semantic": "資訊圖表 · Infographics · pattern · editable · sequential · 16:9 · 9:16 · hub",
+  "source": "video-talkcraft/assets/robonuggets-animate/assets/patterns/pattern-engine.js",
+  "doc": "references/robonuggets-animate.md",
+  "thumb": "video-talkcraft/assets/robonuggets-animate/assets/items/035-hub.svg",
+  "image": "video-talkcraft/assets/robonuggets-animate/assets/items/035-hub.svg",
+  "audio": "",
+  "video": "",
+  "demo": "video-talkcraft/assets/robonuggets-animate/assets/patterns/hub.html",
+  "extraLinks": [
+    [
+      "Image / SVG source",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/035-hub.svg"
+    ],
+    [
+      "Reusable pattern source",
+      "video-talkcraft/assets/robonuggets-animate/assets/patterns/pattern-engine.js"
+    ],
+    [
+      "Editable configuration",
+      "video-talkcraft/assets/robonuggets-animate/assets/patterns/hub.json"
+    ],
+    [
+      "Integration guide",
+      "video-talkcraft/assets/robonuggets-animate/assets/patterns/README.md"
+    ]
+  ],
+  "provenance": {
+    "name": "Animate contributors (RoboNuggets)",
+    "sourceId": "asset-70",
+    "archiveSha256": "dcadcdfe35557359eca1efd9e3ba254ed9f52652927e962f250c1707c2f320e3",
+    "licenseFile": "video-talkcraft/assets/robonuggets-animate/LICENSE",
+    "thirdPartyNotices": "video-talkcraft/assets/robonuggets-animate/THIRD-PARTY-NOTICES.md",
+    "originalMetadata": {
+      "category": "Infographics",
+      "name": "Hub-and-spoke system",
+      "description": "A central model connects to six editable system ports. Each branch traces after its icon enters.",
+      "status": "Reusable",
+      "pattern": "hub",
+      "patternConfig": {
+        "title": "Hub-and-spoke system",
+        "output": "Model",
+        "outputIcon": "model",
+        "items": [
+          {
+            "label": "Tools",
+            "icon": "tools"
+          },
+          {
+            "label": "Memory",
+            "icon": "memory"
+          },
+          {
+            "label": "Loop",
+            "icon": "loop"
+          },
+          {
+            "label": "API",
+            "icon": "plug"
+          },
+          {
+            "label": "Search",
+            "icon": "search"
+          },
+          {
+            "label": "Files",
+            "icon": "article"
+          }
+        ]
+      },
+      "patternEnginePath": "assets/patterns/pattern-engine.js",
+      "image": "assets/items/035-hub.svg",
+      "tags": [
+        "pattern",
+        "editable",
+        "sequential",
+        "16:9",
+        "9:16",
+        "hub"
+      ],
+      "links": [
+        {
+          "label": "Image / SVG source",
+          "path": "assets/items/035-hub.svg"
+        },
+        {
+          "label": "Reusable pattern source",
+          "path": "assets/patterns/pattern-engine.js"
+        },
+        {
+          "label": "Editable configuration",
+          "path": "assets/patterns/hub.json"
+        },
+        {
+          "label": "Integration guide",
+          "path": "assets/patterns/README.md"
+        }
+      ],
+      "id": "asset-70",
+      "html": "assets/patterns/hub.html"
+    }
+  },
+  "format": "HTML／GSAP 參考"
+}

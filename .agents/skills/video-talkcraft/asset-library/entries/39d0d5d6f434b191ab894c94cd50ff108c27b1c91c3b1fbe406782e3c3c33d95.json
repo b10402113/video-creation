@@ -1,0 +1,48 @@
+{
+  "id": "39d0d5d6f434b191ab894c94cd50ff108c27b1c91c3b1fbe406782e3c3c33d95",
+  "kind": "animation",
+  "title": "Warm dot wallpaper",
+  "tag": "背景",
+  "summary": "Image-generated beige wallpaper used across the current reel system.",
+  "semantic": "背景 · Backgrounds · background · beige · wallpaper",
+  "source": "video-talkcraft/assets/robonuggets-animate/assets/items/031-wallpaper.png",
+  "doc": "references/robonuggets-animate.md",
+  "thumb": "video-talkcraft/assets/robonuggets-animate/assets/items/031-wallpaper.png",
+  "image": "video-talkcraft/assets/robonuggets-animate/assets/items/031-wallpaper.png",
+  "audio": "",
+  "video": "",
+  "demo": "video-talkcraft/assets/robonuggets-animate/library/index.html#category=Backgrounds&q=Warm+dot+wallpaper",
+  "extraLinks": [
+    [
+      "Image / SVG source",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/031-wallpaper.png"
+    ]
+  ],
+  "provenance": {
+    "name": "Animate contributors (RoboNuggets)",
+    "sourceId": "asset-38",
+    "archiveSha256": "dcadcdfe35557359eca1efd9e3ba254ed9f52652927e962f250c1707c2f320e3",
+    "licenseFile": "video-talkcraft/assets/robonuggets-animate/LICENSE",
+    "thirdPartyNotices": "video-talkcraft/assets/robonuggets-animate/THIRD-PARTY-NOTICES.md",
+    "originalMetadata": {
+      "category": "Backgrounds",
+      "name": "Warm dot wallpaper",
+      "description": "Image-generated beige wallpaper used across the current reel system.",
+      "status": "Current default",
+      "image": "assets/items/031-wallpaper.png",
+      "tags": [
+        "background",
+        "beige",
+        "wallpaper"
+      ],
+      "links": [
+        {
+          "label": "Image / SVG source",
+          "path": "assets/items/031-wallpaper.png"
+        }
+      ],
+      "id": "asset-38"
+    }
+  },
+  "format": "HTML／GSAP 參考"
+}

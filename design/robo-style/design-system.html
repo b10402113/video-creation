@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ROBO｜設計系統</title>
+<link rel="stylesheet" href="./token.css">
+<style>
+  * { box-sizing: border-box; }
+  html { color-scheme: light; }
+  body { margin: 0; background: var(--color-bg); color: var(--color-text); font: var(--font-weight-body) var(--text-body)/var(--leading-body) var(--font-body); }
+  .wrap { width: min(84%, 72rem); margin-inline: auto; }
+  h1, h2, h3, p, figure { margin: 0; }
+  h1, h2, h3 { font-family: var(--font-heading); font-weight: var(--font-weight-heading); }
+  h1 { font-size: var(--text-hero); line-height: var(--leading-hero); letter-spacing: var(--tracking-hero); }
+  h2 { font-size: var(--text-heading); line-height: var(--leading-heading); letter-spacing: var(--tracking-heading); }
+  h3 { font-size: 1.15rem; line-height: 1.35; }
+  a { color: inherit; text-underline-offset: .18em; }
+  a:focus-visible { outline: 2px solid; outline-offset: 4px; }
+  .hero { position: relative; isolation: isolate; display: grid; place-items: center; text-align: center; min-height: min(68vh, 40rem); padding-block: 4rem; overflow: hidden; }
+  .hero p { margin: 1rem auto 0; max-width: 36ch; }
+  .hero-canvas { position: absolute; inset: auto 0 0; width: 100%; height: 46%; z-index: -1; }
+  .pixel { font-family: var(--font-pixel); font-weight: var(--font-weight-pixel); }
+  .inline { margin-inline-start: var(--space-pixel-inline); }
+  .eyebrow { color: var(--color-muted); font-size: .75rem; letter-spacing: var(--tracking-kicker); text-transform: uppercase; margin-bottom: .9rem; }
+  nav { border-block: 1px solid var(--color-line); }
+  nav .wrap, footer .wrap { display: flex; gap: .75rem 1.5rem; flex-wrap: wrap; padding-block: 1rem; }
+  main > section, footer { padding-block: clamp(2.5rem, 6vw, 5rem); background: var(--color-bg); color: var(--color-text); }
+  .intro { margin: .75rem 0 1.75rem; max-width: 55ch; color: var(--color-muted); }
+  .swatches { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(9rem, 100%), 1fr)); gap: 1rem; }
+  .swatch { min-width: 0; background: var(--color-surface); border: var(--border-card) solid var(--color-line); }
+  .chip { min-height: 4.1rem; border-bottom: var(--border-card) solid var(--color-line); background: var(--chip); }
+  .swatch figcaption { padding: .7rem; }
+  .swatch code { display: block; color: var(--color-muted); }
+  .sample-head { font-size: var(--text-heading); line-height: var(--leading-heading); letter-spacing: var(--tracking-heading); }
+  .type { border-top: 1px solid var(--color-text); margin-top: 2rem; padding-top: 1.5rem; display: grid; gap: .5rem; }
+  .type .meta { color: var(--color-muted); }
+  .type .long { margin-top: .8rem; }
+  .two { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem; align-items: center; }
+  .plate { display: grid; place-items: center; padding: 1rem; margin-top: 1.5rem; min-height: 14rem; }
+  .plate canvas { display: block; width: 100%; height: clamp(12rem, 28vw, 20rem); }
+  .cardlist { display: grid; gap: .85rem; }
+  .card { display: grid; grid-template-columns: minmax(1.75rem, var(--size-icon-column)) minmax(0, 1fr); gap: var(--space-card-gap); align-items: center; border: var(--border-card) solid var(--color-line); border-radius: var(--radius-card); box-shadow: var(--shadow-card); background: var(--color-surface); color: var(--color-card-text, var(--color-text)); padding: var(--space-card-block) var(--space-card-inline); }
+  .card.hot { border-color: var(--color-accent); box-shadow: var(--shadow-card-accent); }
+  .card canvas { image-rendering: pixelated; width: min(100%, 2.5rem); }
+  .card p { color: var(--color-muted); }
+  .web { padding: 1.25rem; border: 1px solid var(--color-line); background: var(--color-bg); color: var(--color-text); }
+  .web > h3 { margin-bottom: .8rem; }
+  .web .card { display: block; }
+  .video { position: relative; isolation: isolate; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: center; gap: var(--space-stage-gap); aspect-ratio: 16 / 9; padding: 6% var(--space-stage-side); background: var(--color-bg); color: var(--color-text); overflow: hidden; }
+  .video > div { text-align: center; }
+  .video h3 { font-size: clamp(1.25rem, 3.5vw, 2.6rem); }
+  .video p { margin-top: .3rem; }
+  .trend { display: block; width: 100%; margin-top: 1.4rem; }
+  .portrait { display: grid; place-items: center; background: var(--palette-cream); color: var(--color-bg); aspect-ratio: 1; border-radius: var(--radius-portrait); overflow: hidden; position: relative; }
+  .portrait svg { width: 100%; height: 100%; opacity: .4; }
+  .portrait figcaption { position: absolute; bottom: 12%; color: var(--palette-cream); background: var(--color-bg); padding: .18rem .45rem; border-radius: .25rem; }
+  footer { border-top: 1px solid var(--color-line); padding-block: 1rem; }
+  @media (max-width: 43rem) {
+    .wrap { width: 88%; }
+    .hero { min-height: 24rem; }
+    .two, .video { grid-template-columns: minmax(0, 1fr); }
+    .video { aspect-ratio: auto; gap: 1.5rem; padding-block: 2rem; }
+    .portrait { width: min(100%, 16rem); justify-self: center; }
+  }
+</style>
+</head>
+<body>
+<header class="hero">
+  <canvas class="hero-canvas" data-art="wave" aria-hidden="true"></canvas>
+  <div class="wrap">
+    <div class="eyebrow">Style reference</div>
+    <h1><span class="pixel">ROBO</span> 設計系統</h1>
+    <p>紙白、墨色、點陣圖形。用一個橘色重點，帶觀眾看到這幕的結論。</p>
+  </div>
+</header>
+<nav aria-label="規格目錄"><div class="wrap"><a href="#color">色彩與字體</a><a href="#dots">點陣</a><a href="#cards">元件</a><a href="#video">影片畫面</a></div></nav>
+<main>
+  <section id="color"><div class="wrap">
+    <h2>色彩與字體</h2>
+    <p class="intro">紙白是一般簡報底，近黑用在對比段落；影片可獨立採深底。橘色讓同一個訊息在圖形和標題中對得起來。</p>
+    <div class="swatches">
+      <figure class="swatch" style="--chip:var(--palette-paper)"><div class="chip"></div><figcaption>紙白<code data-token="--palette-paper"></code></figcaption></figure>
+      <figure class="swatch" style="--chip:var(--palette-card)"><div class="chip"></div><figcaption>卡面<code data-token="--palette-card"></code></figcaption></figure>
+      <figure class="swatch" style="--chip:var(--palette-black)"><div class="chip"></div><figcaption>近黑<code data-token="--palette-black"></code></figcaption></figure>
+      <figure class="swatch" style="--chip:var(--palette-ink)"><div class="chip"></div><figcaption>墨色<code data-token="--palette-ink"></code></figcaption></figure>
+      <figure class="swatch" style="--chip:var(--palette-cream)"><div class="chip"></div><figcaption>奶油<code data-token="--palette-cream"></code></figcaption></figure>
+      <figure class="swatch" style="--chip:var(--palette-orange)"><div class="chip"></div><figcaption>橘色重點<code data-token="--palette-orange"></code></figcaption></figure>
+    </div>
+    <div class="type">
+      <div class="meta">Outfit 500 · Doto 900</div>
+      <h3 class="sample-head" lang="en">One clear<span class="inline pixel"> SIGNAL</span></h3>
+      <div class="meta long">Outfit 400 · 中文使用系統黑體</div>
+      <p lang="en">Put the label beside the thing it describes.</p>
+    </div>
+  </div></section>
+
+  <section id="dots" data-theme="dark"><div class="wrap two">
+    <div>
+      <h2>用點徑畫出立體</h2>
+      <p class="intro">固定網格，大點形成亮面，小點形成暗面。文字區留白，不用濃點陣做底。</p>
+    </div>
+    <figure class="plate">
+      <canvas data-art="sphere" role="img" aria-label="固定網格中，由不同點徑的奶油色圓點形成一顆球"></canvas>
+    </figure>
+  </div></section>
+
+  <section id="cards"><div class="wrap two">
+    <div>
+      <h2>一組只高亮一張卡</h2>
+      <p class="intro">簡報用方角與硬影。線框像素圖示標記一般卡片，實心圖示只給重點。</p>
+    </div>
+    <div class="cardlist">
+      <article class="card"><canvas data-icon="folder" aria-hidden="true"></canvas><div><h3>保留原始資料</h3><p>可回到來源核對</p></div></article>
+      <article class="card hot"><canvas data-icon="hot" aria-hidden="true"></canvas><div><h3>先決定唯一重點</h3><p>其餘資訊退一層</p></div></article>
+    </div>
+  </div></section>
+
+  <section aria-labelledby="web-title"><div class="wrap">
+    <h2 id="web-title">網站變體</h2>
+    <p class="intro">原則網頁卡片收細邊、使用 5px 圓角；淺深兩種卡面都保留閱讀對比。</p>
+    <div class="two">
+      <div class="web" data-variant="web"><h3>淺色</h3><article class="card"><h3>圖形先說明重點</h3><p>說明放在圖形旁邊。</p></article></div>
+      <div class="web" data-variant="web" data-theme="dark"><h3>深色</h3><article class="card"><h3>圖形先說明重點</h3><p>說明放在圖形旁邊。</p></article></div>
+    </div>
+  </div></section>
+
+  <section id="video"><div class="wrap">
+    <h2>影片變體</h2>
+    <p class="intro">靜態構圖示意：近黑底、襯線感標題、低對比點陣、人像大圓角。人像為自製占位。</p>
+    <div class="video" data-variant="video">
+      <canvas class="hero-canvas" data-art="wave" aria-hidden="true"></canvas>
+      <div>
+        <h3 lang="en">Quality starts to fall</h3>
+        <p>圖形只標示主要趨勢</p>
+        <svg class="trend" viewBox="0 0 320 120" role="img" aria-label="示意折線隨時間下滑，橘點標記末端">
+          <path d="M22 12V100H306" fill="none" stroke="currentColor" stroke-opacity=".5"/>
+          <path d="M29 25 104 39 165 51 220 66 273 76 300 91" fill="none" stroke="currentColor" stroke-width="2"/>
+          <circle cx="300" cy="91" r="5" fill="var(--color-accent)"/>
+        </svg>
+      </div>
+      <figure class="portrait">
+        <svg viewBox="0 0 200 200" aria-hidden="true" fill="currentColor"><circle cx="100" cy="79" r="34"/><path d="M24 200v-10a76 76 0 0 1 152 0v10z"/></svg>
+        <figcaption>人物占位</figcaption>
+      </figure>
+    </div>
+  </div></section>
+</main>
+<footer><div class="wrap"><a href="./design.md">設計方向</a><a href="./畫面要求.md">畫面要求與來源索引</a><a href="./token.css">CSS tokens</a></div></footer>
+<script>
+  const root = getComputedStyle(document.documentElement);
+  for (const label of document.querySelectorAll("code[data-token]")) {
+    label.textContent = root.getPropertyValue(label.dataset.token).trim();
+  }
+
+  function drawDots(canvas) {
+    const { width, height } = canvas.getBoundingClientRect();
+    if (width < 1 || height < 1) return;
+    const css = getComputedStyle(canvas);
+    const step = parseFloat(css.getPropertyValue("--dot-step"));
+    const radius = step * parseFloat(css.getPropertyValue("--dot-radius-ratio"));
+    const alpha = parseFloat(css.getPropertyValue("--dot-overlap-alpha"));
+    const scale = window.devicePixelRatio || 1;
+    canvas.width = Math.round(width * scale);
+    canvas.height = Math.round(height * scale);
+    const ctx = canvas.getContext("2d");
+    ctx.scale(scale, scale);
+    ctx.fillStyle = css.getPropertyValue("--color-dot").trim();
+    const sphere = canvas.dataset.art === "sphere";
+    const extent = Math.min(width, height) * .46;
+    for (let y = step / 2; y < height; y += step) for (let x = step / 2; x < width; x += step) {
+      let value;
+      if (sphere) {
+        const u = (x - width / 2) / extent;
+        const v = (y - height / 2) / extent;
+        const depth = 1 - u * u - v * v;
+        if (depth <= 0) continue;
+        value = .19 + Math.max(0, -.44 * u - .39 * v + .69 * Math.sqrt(depth));
+      } else {
+        const u = x / width, v = y / height;
+        const crest = .41 + .12 * Math.sin(u * 13) + .12 * Math.cos(u * 25);
+        value = v > crest ? (v - crest) / (1 - crest) : 0;
+      }
+      if (value <= .02) continue;
+      ctx.globalAlpha = sphere ? 1 : alpha;
+      ctx.beginPath();
+      ctx.arc(x, y, Math.min(1, value) * radius, 0, Math.PI * 2);
+      ctx.fill();
+    }
+  }
+
+  const shapes = {
+    folder: ["..........", ".####.....", ".#..#.....", ".#..#####.", ".#......#.", ".#......#.", ".#......#.", ".########.", "..........", ".........."],
+    hot: ["..........", "...#..#...", "..######..", ".########.", ".##.##.##.", ".########.", "..######..", "..##..##..", "..........", ".........."]
+  };
+  for (const canvas of document.querySelectorAll("canvas[data-icon]")) {
+    const size = 4, rows = shapes[canvas.dataset.icon], css = getComputedStyle(canvas);
+    canvas.width = canvas.height = 10 * size;
+    const ctx = canvas.getContext("2d");
+    ctx.fillStyle = css.getPropertyValue(canvas.dataset.icon === "hot" ? "--color-accent" : "--color-text").trim();
+    rows.forEach((row, y) => [...row].forEach((cell, x) => {
+      if (cell === "#") ctx.fillRect(x * size, y * size, size, size);
+    }));
+  }
+  const resize = new ResizeObserver(entries => entries.forEach(({target}) => drawDots(target)));
+  document.querySelectorAll("canvas[data-art]").forEach(canvas => {
+    drawDots(canvas);
+    resize.observe(canvas);
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+{
+  "id": "3de985ce71cbb77e9abc8b8c8bdf91db2907f7f631056ada6d37990558865e72",
+  "name": "Architecture editorial",
+  "project": "共用素材",
+  "design": "通用",
+  "category": "概念插畫",
+  "tags": [
+    "概念插畫",
+    "Graphics",
+    "website",
+    "concept",
+    "gpt-image-2",
+    "Architecture editorial"
+  ],
+  "provider": "imported",
+  "sourceFile": "video-talkcraft/assets/robonuggets-animate/assets/items/074-plugins-01-architecture.png",
+  "provenance": {
+    "name": "Animate contributors (RoboNuggets)",
+    "sourceId": "asset-109",
+    "archiveSha256": "dcadcdfe35557359eca1efd9e3ba254ed9f52652927e962f250c1707c2f320e3",
+    "licenseFile": "video-talkcraft/assets/robonuggets-animate/LICENSE",
+    "thirdPartyNotices": "video-talkcraft/assets/robonuggets-animate/THIRD-PARTY-NOTICES.md",
+    "originalMetadata": {
+      "key": "plugins-01-architecture",
+      "category": "Graphics",
+      "name": "Architecture editorial",
+      "description": "Generated fictional website concept.",
+      "status": "Reusable",
+      "image": "assets/items/074-plugins-01-architecture.png",
+      "tags": [
+        "website",
+        "concept",
+        "gpt-image-2",
+        "Architecture editorial"
+      ],
+      "provenance": {
+        "model": "gpt-image-2-text-to-image",
+        "prompt": "{\"type\":\"Premium fictional website design screenshot, portrait 4:5 crop of a mobile-friendly homepage\",\"format\":\"A flat edge-to-edge website UI image. No physical device, no outer mockup, no browser chrome. This is a fictional design concept, not a capture of an existing site. No real brand logos.\",\"craft\":\"Award-caliber art direction. Oversized striking typography and carefully chosen imagery, exceptional composition and whitespace. The most important headline and image should dominate. Only the short text specified below, no long paragraphs. Crisp polished interface, distinct editorial identity. Keep all important text inside a 6% safe margin.\",\"brand\":\"STILLFORM\",\"palette\":\"Warm white, charcoal, pale stone\",\"headline\":\"Space to breathe.\",\"visual\":\"A beautiful full-width photograph of a sculptural pale limestone courtyard with curved walls, a single olive tree and long afternoon shadows. Quiet architectural luxury.\",\"layout\":\"Tiny wordmark and minimal menu at top. Enormous elegant thin serif title above a large horizontal building photograph. Below the photograph, an asymmetrical two-column editorial row with the short title Selected spaces and a small square detail photograph. Strong negative space and fine black rules. Completely flat white editorial design.\"}",
+        "fictionalConcept": true,
+        "sha256": "628bd86a2fdeb02cf2ae8e08ad6df1131479257629827baffbb528ef9ee372c1"
+      },
+      "links": [
+        {
+          "label": "Image / SVG source",
+          "path": "assets/items/074-plugins-01-architecture.png"
+        }
+      ],
+      "id": "asset-109"
+    },
+    "sourceSha256": "628bd86a2fdeb02cf2ae8e08ad6df1131479257629827baffbb528ef9ee372c1",
+    "changes": [
+      "WebP copy for the shared image workflow; original file retained."
+    ]
+  },
+  "image": "image-library/objects/4080d8034a3628dbc2a726c048e19948210cc206f91dee22ed9237313f8c30ab.webp",
+  "sha256": "4080d8034a3628dbc2a726c048e19948210cc206f91dee22ed9237313f8c30ab"
+}

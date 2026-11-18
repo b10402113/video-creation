@@ -1,0 +1,17 @@
+{
+  "id": "5d9ea670ec7de4037f9408d901e6bf7e33e2e3103bf62caec7f7c4d82bda6e18",
+  "image": "image-library/objects/98fc27b85ad16f9aa57ee786a11e6d84828fd9a98cebb6b3b8b0f7119b83ebbe.webp",
+  "sha256": "98fc27b85ad16f9aa57ee786a11e6d84828fd9a98cebb6b3b8b0f7119b83ebbe",
+  "name": "two-product-cycles",
+  "project": "projects/test-project2/talkcraft-remake",
+  "design": "gary-chen",
+  "category": "概念插畫",
+  "tags": [
+    "產品週期",
+    "競爭",
+    "迭代"
+  ],
+  "provider": "openai",
+  "model": "gpt-image-2.5-sunburst",
+  "prompt": "Flat vector editorial illustration for a Traditional Chinese technology-finance explainer. Canvas uniformly filled with charcoal #252525. Simple bold geometric forms, warm amber orange #ed9640 as the single focal accent, controlled steel blue #669cdb as secondary, pale warm white #f5f4f1 line accents. Low visual noise, no text, no numbers, no logos, no brand marks, no watermarks. Centered single subject with ample margin and a clean dark perimeter that blends into a dark video backdrop.\n\nTwo interlocking circular loops drawn with clean strokes. The inner loop is complete, tight and amber orange, fully under control. The outer loop is larger, open-ended, steel blue, and continues past the frame with arrows of other small shapes joining it. Editorial metaphor for your own release cycle versus every competitor's cycle."
+}

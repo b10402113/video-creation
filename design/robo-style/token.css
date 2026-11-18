@@ -1,0 +1,107 @@
+/* ROBO | R1: brand book, R2: Slide Principles, R3: video stills.
+   Evidence and implementation choices: 畫面要求.md. */
+@font-face {
+  font-family: Outfit;
+  src: url("./sources/fonts/Outfit-400.ttf") format("truetype");
+  font-display: swap;
+  font-weight: 400;
+}
+@font-face {
+  font-family: Outfit;
+  src: url("./sources/fonts/Outfit-500.ttf") format("truetype");
+  font-display: swap;
+  font-weight: 500;
+}
+@font-face {
+  font-family: Doto;
+  src: url("./sources/fonts/Doto-900.ttf") format("truetype");
+  font-display: swap;
+  font-weight: 900;
+}
+:root {
+  --palette-paper: #f2efe8;
+  --palette-card: #faf8f2;
+  --palette-black: #131311;
+  --palette-ink: #1c1a16;
+  --palette-cream: #e8e2d2;
+  --palette-muted-light: #6f6a5c;
+  --palette-muted-dark: #8d8775;
+  --palette-orange: #ff6b1a;
+  --palette-yellow: #f5a623; /* Explicit exception, never a default accent. */
+
+  --color-bg: var(--palette-paper);
+  --color-surface: var(--palette-card);
+  --color-text: var(--palette-ink);
+  --color-muted: var(--palette-muted-light);
+  --color-accent: var(--palette-orange);
+  --color-line: var(--palette-ink);
+  --color-dot: rgb(28 26 22 / .88);
+  --font-body: Outfit, "PingFang TC", "Noto Sans TC", system-ui, sans-serif;
+  --font-heading: var(--font-body);
+  --font-pixel: Doto, ui-monospace, monospace;
+  --font-weight-heading: 500;
+  --font-weight-body: 400;
+  --font-weight-pixel: 900;
+  --text-hero: clamp(48px, 6.5vw, 100px);
+  --text-heading: clamp(30px, 3.6vw, 52px);
+  --text-body: clamp(13.5px, 1.3vw, 16px);
+  --leading-hero: 1.02;
+  --leading-heading: 1.05;
+  --leading-body: 1.65;
+  --tracking-hero: -2px;
+  --tracking-heading: -1px;
+  --tracking-kicker: 6px;
+  --space-pixel-inline: .15em;
+
+  --space-stage-side: 8%;
+  --space-stage-gap: 4%;
+  --space-card-block: 18px;
+  --space-card-inline: 20px;
+  --space-card-gap: 16px;
+  --size-icon-column: 52px;
+  --border-card: 2px;
+  --radius-card: 0px;
+  --shadow-card: 6px 6px 0 rgb(28 26 22 / .9);
+  --shadow-card-accent: 6px 6px 0 var(--color-accent);
+  --dot-step: 9px; /* R1 range: 8–11px. */
+  --dot-radius-ratio: .4;
+  --dot-overlap-alpha: .2;
+}
+[data-theme="dark"] {
+  color-scheme: dark;
+  --color-bg: var(--palette-black);
+  --color-surface: var(--palette-black);
+  --color-text: var(--palette-cream);
+  --color-muted: var(--palette-muted-dark);
+  --color-line: var(--palette-cream);
+  --color-dot: rgb(232 226 210 / .85);
+  --shadow-card: 6px 6px 0 rgb(232 226 210 / .35);
+}
+[data-variant="web"] { /* R2 rendered card and theme. */
+  --color-surface: #f4f2f1;
+  --color-card-text: var(--palette-ink);
+  --color-line: #dcd7cb;
+  --border-card: 1.5px;
+  --radius-card: 5px;
+  --shadow-card: none;
+}
+[data-variant="web"][data-theme="dark"] {
+  --color-bg: var(--palette-black);
+  --color-surface: #242422;
+  --color-text: var(--palette-cream);
+  --color-card-text: var(--palette-cream);
+  --color-line: #2f2d28;
+}
+[data-variant="video"] { /* R3 observations adapted into proposed defaults. */
+  color-scheme: dark;
+  --color-bg: #1d1b17;
+  --color-surface: #29261f;
+  --color-text: var(--palette-cream);
+  --color-muted: var(--palette-muted-dark);
+  --color-dot: var(--palette-cream);
+  --font-heading: Georgia, "Songti TC", serif;
+  --font-weight-heading: 700;
+  --radius-portrait: 22%;
+  --space-stage-side: 6%;
+  --space-stage-gap: 5%;
+}

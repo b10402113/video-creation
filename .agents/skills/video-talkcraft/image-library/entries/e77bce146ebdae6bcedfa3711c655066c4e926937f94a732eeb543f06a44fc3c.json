@@ -1,0 +1,17 @@
+{
+  "id": "e77bce146ebdae6bcedfa3711c655066c4e926937f94a732eeb543f06a44fc3c",
+  "image": "image-library/objects/1d6207eb11dce36a3ba93c3f7d7c56db97909b7f468573b6456c693f189a6e4b.webp",
+  "sha256": "1d6207eb11dce36a3ba93c3f7d7c56db97909b7f468573b6456c693f189a6e4b",
+  "name": "compute-wall",
+  "project": "projects/test-project2/talkcraft-remake",
+  "design": "gary-chen",
+  "category": "圖表與流程",
+  "tags": [
+    "算力",
+    "機房",
+    "瓶頸"
+  ],
+  "provider": "openai",
+  "model": "gpt-image-2.5-sunburst",
+  "prompt": "Flat vector editorial illustration for a Traditional Chinese technology-finance explainer. Canvas uniformly filled with charcoal #252525. Simple bold geometric forms, warm amber orange #ed9640 as the single focal accent, controlled steel blue #669cdb as secondary, pale warm white #f5f4f1 line accents. Low visual noise, no text, no numbers, no logos, no brand marks, no watermarks. Centered single subject with ample margin and a clean dark perimeter that blends into a dark video backdrop.\n\nA tall thick wall of stacked dark server-like blocks with one small amber orange doorway at the bottom, and a thin queue of tiny dots waiting outside. The wall is far taller than the queue. Editorial metaphor for compute capacity capping revenue."
+}

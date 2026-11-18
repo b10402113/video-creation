@@ -1,0 +1,17 @@
+{
+  "id": "109de7c3a26e9a47bdce674beca19a36e38fee0db4536ff645176e55a908fcd5",
+  "image": "image-library/objects/f045b08fce0365a516e51930b6d8f0ddb3ba418b804c70942b9c36cffd1f58dd.webp",
+  "sha256": "f045b08fce0365a516e51930b6d8f0ddb3ba418b804c70942b9c36cffd1f58dd",
+  "name": "dreaming-robot",
+  "project": "projects/test-project/talkcraft-remake",
+  "design": "gary-chen",
+  "category": "開場意象",
+  "tags": [
+    "AI",
+    "機器人",
+    "做夢"
+  ],
+  "provider": "openai",
+  "model": "gpt-image-2.5-sunburst",
+  "prompt": "Flat vector-like illustration for a Taiwanese technology explainer. Canvas uniformly filled with charcoal #1b1b1e. Simple graphic forms, warm burnt orange #eb7e48 with controlled electric blue #467ecb and pale white accents. Little visual noise, no writing, no numbers, no brands, no watermarks. Centered subject with ample margin and a perfectly clean dark perimeter that can be blended into a dark video backdrop.\n\nA compact friendly orange box-headed robot sleeping on a cool blue pillow. Closed crescent eyes on a deep navy face, little antenna, calm and cute. A small orange crescent moon and two simple luminous thought bubbles with abstract stacked sheets above its head. One coherent object group centered, subtle localized orange and blue glow, dark edges. Landscape illustration for the opening question about whether AI can dream."
+}

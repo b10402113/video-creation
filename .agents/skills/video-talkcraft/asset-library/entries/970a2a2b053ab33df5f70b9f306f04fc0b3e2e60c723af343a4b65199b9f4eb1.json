@@ -1,0 +1,57 @@
+{
+  "id": "970a2a2b053ab33df5f70b9f306f04fc0b3e2e60c723af343a4b65199b9f4eb1",
+  "kind": "component",
+  "title": "Eight-reel spotlight",
+  "tag": "版型",
+  "summary": "Two rows of four portrait reels. Randomized fixed order, centre spotlight, strong moving blur.",
+  "semantic": "版型 · Layouts · template · layout · video",
+  "source": "video-talkcraft/assets/robonuggets-animate/assets/items/033-grid.png",
+  "doc": "references/robonuggets-animate.md",
+  "thumb": "video-talkcraft/assets/robonuggets-animate/assets/items/033-grid.png",
+  "image": "video-talkcraft/assets/robonuggets-animate/assets/items/033-grid.png",
+  "audio": "",
+  "video": "",
+  "demo": "video-talkcraft/assets/robonuggets-animate/assets/eight-reel/index.html",
+  "extraLinks": [
+    [
+      "Image / SVG source",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/033-grid.png"
+    ],
+    [
+      "Reusable composition",
+      "video-talkcraft/assets/robonuggets-animate/assets/eight-reel/index.html"
+    ]
+  ],
+  "provenance": {
+    "name": "Animate contributors (RoboNuggets)",
+    "sourceId": "asset-63",
+    "archiveSha256": "dcadcdfe35557359eca1efd9e3ba254ed9f52652927e962f250c1707c2f320e3",
+    "licenseFile": "video-talkcraft/assets/robonuggets-animate/LICENSE",
+    "thirdPartyNotices": "video-talkcraft/assets/robonuggets-animate/THIRD-PARTY-NOTICES.md",
+    "originalMetadata": {
+      "category": "Layouts",
+      "name": "Eight-reel spotlight",
+      "description": "Two rows of four portrait reels. Randomized fixed order, centre spotlight, strong moving blur.",
+      "status": "Approved",
+      "image": "assets/items/033-grid.png",
+      "tags": [
+        "template",
+        "layout",
+        "video"
+      ],
+      "links": [
+        {
+          "label": "Image / SVG source",
+          "path": "assets/items/033-grid.png"
+        },
+        {
+          "label": "Reusable composition",
+          "path": "assets/eight-reel/index.html"
+        }
+      ],
+      "id": "asset-63",
+      "html": "assets/eight-reel/index.html"
+    }
+  },
+  "format": "HTML／GSAP 參考"
+}

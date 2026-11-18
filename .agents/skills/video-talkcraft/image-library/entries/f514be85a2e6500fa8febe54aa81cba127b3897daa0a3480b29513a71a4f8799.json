@@ -1,0 +1,62 @@
+{
+  "id": "f514be85a2e6500fa8febe54aa81cba127b3897daa0a3480b29513a71a4f8799",
+  "name": "Cursor",
+  "project": "共用素材",
+  "design": "通用",
+  "category": "圖示與標誌",
+  "tags": [
+    "圖示與標誌",
+    "Icons",
+    "svg",
+    "brand",
+    "logo",
+    "cursor"
+  ],
+  "provider": "imported",
+  "sourceFile": "video-talkcraft/assets/robonuggets-animate/assets/items/053-cursor.svg",
+  "provenance": {
+    "name": "Animate contributors (RoboNuggets)",
+    "sourceId": "asset-88",
+    "archiveSha256": "dcadcdfe35557359eca1efd9e3ba254ed9f52652927e962f250c1707c2f320e3",
+    "licenseFile": "video-talkcraft/assets/robonuggets-animate/LICENSE",
+    "thirdPartyNotices": "video-talkcraft/assets/robonuggets-animate/THIRD-PARTY-NOTICES.md",
+    "originalMetadata": {
+      "category": "Icons",
+      "name": "Cursor",
+      "description": "Code editor mark. Faithful source SVG with transparent background.",
+      "status": "Reusable",
+      "image": "assets/items/053-cursor.svg",
+      "tags": [
+        "svg",
+        "brand",
+        "logo",
+        "cursor"
+      ],
+      "license": "MIT",
+      "rightsNote": "Brand trademarks belong to their respective owners. Repository artwork license does not grant trademark rights or endorsement.",
+      "publicAsset": true,
+      "links": [
+        {
+          "label": "Image / SVG source",
+          "path": "assets/items/053-cursor.svg"
+        },
+        {
+          "label": "Source manifest",
+          "path": "assets/ai-logos/manifest.json"
+        },
+        {
+          "label": "License",
+          "path": "assets/ai-logos/LICENSE-LobeHub.txt"
+        }
+      ],
+      "id": "asset-88",
+      "external": "https://github.com/lobehub/lobe-icons"
+    },
+    "sourceSha256": "0cb51bddf264ae108926fd554c063ef40fc1aac3c5c921ddb39ad184e4e5d0ef",
+    "changes": [
+      "SVG rendered to a 1200-pixel-wide transparent WebP for the shared image workflow; original SVG retained."
+    ]
+  },
+  "image": "image-library/objects/3fcf0b26a63e04ccb9bd4bf56c08528ba372ec3564b8d7415b95d171a1b4d0ed.webp",
+  "sha256": "3fcf0b26a63e04ccb9bd4bf56c08528ba372ec3564b8d7415b95d171a1b4d0ed"
+}

@@ -1,0 +1,3 @@
+interface:
+  display_name: "Merge Video Assets"
+  short_description: "Merge reusable media into the existing Talkcraft library"

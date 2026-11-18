@@ -1,0 +1,120 @@
+{
+  "id": "05c6bfdb2b3ed91ef12d2405e69bf8213e70a4bd0c906b41c0deb90b25612705",
+  "kind": "animation",
+  "title": "Huly Productivity Motion",
+  "tag": "資訊圖表",
+  "summary": "Native concept rebuilt as independent HTML/SVG parts with staged entry and subtle continuous hold motion.",
+  "semantic": "資訊圖表 · Infographics · Huly · editable · HTML · SVG · image reference · continuous motion · productivity",
+  "source": "video-talkcraft/assets/robonuggets-animate/assets/items/181-huly-layers.js",
+  "doc": "references/robonuggets-animate.md",
+  "thumb": "video-talkcraft/assets/robonuggets-animate/assets/items/180-poster.png",
+  "image": "video-talkcraft/assets/robonuggets-animate/assets/items/180-poster.png",
+  "audio": "",
+  "video": "video-talkcraft/assets/robonuggets-animate/assets/items/178-preview.mp4",
+  "demo": "video-talkcraft/assets/robonuggets-animate/assets/brand-components/productivity/index.html",
+  "extraLinks": [
+    [
+      "Animated scene preview",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/178-preview.mp4"
+    ],
+    [
+      "Scene timing",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/179-timing.json"
+    ],
+    [
+      "Editable animated scene",
+      "video-talkcraft/assets/robonuggets-animate/assets/brand-components/productivity/index.html"
+    ],
+    [
+      "Source reuse guide",
+      "video-talkcraft/assets/robonuggets-animate/assets/brand-components/productivity/README.md"
+    ],
+    [
+      "Image / SVG source",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/180-poster.png"
+    ]
+  ],
+  "provenance": {
+    "name": "Animate contributors (RoboNuggets)",
+    "sourceId": "asset-188",
+    "archiveSha256": "dcadcdfe35557359eca1efd9e3ba254ed9f52652927e962f250c1707c2f320e3",
+    "licenseFile": "video-talkcraft/assets/robonuggets-animate/LICENSE",
+    "thirdPartyNotices": "video-talkcraft/assets/robonuggets-animate/THIRD-PARTY-NOTICES.md",
+    "originalMetadata": {
+      "key": "huly-v9-editable-productivity",
+      "name": "Huly Productivity Motion",
+      "category": "Infographics",
+      "status": "Reusable",
+      "shareable": true,
+      "componentClip": true,
+      "engine": "HulyLayers",
+      "kind": "productivity",
+      "depthConfig": {
+        "depth": 1,
+        "tiltX": -4,
+        "tiltY": -7,
+        "motionStrength": 1,
+        "variant": "productivity"
+      },
+      "enginePath": "assets/items/181-huly-layers.js",
+      "image": "assets/items/180-poster.png",
+      "componentTiming": "assets/items/179-timing.json",
+      "componentPortableRoot": "assets/brand-components/productivity",
+      "componentPortableHtml": "assets/brand-components/productivity/index.html",
+      "tags": [
+        "Huly",
+        "editable",
+        "HTML",
+        "SVG",
+        "image reference",
+        "continuous motion",
+        "productivity"
+      ],
+      "description": "Native concept rebuilt as independent HTML/SVG parts with staged entry and subtle continuous hold motion.",
+      "provenance": {
+        "source": "Huly v9 reconstructed concepts",
+        "variant": "productivity",
+        "referenceRole": "Generated image used as blueprint; no whole-scene raster in component",
+        "realMeshGeometry": false,
+        "nativeReferenceKey": "native-current-huly-progress"
+      },
+      "links": [
+        {
+          "label": "Animated scene preview",
+          "path": "assets/items/178-preview.mp4"
+        },
+        {
+          "label": "Scene timing",
+          "path": "assets/items/179-timing.json"
+        },
+        {
+          "label": "Editable animated scene",
+          "path": "assets/brand-components/productivity/index.html"
+        },
+        {
+          "label": "Source reuse guide",
+          "path": "assets/brand-components/productivity/README.md"
+        },
+        {
+          "label": "Image / SVG source",
+          "path": "assets/items/180-poster.png"
+        }
+      ],
+      "background": "#f6f6f6",
+      "aspectVariants": {
+        "wide": {
+          "image": "assets/items/180-poster.png",
+          "video": "assets/items/178-preview.mp4"
+        },
+        "portrait": {
+          "image": "assets/items/189-poster.png",
+          "video": "assets/items/190-preview.mp4"
+        }
+      },
+      "id": "asset-188",
+      "video": "assets/items/178-preview.mp4",
+      "html": "assets/brand-components/productivity/index.html"
+    }
+  },
+  "format": "HTML／GSAP 參考"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "7e58db9effcc230bfcde0cc09bb80e26165998413feaae12251d7c777a2ebab8",
+  "kind": "animation",
+  "title": "Animated dot field",
+  "tag": "背景",
+  "summary": "Fixed dot positions; slow timeline-driven radius changes. Quiet behind titles and subjects.",
+  "semantic": "背景 · Backgrounds · background · dot matrix · animated · 動態點陣",
+  "source": "",
+  "doc": "references/robonuggets-animate.md",
+  "thumb": "",
+  "image": "",
+  "audio": "",
+  "video": "",
+  "demo": "video-talkcraft/assets/robonuggets-animate/library/index.html#category=Backgrounds&q=Animated+dot+field",
+  "extraLinks": [],
+  "provenance": {
+    "name": "Animate contributors (RoboNuggets)",
+    "sourceId": "asset-39",
+    "archiveSha256": "dcadcdfe35557359eca1efd9e3ba254ed9f52652927e962f250c1707c2f320e3",
+    "licenseFile": "video-talkcraft/assets/robonuggets-animate/LICENSE",
+    "thirdPartyNotices": "video-talkcraft/assets/robonuggets-animate/THIRD-PARTY-NOTICES.md",
+    "originalMetadata": {
+      "category": "Backgrounds",
+      "name": "Animated dot field",
+      "description": "Fixed dot positions; slow timeline-driven radius changes. Quiet behind titles and subjects.",
+      "status": "Current default",
+      "demo": "dots",
+      "tags": [
+        "background",
+        "dot matrix",
+        "animated"
+      ],
+      "links": [],
+      "id": "asset-39"
+    }
+  },
+  "format": "HTML／GSAP 參考"
+}

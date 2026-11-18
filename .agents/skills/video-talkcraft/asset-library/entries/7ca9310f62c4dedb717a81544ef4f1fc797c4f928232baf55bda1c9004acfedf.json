@@ -1,0 +1,50 @@
+{
+  "id": "7ca9310f62c4dedb717a81544ef4f1fc797c4f928232baf55bda1c9004acfedf",
+  "kind": "animation",
+  "title": "Count-up hero number",
+  "tag": "主標與數字",
+  "summary": "Copernicus hero text. Counts from 274,611 to 275,000 in 0.5 seconds and holds on 275,000 characters. Landscape and portrait preview.",
+  "semantic": "主標與數字 · Hero text · number · count · copernicus · hero · characters · 數字計數",
+  "source": "",
+  "doc": "references/robonuggets-animate.md",
+  "thumb": "",
+  "image": "",
+  "audio": "",
+  "video": "",
+  "demo": "video-talkcraft/assets/robonuggets-animate/library/index.html#category=Hero+text&q=Count-up+hero+number",
+  "extraLinks": [
+    [
+      "Counter source",
+      "video-talkcraft/assets/robonuggets-animate/assets/hero-count.js"
+    ]
+  ],
+  "provenance": {
+    "name": "Animate contributors (RoboNuggets)",
+    "sourceId": "asset-66",
+    "archiveSha256": "dcadcdfe35557359eca1efd9e3ba254ed9f52652927e962f250c1707c2f320e3",
+    "licenseFile": "video-talkcraft/assets/robonuggets-animate/LICENSE",
+    "thirdPartyNotices": "video-talkcraft/assets/robonuggets-animate/THIRD-PARTY-NOTICES.md",
+    "originalMetadata": {
+      "category": "Hero text",
+      "name": "Count-up hero number",
+      "description": "Copernicus hero text. Counts from 274,611 to 275,000 in 0.5 seconds and holds on 275,000 characters. Landscape and portrait preview.",
+      "status": "Current default",
+      "demo": "count",
+      "tags": [
+        "number",
+        "count",
+        "copernicus",
+        "hero",
+        "characters"
+      ],
+      "links": [
+        {
+          "label": "Counter source",
+          "path": "assets/hero-count.js"
+        }
+      ],
+      "id": "asset-66"
+    }
+  },
+  "format": "HTML／GSAP 參考"
+}

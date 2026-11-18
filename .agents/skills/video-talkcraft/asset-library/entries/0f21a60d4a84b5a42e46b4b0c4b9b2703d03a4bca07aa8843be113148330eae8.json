@@ -1,0 +1,37 @@
+{
+  "id": "0f21a60d4a84b5a42e46b4b0c4b9b2703d03a4bca07aa8843be113148330eae8",
+  "kind": "audio",
+  "title": "Dry mouse click",
+  "tag": "音效",
+  "summary": "Restrained transition sound. Separate reusable audio file and timed scene cues.",
+  "semantic": "音效 · Sound effects · sound effect · transition",
+  "source": "video-talkcraft/assets/robonuggets-animate/assets/items/032-mouse-click.wav",
+  "doc": "references/robonuggets-animate.md",
+  "thumb": "",
+  "image": "",
+  "audio": "video-talkcraft/assets/robonuggets-animate/assets/items/032-mouse-click.wav",
+  "video": "",
+  "demo": "video-talkcraft/assets/robonuggets-animate/library/index.html#category=Sound+effects&q=Dry+mouse+click",
+  "extraLinks": [],
+  "provenance": {
+    "name": "Animate contributors (RoboNuggets)",
+    "sourceId": "asset-61",
+    "archiveSha256": "dcadcdfe35557359eca1efd9e3ba254ed9f52652927e962f250c1707c2f320e3",
+    "licenseFile": "video-talkcraft/assets/robonuggets-animate/LICENSE",
+    "thirdPartyNotices": "video-talkcraft/assets/robonuggets-animate/THIRD-PARTY-NOTICES.md",
+    "originalMetadata": {
+      "category": "Sound effects",
+      "name": "Dry mouse click",
+      "description": "Restrained transition sound. Separate reusable audio file and timed scene cues.",
+      "status": "Reusable",
+      "audio": "assets/items/032-mouse-click.wav",
+      "tags": [
+        "sound effect",
+        "transition"
+      ],
+      "links": [],
+      "id": "asset-61"
+    }
+  },
+  "format": "音效"
+}

@@ -1,0 +1,73 @@
+{
+  "id": "306f12e8617a60e3537d473a6df7a812945633ccba4fb87addf81404b80e2bdd",
+  "kind": "video",
+  "title": "Painted mountain sunset",
+  "tag": "影片素材",
+  "summary": "",
+  "semantic": "影片素材 · Broll · landscape · painted · mountains · sunset · kling",
+  "source": "video-talkcraft/assets/robonuggets-animate/assets/items/169-poster.png",
+  "doc": "references/robonuggets-animate.md",
+  "thumb": "video-talkcraft/assets/robonuggets-animate/assets/items/169-poster.png",
+  "image": "video-talkcraft/assets/robonuggets-animate/assets/items/169-poster.png",
+  "audio": "",
+  "video": "video-talkcraft/assets/robonuggets-animate/assets/items/168-painted-sunset.mp4",
+  "demo": "video-talkcraft/assets/robonuggets-animate/assets/items/168-painted-sunset.mp4",
+  "extraLinks": [
+    [
+      "Animated scene preview",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/168-painted-sunset.mp4"
+    ],
+    [
+      "Image / SVG source",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/169-poster.png"
+    ]
+  ],
+  "provenance": {
+    "name": "Animate contributors (RoboNuggets)",
+    "sourceId": "asset-185",
+    "archiveSha256": "dcadcdfe35557359eca1efd9e3ba254ed9f52652927e962f250c1707c2f320e3",
+    "licenseFile": "video-talkcraft/assets/robonuggets-animate/LICENSE",
+    "thirdPartyNotices": "video-talkcraft/assets/robonuggets-animate/THIRD-PARTY-NOTICES.md",
+    "originalMetadata": {
+      "key": "kling-airbnb-v8-painted-sunset",
+      "name": "Painted mountain sunset",
+      "category": "Broll",
+      "image": "assets/items/169-poster.png",
+      "componentClip": true,
+      "shareable": true,
+      "tags": [
+        "landscape",
+        "painted",
+        "mountains",
+        "sunset",
+        "kling"
+      ],
+      "provenance": {
+        "provider": "Kie AI",
+        "model": "kling-3.0/video",
+        "mode": "pro",
+        "duration": 5,
+        "aspectRatio": "16:9",
+        "sound": false,
+        "taskId": "6319fca60f87820f71ee46e2b36ac89b",
+        "costUSD": 0.45,
+        "source": "Four native-painted image layers, composed in HTML as the starting frame"
+      },
+      "links": [
+        {
+          "label": "Animated scene preview",
+          "path": "assets/items/168-painted-sunset.mp4"
+        },
+        {
+          "label": "Image / SVG source",
+          "path": "assets/items/169-poster.png"
+        }
+      ],
+      "status": "Reusable",
+      "sha256": "508697e3f84897d31ae92ffba9be22cc9e0d585848f71af600383a537c673319",
+      "id": "asset-185",
+      "video": "assets/items/168-painted-sunset.mp4"
+    }
+  },
+  "format": "影片"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "138c5b05be48204ebe2bb1e3137ce755fca5be13b10e79b320d4d06c7b93a0e6",
+  "image": "image-library/objects/a601b0a7c5db6855854141def601246fbcc3bf663396977ceaac9129de5f17cf.webp",
+  "sha256": "a601b0a7c5db6855854141def601246fbcc3bf663396977ceaac9129de5f17cf",
+  "name": "scarcity-moat",
+  "project": "projects/test-project2/talkcraft-remake",
+  "design": "gary-chen",
+  "category": "概念插畫",
+  "tags": [
+    "護城河",
+    "稀缺",
+    "估值"
+  ],
+  "provider": "openai",
+  "model": "gpt-image-2.5-sunburst",
+  "prompt": "Flat vector editorial illustration for a Traditional Chinese technology-finance explainer. Canvas uniformly filled with charcoal #252525. Simple bold geometric forms, warm amber orange #ed9640 as the single focal accent, controlled steel blue #669cdb as secondary, pale warm white #f5f4f1 line accents. Low visual noise, no text, no numbers, no logos, no brand marks, no watermarks. Centered single subject with ample margin and a clean dark perimeter that blends into a dark video backdrop.\n\nTwo contrasting forms side by side. Left: a solid wide stone wall with a thick water moat around it, sturdy and permanent. Right: a thin fragile outline of the same wall with the water simply draining away through an open channel. Same palette, same scale. Editorial metaphor for scarcity premium versus a real moat."
+}

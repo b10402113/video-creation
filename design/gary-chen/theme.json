@@ -1,0 +1,7 @@
+{
+  "name": "炭灰 × 橘色焦點",
+  "colors": {"background":"#252525","panel":"#323232","ink":"#f5f4f1","muted":"#aeaaa5","accent":"#ed9640","secondary":"#669cdb","success":"#53c49c","line":"#494847","caption":"#0b0b0c","paper":"#fffaf1"},
+  "font": {"sans":"PingFang TC, Heiti TC, Noto Sans CJK TC, sans-serif","mono":"Menlo, SFMono-Regular, monospace"},
+  "subtitle": {"size":42,"bottom":60,"radius":7,"maxWidth":1480},
+  "motion": {"push":1.04}
+}

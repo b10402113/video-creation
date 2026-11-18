@@ -1,0 +1,17 @@
+{
+  "id": "6ad3fbb7e1be51441e664f31e4cd3d69c240c2d728d357becf6abd4cee8a6545",
+  "image": "image-library/objects/47412a16808086e45754ae50d42312f19f500fb72da742564f597de9dd378904.webp",
+  "sha256": "47412a16808086e45754ae50d42312f19f500fb72da742564f597de9dd378904",
+  "name": "night-market",
+  "project": "projects/stock-volume/talkcraft-remake",
+  "design": "gary-chen",
+  "category": "開場意象",
+  "tags": [
+    "台灣夜市",
+    "雞排攤",
+    "排隊"
+  ],
+  "provider": "openai",
+  "model": "gpt-image-2.5-sunburst",
+  "prompt": "Flat vector editorial illustration for a Traditional Chinese technology-finance explainer. Canvas uniformly filled with charcoal #252525. Simple bold geometric forms, warm amber orange #ed9640 as the single focal accent, controlled steel blue #669cdb as secondary, pale warm white #f5f4f1 line accents. Low visual noise, no text, no numbers, no logos, no brand marks, no watermarks. Centered single subject with ample margin and a clean dark perimeter that blends into a dark video backdrop.\n\nA single Taiwanese fried-chicken stall under a striped amber canopy, with three small, simplified silhouettes in a short receding queue connected to the stall as one compact object group. Amber counter light, muted-blue shadows, a small warm-white paper bag at the counter. Wide margins of solid charcoal around the stall and queue. Use flat geometric shapes and one quiet composition."
+}

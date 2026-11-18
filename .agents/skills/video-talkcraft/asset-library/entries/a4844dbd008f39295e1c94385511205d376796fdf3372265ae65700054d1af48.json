@@ -1,0 +1,117 @@
+{
+  "id": "a4844dbd008f39295e1c94385511205d376796fdf3372265ae65700054d1af48",
+  "kind": "model",
+  "title": "Claude Code 3D chat app",
+  "tag": "3D 模型",
+  "summary": "Editable beveled app window with authentic Claude Code mascot, prompt typing, and separate landscape/portrait geometry. Illustrative component, not a recording.",
+  "semantic": "3D 模型 · 3D objects · 3D · app · chat · typing · editable · GLB · claude-code · 16:9 · 9:16",
+  "source": "video-talkcraft/assets/robonuggets-animate/assets/app-components/app-chat-3d-v1/models/claude-code-landscape.glb",
+  "doc": "references/robonuggets-animate.md",
+  "thumb": "video-talkcraft/assets/robonuggets-animate/assets/app-components/app-chat-3d-v1/previews/claude-code-landscape/poster.png",
+  "image": "video-talkcraft/assets/robonuggets-animate/assets/app-components/app-chat-3d-v1/previews/claude-code-landscape/poster.png",
+  "audio": "",
+  "video": "video-talkcraft/assets/robonuggets-animate/assets/items/125-preview.mp4",
+  "demo": "video-talkcraft/assets/robonuggets-animate/assets/app-components/app-chat-3d-v1/previews/claude-code-landscape/index.html",
+  "extraLinks": [
+    [
+      "Animated scene preview",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/125-preview.mp4"
+    ],
+    [
+      "Editable animated scene",
+      "video-talkcraft/assets/robonuggets-animate/assets/app-components/app-chat-3d-v1/previews/claude-code-landscape/index.html"
+    ],
+    [
+      "Source reuse guide",
+      "video-talkcraft/assets/robonuggets-animate/assets/app-components/app-chat-3d-v1/README.md"
+    ],
+    [
+      "Editable GLB",
+      "video-talkcraft/assets/robonuggets-animate/assets/app-components/app-chat-3d-v1/models/claude-code-landscape.glb"
+    ],
+    [
+      "Image / SVG source",
+      "video-talkcraft/assets/robonuggets-animate/assets/app-components/app-chat-3d-v1/previews/claude-code-landscape/poster.png"
+    ]
+  ],
+  "provenance": {
+    "name": "Animate contributors (RoboNuggets)",
+    "sourceId": "asset-155",
+    "archiveSha256": "dcadcdfe35557359eca1efd9e3ba254ed9f52652927e962f250c1707c2f320e3",
+    "licenseFile": "video-talkcraft/assets/robonuggets-animate/LICENSE",
+    "thirdPartyNotices": "video-talkcraft/assets/robonuggets-animate/THIRD-PARTY-NOTICES.md",
+    "originalMetadata": {
+      "key": "app-chat-3d-v1-claude-code",
+      "category": "3D objects",
+      "name": "Claude Code 3D chat app",
+      "description": "Editable beveled app window with authentic Claude Code mascot, prompt typing, and separate landscape/portrait geometry. Illustrative component, not a recording.",
+      "status": "Reusable",
+      "engine": "AppChat3D",
+      "enginePath": "assets/app-components/app-chat-3d-v1/app-chat-3d.bundle.js",
+      "kind": "claude-code",
+      "appConfig": {
+        "pass": 3,
+        "prompt": "Build a launch page."
+      },
+      "image": "assets/app-components/app-chat-3d-v1/previews/claude-code-landscape/poster.png",
+      "model": "assets/app-components/app-chat-3d-v1/models/claude-code-landscape.glb",
+      "aspectVariants": {
+        "wide": {
+          "html": "assets/app-components/app-chat-3d-v1/previews/claude-code-landscape/index.html",
+          "image": "assets/app-components/app-chat-3d-v1/previews/claude-code-landscape/poster.png",
+          "video": "assets/app-components/app-chat-3d-v1/previews/claude-code-landscape/preview.mp4",
+          "model": "assets/app-components/app-chat-3d-v1/models/claude-code-landscape.glb"
+        },
+        "portrait": {
+          "html": "assets/app-components/app-chat-3d-v1/previews/claude-code-portrait/index.html",
+          "image": "assets/app-components/app-chat-3d-v1/previews/claude-code-portrait/poster.png",
+          "video": "assets/app-components/app-chat-3d-v1/previews/claude-code-portrait/preview.mp4",
+          "model": "assets/app-components/app-chat-3d-v1/models/claude-code-portrait.glb"
+        }
+      },
+      "componentClip": true,
+      "componentPortableRoot": "assets/app-components/app-chat-3d-v1",
+      "componentPortableHtml": "assets/app-components/app-chat-3d-v1/previews/claude-code-landscape/index.html",
+      "shareable": true,
+      "tags": [
+        "3D",
+        "app",
+        "chat",
+        "typing",
+        "editable",
+        "GLB",
+        "claude-code",
+        "16:9",
+        "9:16"
+      ],
+      "rightsNote": "Illustrative app model. Authentic LobeHub SVG identities retain MIT license and trademark rights. Outfit is SIL OFL and Three.js is MIT; no endorsement implied.",
+      "links": [
+        {
+          "label": "Animated scene preview",
+          "path": "assets/items/125-preview.mp4"
+        },
+        {
+          "label": "Editable animated scene",
+          "path": "assets/app-components/app-chat-3d-v1/previews/claude-code-landscape/index.html"
+        },
+        {
+          "label": "Source reuse guide",
+          "path": "assets/app-components/app-chat-3d-v1/README.md"
+        },
+        {
+          "label": "Editable GLB",
+          "path": "assets/app-components/app-chat-3d-v1/models/claude-code-landscape.glb"
+        },
+        {
+          "label": "Image / SVG source",
+          "path": "assets/app-components/app-chat-3d-v1/previews/claude-code-landscape/poster.png"
+        }
+      ],
+      "sha256": "421a1fb270eba7c795f94abfec1faba0aaf11d4efa4843fd2446617d4e6474e1",
+      "id": "asset-155",
+      "video": "assets/items/125-preview.mp4",
+      "html": "assets/app-components/app-chat-3d-v1/previews/claude-code-landscape/index.html"
+    }
+  },
+  "format": "GLB／3D"
+}

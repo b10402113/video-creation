@@ -1,0 +1,62 @@
+{
+  "id": "1d3354efddb48d9a705edea7e782c7e96b2897bb27df0dc440b94a1f18655a3f",
+  "kind": "model",
+  "title": "Claude Code mascot",
+  "tag": "3D 模型",
+  "summary": "SCULPTED PIXELS / SOFT TERRACOTTA",
+  "semantic": "3D 模型 · 3D objects · 3D · GLB · editable · shine · shimmer",
+  "source": "video-talkcraft/assets/robonuggets-animate/assets/items/002-object.glb",
+  "doc": "references/robonuggets-animate.md",
+  "thumb": "video-talkcraft/assets/robonuggets-animate/assets/items/001-transparent-object.png",
+  "image": "video-talkcraft/assets/robonuggets-animate/assets/items/001-transparent-object.png",
+  "audio": "",
+  "video": "",
+  "demo": "video-talkcraft/assets/robonuggets-animate/library/index.html#category=3D+objects&q=Claude+Code+mascot",
+  "extraLinks": [
+    [
+      "Editable GLB",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/002-object.glb"
+    ],
+    [
+      "Image / SVG source",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/001-transparent-object.png"
+    ]
+  ],
+  "provenance": {
+    "name": "Animate contributors (RoboNuggets)",
+    "sourceId": "asset-0",
+    "archiveSha256": "dcadcdfe35557359eca1efd9e3ba254ed9f52652927e962f250c1707c2f320e3",
+    "licenseFile": "video-talkcraft/assets/robonuggets-animate/LICENSE",
+    "thirdPartyNotices": "video-talkcraft/assets/robonuggets-animate/THIRD-PARTY-NOTICES.md",
+    "originalMetadata": {
+      "category": "3D objects",
+      "engine": "Brand3D",
+      "enginePath": "assets/items/003-brand-engine.bundle.js",
+      "kind": "mascot",
+      "name": "Claude Code mascot",
+      "description": "SCULPTED PIXELS / SOFT TERRACOTTA",
+      "status": "Reusable",
+      "image": "assets/items/001-transparent-object.png",
+      "model": "assets/items/002-object.glb",
+      "tags": [
+        "3D",
+        "GLB",
+        "editable",
+        "shine",
+        "shimmer"
+      ],
+      "links": [
+        {
+          "label": "Editable GLB",
+          "path": "assets/items/002-object.glb"
+        },
+        {
+          "label": "Image / SVG source",
+          "path": "assets/items/001-transparent-object.png"
+        }
+      ],
+      "id": "asset-0"
+    }
+  },
+  "format": "GLB／3D"
+}

@@ -1,0 +1,59 @@
+{
+  "source": "https://www.youtube.com/watch?v=ZJkfmrbmuFg&t=1s",
+  "sampling": "first source frame at or after requested time",
+  "columns": 3,
+  "rows_per_page": 2,
+  "sheets": [
+    "sheet-001.jpg"
+  ],
+  "frames": [
+    {
+      "seconds": 3.0,
+      "timecode": "0:03",
+      "sheet": "sheet-001.jpg",
+      "row": 1,
+      "column": 1,
+      "frame": "frames/00001.jpg"
+    },
+    {
+      "seconds": 5.0,
+      "timecode": "0:05",
+      "sheet": "sheet-001.jpg",
+      "row": 1,
+      "column": 2,
+      "frame": "frames/00002.jpg"
+    },
+    {
+      "seconds": 7.0,
+      "timecode": "0:07",
+      "sheet": "sheet-001.jpg",
+      "row": 1,
+      "column": 3,
+      "frame": "frames/00003.jpg"
+    },
+    {
+      "seconds": 9.0,
+      "timecode": "0:09",
+      "sheet": "sheet-001.jpg",
+      "row": 2,
+      "column": 1,
+      "frame": "frames/00004.jpg"
+    },
+    {
+      "seconds": 11.0,
+      "timecode": "0:11",
+      "sheet": "sheet-001.jpg",
+      "row": 2,
+      "column": 2,
+      "frame": "frames/00005.jpg"
+    },
+    {
+      "seconds": 22.0,
+      "timecode": "0:22",
+      "sheet": "sheet-001.jpg",
+      "row": 2,
+      "column": 3,
+      "frame": "frames/00006.jpg"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "id": "1ae482ce5903f9a3ba55c24e0460afd2faa85cf1e1fb608a6e683001ca0b4e5d",
+  "kind": "animation",
+  "title": "Numbered-input convergence",
+  "tag": "資訊圖表",
+  "summary": "Three numbered inputs converge into a code-file installer, with individual entrances and routed signals.",
+  "semantic": "資訊圖表 · Infographics · pattern · editable · sequential · 16:9 · 9:16 · numbered",
+  "source": "video-talkcraft/assets/robonuggets-animate/assets/patterns/pattern-engine.js",
+  "doc": "references/robonuggets-animate.md",
+  "thumb": "video-talkcraft/assets/robonuggets-animate/assets/items/038-numbered.svg",
+  "image": "video-talkcraft/assets/robonuggets-animate/assets/items/038-numbered.svg",
+  "audio": "",
+  "video": "",
+  "demo": "video-talkcraft/assets/robonuggets-animate/assets/patterns/numbered.html",
+  "extraLinks": [
+    [
+      "Image / SVG source",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/038-numbered.svg"
+    ],
+    [
+      "Reusable pattern source",
+      "video-talkcraft/assets/robonuggets-animate/assets/patterns/pattern-engine.js"
+    ],
+    [
+      "Editable configuration",
+      "video-talkcraft/assets/robonuggets-animate/assets/patterns/numbered.json"
+    ],
+    [
+      "Integration guide",
+      "video-talkcraft/assets/robonuggets-animate/assets/patterns/README.md"
+    ]
+  ],
+  "provenance": {
+    "name": "Animate contributors (RoboNuggets)",
+    "sourceId": "asset-73",
+    "archiveSha256": "dcadcdfe35557359eca1efd9e3ba254ed9f52652927e962f250c1707c2f320e3",
+    "licenseFile": "video-talkcraft/assets/robonuggets-animate/LICENSE",
+    "thirdPartyNotices": "video-talkcraft/assets/robonuggets-animate/THIRD-PARTY-NOTICES.md",
+    "originalMetadata": {
+      "category": "Infographics",
+      "name": "Numbered-input convergence",
+      "description": "Three numbered inputs converge into a code-file installer, with individual entrances and routed signals.",
+      "status": "Reusable",
+      "pattern": "numbered",
+      "patternConfig": {
+        "title": "Numbered-input convergence",
+        "output": "Installer",
+        "outputIcon": "code",
+        "items": [
+          {
+            "label": "Draft",
+            "icon": "article"
+          },
+          {
+            "label": "Theme",
+            "icon": "design"
+          },
+          {
+            "label": "Logic",
+            "icon": "code"
+          }
+        ]
+      },
+      "patternEnginePath": "assets/patterns/pattern-engine.js",
+      "image": "assets/items/038-numbered.svg",
+      "tags": [
+        "pattern",
+        "editable",
+        "sequential",
+        "16:9",
+        "9:16",
+        "numbered"
+      ],
+      "links": [
+        {
+          "label": "Image / SVG source",
+          "path": "assets/items/038-numbered.svg"
+        },
+        {
+          "label": "Reusable pattern source",
+          "path": "assets/patterns/pattern-engine.js"
+        },
+        {
+          "label": "Editable configuration",
+          "path": "assets/patterns/numbered.json"
+        },
+        {
+          "label": "Integration guide",
+          "path": "assets/patterns/README.md"
+        }
+      ],
+      "id": "asset-73",
+      "html": "assets/patterns/numbered.html"
+    }
+  },
+  "format": "HTML／GSAP 參考"
+}

@@ -1,0 +1,98 @@
+{
+  "id": "f7a91cf56a2df480f76f24d18fe80df653c7ca00c93869b544b4926089f44aeb",
+  "kind": "animation",
+  "title": "Generated image burst",
+  "tag": "動畫效果",
+  "summary": "Three editable image slots, shown once each with a click per change. These are explicit placeholders, not generated artwork or captured resources. Supply up to three fresh GPT Image 2 concepts.",
+  "semantic": "動畫效果 · Motion · pattern · editable · sequential · 16:9 · 9:16 · burst",
+  "source": "video-talkcraft/assets/robonuggets-animate/assets/patterns/pattern-engine.js",
+  "doc": "references/robonuggets-animate.md",
+  "thumb": "video-talkcraft/assets/robonuggets-animate/assets/items/041-burst.svg",
+  "image": "video-talkcraft/assets/robonuggets-animate/assets/items/041-burst.svg",
+  "audio": "",
+  "video": "",
+  "demo": "video-talkcraft/assets/robonuggets-animate/assets/patterns/burst.html",
+  "extraLinks": [
+    [
+      "Image / SVG source",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/041-burst.svg"
+    ],
+    [
+      "Reusable pattern source",
+      "video-talkcraft/assets/robonuggets-animate/assets/patterns/pattern-engine.js"
+    ],
+    [
+      "Editable configuration",
+      "video-talkcraft/assets/robonuggets-animate/assets/patterns/burst.json"
+    ],
+    [
+      "Integration guide",
+      "video-talkcraft/assets/robonuggets-animate/assets/patterns/README.md"
+    ]
+  ],
+  "provenance": {
+    "name": "Animate contributors (RoboNuggets)",
+    "sourceId": "asset-76",
+    "archiveSha256": "dcadcdfe35557359eca1efd9e3ba254ed9f52652927e962f250c1707c2f320e3",
+    "licenseFile": "video-talkcraft/assets/robonuggets-animate/LICENSE",
+    "thirdPartyNotices": "video-talkcraft/assets/robonuggets-animate/THIRD-PARTY-NOTICES.md",
+    "originalMetadata": {
+      "category": "Motion",
+      "name": "Generated image burst",
+      "description": "Three editable image slots, shown once each with a click per change. These are explicit placeholders, not generated artwork or captured resources. Supply up to three fresh GPT Image 2 concepts.",
+      "status": "Reusable",
+      "pattern": "burst",
+      "patternConfig": {
+        "title": "Generated image burst",
+        "items": [
+          {
+            "label": "Concept one",
+            "icon": "design",
+            "image": ""
+          },
+          {
+            "label": "Concept two",
+            "icon": "camera",
+            "image": ""
+          },
+          {
+            "label": "Concept three",
+            "icon": "article",
+            "image": ""
+          }
+        ]
+      },
+      "patternEnginePath": "assets/patterns/pattern-engine.js",
+      "image": "assets/items/041-burst.svg",
+      "tags": [
+        "pattern",
+        "editable",
+        "sequential",
+        "16:9",
+        "9:16",
+        "burst"
+      ],
+      "links": [
+        {
+          "label": "Image / SVG source",
+          "path": "assets/items/041-burst.svg"
+        },
+        {
+          "label": "Reusable pattern source",
+          "path": "assets/patterns/pattern-engine.js"
+        },
+        {
+          "label": "Editable configuration",
+          "path": "assets/patterns/burst.json"
+        },
+        {
+          "label": "Integration guide",
+          "path": "assets/patterns/README.md"
+        }
+      ],
+      "id": "asset-76",
+      "html": "assets/patterns/burst.html"
+    }
+  },
+  "format": "HTML／GSAP 參考"
+}

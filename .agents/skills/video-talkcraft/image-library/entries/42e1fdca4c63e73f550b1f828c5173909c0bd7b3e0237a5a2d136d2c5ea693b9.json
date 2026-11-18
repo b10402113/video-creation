@@ -1,0 +1,16 @@
+{
+  "id": "42e1fdca4c63e73f550b1f828c5173909c0bd7b3e0237a5a2d136d2c5ea693b9",
+  "image": "image-library/objects/01d6d709590fa3f9cb48698ed52d75434f9e354ce05d9c62f7e7990ccc5c50dd.webp",
+  "sha256": "01d6d709590fa3f9cb48698ed52d75434f9e354ce05d9c62f7e7990ccc5c50dd",
+  "name": "morning-spark",
+  "project": "projects/test-project/talkcraft-remake",
+  "design": "gary-chen",
+  "category": "概念插畫",
+  "tags": [
+    "靈感",
+    "睡眠"
+  ],
+  "provider": "openai",
+  "model": "gpt-image-2.5-sunburst",
+  "prompt": "Flat vector-like illustration for a Taiwanese technology explainer. Canvas uniformly filled with charcoal #1b1b1e. Simple graphic forms, warm burnt orange #eb7e48 with controlled electric blue #467ecb and pale white accents. Little visual noise, no writing, no numbers, no brands, no watermarks. Centered subject with ample margin and a perfectly clean dark perimeter that can be blended into a dark video backdrop.\n\nBlue silhouette of a human head in profile, with one tiny focused orange glowing light bulb near the temple and delicate short rays. A visual metaphor for suddenly having an idea after sleeping."
+}

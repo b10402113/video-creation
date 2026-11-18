@@ -1,0 +1,75 @@
+{
+  "id": "ad8cdff583bef5a75a4376d7738cf9671e4e97a0ec86adc0a370963d2d57ee5f",
+  "kind": "animation",
+  "title": "MindMarket Customer Journey",
+  "tag": "資訊圖表",
+  "summary": "",
+  "semantic": "資訊圖表 · Infographics · 04-mindmarket · landscape · editable",
+  "source": "video-talkcraft/assets/robonuggets-animate/assets/items/130-customer-journey.svg",
+  "doc": "references/robonuggets-animate.md",
+  "thumb": "video-talkcraft/assets/robonuggets-animate/assets/items/131-journey-poster.png",
+  "image": "video-talkcraft/assets/robonuggets-animate/assets/items/131-journey-poster.png",
+  "audio": "",
+  "video": "video-talkcraft/assets/robonuggets-animate/assets/items/129-journey-component.mp4",
+  "demo": "video-talkcraft/assets/robonuggets-animate/assets/items/129-journey-component.mp4",
+  "extraLinks": [
+    [
+      "Animated scene preview",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/129-journey-component.mp4"
+    ],
+    [
+      "Editable SVG artwork",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/130-customer-journey.svg"
+    ],
+    [
+      "Image / SVG source",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/131-journey-poster.png"
+    ]
+  ],
+  "provenance": {
+    "name": "Animate contributors (RoboNuggets)",
+    "sourceId": "asset-163",
+    "archiveSha256": "dcadcdfe35557359eca1efd9e3ba254ed9f52652927e962f250c1707c2f320e3",
+    "licenseFile": "video-talkcraft/assets/robonuggets-animate/LICENSE",
+    "thirdPartyNotices": "video-talkcraft/assets/robonuggets-animate/THIRD-PARTY-NOTICES.md",
+    "originalMetadata": {
+      "key": "brand-v7-04-mindmarket-component-1",
+      "name": "MindMarket Customer Journey",
+      "category": "Infographics",
+      "image": "assets/items/131-journey-poster.png",
+      "componentClip": true,
+      "componentSvg": "assets/items/130-customer-journey.svg",
+      "shareable": true,
+      "tags": [
+        "04-mindmarket",
+        "landscape",
+        "editable"
+      ],
+      "provenance": {
+        "source": "Brand studies v7",
+        "duration": 4,
+        "start": 3,
+        "end": 7
+      },
+      "links": [
+        {
+          "label": "Animated scene preview",
+          "path": "assets/items/129-journey-component.mp4"
+        },
+        {
+          "label": "Editable SVG artwork",
+          "path": "assets/items/130-customer-journey.svg"
+        },
+        {
+          "label": "Image / SVG source",
+          "path": "assets/items/131-journey-poster.png"
+        }
+      ],
+      "status": "Reusable",
+      "sha256": "b43dce9aee77a7203a4e51ee762013d76eb806ae64878456b15f7f11105d7b7b",
+      "id": "asset-163",
+      "video": "assets/items/129-journey-component.mp4"
+    }
+  },
+  "format": "HTML／GSAP 參考"
+}

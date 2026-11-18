@@ -1,0 +1,17 @@
+{
+  "id": "f0f7c9a07002bb91e296edd2f9070539ebef07d4a24c31edc0819ab0ffd92b6c",
+  "image": "image-library/objects/90f1f8c7cc4ddc5cbef4734440f4e0884dfaac05067b1115988c98751990c2b2.webp",
+  "sha256": "90f1f8c7cc4ddc5cbef4734440f4e0884dfaac05067b1115988c98751990c2b2",
+  "name": "four-foundations",
+  "project": "projects/test-project2/talkcraft-remake",
+  "design": "gary-chen",
+  "category": "概念插畫",
+  "tags": [
+    "四層",
+    "架構",
+    "估值"
+  ],
+  "provider": "openai",
+  "model": "gpt-image-2.5-sunburst",
+  "prompt": "Flat vector editorial illustration for a Traditional Chinese technology-finance explainer. Canvas uniformly filled with charcoal #252525. Simple bold geometric forms, warm amber orange #ed9640 as the single focal accent, controlled steel blue #669cdb as secondary, pale warm white #f5f4f1 line accents. Low visual noise, no text, no numbers, no logos, no brand marks, no watermarks. Centered single subject with ample margin and a clean dark perimeter that blends into a dark video backdrop.\n\nA clean cross-section of a four-storey narrow building: the bottom floor is the largest and most solid with amber orange structure, the three floors above get progressively smaller and paler with steel blue. No windows detail, no text. Flat vector architectural diagram metaphor for four layers of valuation."
+}

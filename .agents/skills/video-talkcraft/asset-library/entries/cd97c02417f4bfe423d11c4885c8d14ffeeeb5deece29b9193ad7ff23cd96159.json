@@ -1,0 +1,42 @@
+{
+  "id": "cd97c02417f4bfe423d11c4885c8d14ffeeeb5deece29b9193ad7ff23cd96159",
+  "kind": "animation",
+  "title": "SWELL",
+  "tag": "背景",
+  "summary": "Animated dot matrix from the ROBO background library.",
+  "semantic": "背景 · Backgrounds · dot matrix · robo · animated · swell · 動態點陣",
+  "source": "video-talkcraft/assets/robonuggets-animate/assets/items/075-robo-backgrounds.js",
+  "doc": "references/robonuggets-animate.md",
+  "thumb": "",
+  "image": "",
+  "audio": "",
+  "video": "",
+  "demo": "video-talkcraft/assets/robonuggets-animate/library/index.html#category=Backgrounds&q=SWELL",
+  "extraLinks": [],
+  "provenance": {
+    "name": "Animate contributors (RoboNuggets)",
+    "sourceId": "asset-115",
+    "archiveSha256": "dcadcdfe35557359eca1efd9e3ba254ed9f52652927e962f250c1707c2f320e3",
+    "licenseFile": "video-talkcraft/assets/robonuggets-animate/LICENSE",
+    "thirdPartyNotices": "video-talkcraft/assets/robonuggets-animate/THIRD-PARTY-NOTICES.md",
+    "originalMetadata": {
+      "key": "robo-bg-swell",
+      "category": "Backgrounds",
+      "name": "SWELL",
+      "description": "Animated dot matrix from the ROBO background library.",
+      "status": "Reusable",
+      "demo": "dots",
+      "backgroundKind": "swell",
+      "backgroundEnginePath": "assets/items/075-robo-backgrounds.js",
+      "tags": [
+        "dot matrix",
+        "robo",
+        "animated",
+        "swell"
+      ],
+      "links": [],
+      "id": "asset-115"
+    }
+  },
+  "format": "HTML／GSAP 參考"
+}

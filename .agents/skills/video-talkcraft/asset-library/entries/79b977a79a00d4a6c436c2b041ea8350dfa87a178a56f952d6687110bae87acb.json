@@ -1,0 +1,84 @@
+{
+  "id": "79b977a79a00d4a6c436c2b041ea8350dfa87a178a56f952d6687110bae87acb",
+  "kind": "animation",
+  "title": "Icon Title",
+  "tag": "主標與數字",
+  "summary": "A dominant tool-specific icon with a large centred Copernicus title. Icon and title enter separately with sharp eased motion and blur.",
+  "semantic": "主標與數字 · Hero text · pattern · editable · sequential · 16:9 · 9:16 · icon-title",
+  "source": "video-talkcraft/assets/robonuggets-animate/assets/patterns/pattern-engine.js",
+  "doc": "references/robonuggets-animate.md",
+  "thumb": "video-talkcraft/assets/robonuggets-animate/assets/items/040-icon-title.svg",
+  "image": "video-talkcraft/assets/robonuggets-animate/assets/items/040-icon-title.svg",
+  "audio": "",
+  "video": "",
+  "demo": "video-talkcraft/assets/robonuggets-animate/assets/patterns/icon-title.html",
+  "extraLinks": [
+    [
+      "Image / SVG source",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/040-icon-title.svg"
+    ],
+    [
+      "Reusable pattern source",
+      "video-talkcraft/assets/robonuggets-animate/assets/patterns/pattern-engine.js"
+    ],
+    [
+      "Editable configuration",
+      "video-talkcraft/assets/robonuggets-animate/assets/patterns/icon-title.json"
+    ],
+    [
+      "Integration guide",
+      "video-talkcraft/assets/robonuggets-animate/assets/patterns/README.md"
+    ]
+  ],
+  "provenance": {
+    "name": "Animate contributors (RoboNuggets)",
+    "sourceId": "asset-75",
+    "archiveSha256": "dcadcdfe35557359eca1efd9e3ba254ed9f52652927e962f250c1707c2f320e3",
+    "licenseFile": "video-talkcraft/assets/robonuggets-animate/LICENSE",
+    "thirdPartyNotices": "video-talkcraft/assets/robonuggets-animate/THIRD-PARTY-NOTICES.md",
+    "originalMetadata": {
+      "category": "Hero text",
+      "name": "Icon Title",
+      "description": "A dominant tool-specific icon with a large centred Copernicus title. Icon and title enter separately with sharp eased motion and blur.",
+      "status": "Reusable",
+      "pattern": "icon-title",
+      "patternConfig": {
+        "title": "Icon Title",
+        "output": "Your tool",
+        "outputIcon": "tools",
+        "items": []
+      },
+      "patternEnginePath": "assets/patterns/pattern-engine.js",
+      "image": "assets/items/040-icon-title.svg",
+      "tags": [
+        "pattern",
+        "editable",
+        "sequential",
+        "16:9",
+        "9:16",
+        "icon-title"
+      ],
+      "links": [
+        {
+          "label": "Image / SVG source",
+          "path": "assets/items/040-icon-title.svg"
+        },
+        {
+          "label": "Reusable pattern source",
+          "path": "assets/patterns/pattern-engine.js"
+        },
+        {
+          "label": "Editable configuration",
+          "path": "assets/patterns/icon-title.json"
+        },
+        {
+          "label": "Integration guide",
+          "path": "assets/patterns/README.md"
+        }
+      ],
+      "id": "asset-75",
+      "html": "assets/patterns/icon-title.html"
+    }
+  },
+  "format": "HTML／GSAP 參考"
+}

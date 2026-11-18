@@ -1,0 +1,78 @@
+{
+  "id": "f3e5a9975b1970405343f82001693fcfcd8ab71c531397948713b6194a6ef24f",
+  "kind": "audio",
+  "title": "Precision click",
+  "tag": "音效",
+  "summary": "Single crisp click for a screenshot change. 0.115 seconds. Audition before selecting.",
+  "semantic": "音效 · Sound effects · audio · sound effect · CC0 · click_001",
+  "source": "video-talkcraft/assets/robonuggets-animate/assets/items/060-click_001.wav",
+  "doc": "references/robonuggets-animate.md",
+  "thumb": "",
+  "image": "",
+  "audio": "video-talkcraft/assets/robonuggets-animate/assets/items/060-click_001.wav",
+  "video": "",
+  "demo": "video-talkcraft/assets/robonuggets-animate/assets/sound-effects/index.html",
+  "extraLinks": [
+    [
+      "Source manifest",
+      "video-talkcraft/assets/robonuggets-animate/assets/sound-effects/manifest.json"
+    ],
+    [
+      "License",
+      "video-talkcraft/assets/robonuggets-animate/assets/sound-effects/LICENSE-Kenney.txt"
+    ],
+    [
+      "Audition and select all sounds",
+      "video-talkcraft/assets/robonuggets-animate/assets/sound-effects/index.html"
+    ],
+    [
+      "Download WAV",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/060-click_001.wav"
+    ]
+  ],
+  "provenance": {
+    "name": "Animate contributors (RoboNuggets)",
+    "sourceId": "asset-95",
+    "archiveSha256": "dcadcdfe35557359eca1efd9e3ba254ed9f52652927e962f250c1707c2f320e3",
+    "licenseFile": "video-talkcraft/assets/robonuggets-animate/LICENSE",
+    "thirdPartyNotices": "video-talkcraft/assets/robonuggets-animate/THIRD-PARTY-NOTICES.md",
+    "originalMetadata": {
+      "category": "Sound effects",
+      "name": "Precision click",
+      "description": "Single crisp click for a screenshot change. 0.115 seconds. Audition before selecting.",
+      "status": "Reusable",
+      "audio": "assets/items/060-click_001.wav",
+      "tags": [
+        "audio",
+        "sound effect",
+        "CC0",
+        "click_001"
+      ],
+      "license": "CC0-1.0",
+      "publicAsset": true,
+      "duration": 0.115,
+      "links": [
+        {
+          "label": "Source manifest",
+          "path": "assets/sound-effects/manifest.json"
+        },
+        {
+          "label": "License",
+          "path": "assets/sound-effects/LICENSE-Kenney.txt"
+        },
+        {
+          "label": "Audition and select all sounds",
+          "path": "assets/sound-effects/index.html"
+        },
+        {
+          "label": "Download WAV",
+          "path": "assets/items/060-click_001.wav"
+        }
+      ],
+      "id": "asset-95",
+      "external": "https://kenney.nl/assets/interface-sounds",
+      "html": "assets/sound-effects/index.html"
+    }
+  },
+  "format": "音效"
+}

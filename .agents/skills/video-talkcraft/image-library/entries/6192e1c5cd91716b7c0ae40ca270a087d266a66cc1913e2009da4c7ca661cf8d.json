@@ -1,0 +1,62 @@
+{
+  "id": "6192e1c5cd91716b7c0ae40ca270a087d266a66cc1913e2009da4c7ca661cf8d",
+  "name": "Claude",
+  "project": "共用素材",
+  "design": "通用",
+  "category": "圖示與標誌",
+  "tags": [
+    "圖示與標誌",
+    "Icons",
+    "svg",
+    "brand",
+    "logo",
+    "claude-color"
+  ],
+  "provider": "imported",
+  "sourceFile": "video-talkcraft/assets/robonuggets-animate/assets/items/043-claude-color.svg",
+  "provenance": {
+    "name": "Animate contributors (RoboNuggets)",
+    "sourceId": "asset-78",
+    "archiveSha256": "dcadcdfe35557359eca1efd9e3ba254ed9f52652927e962f250c1707c2f320e3",
+    "licenseFile": "video-talkcraft/assets/robonuggets-animate/LICENSE",
+    "thirdPartyNotices": "video-talkcraft/assets/robonuggets-animate/THIRD-PARTY-NOTICES.md",
+    "originalMetadata": {
+      "category": "Icons",
+      "name": "Claude",
+      "description": "Claude sunburst. Faithful source SVG with transparent background.",
+      "status": "Reusable",
+      "image": "assets/items/043-claude-color.svg",
+      "tags": [
+        "svg",
+        "brand",
+        "logo",
+        "claude-color"
+      ],
+      "license": "MIT",
+      "rightsNote": "Brand trademarks belong to their respective owners. Repository artwork license does not grant trademark rights or endorsement.",
+      "publicAsset": true,
+      "links": [
+        {
+          "label": "Image / SVG source",
+          "path": "assets/items/043-claude-color.svg"
+        },
+        {
+          "label": "Source manifest",
+          "path": "assets/ai-logos/manifest.json"
+        },
+        {
+          "label": "License",
+          "path": "assets/ai-logos/LICENSE-LobeHub.txt"
+        }
+      ],
+      "id": "asset-78",
+      "external": "https://github.com/lobehub/lobe-icons"
+    },
+    "sourceSha256": "a3101f3047a119aa11825ad9369510f0c472428c8c52d420e31bc62db44a8364",
+    "changes": [
+      "SVG rendered to a 1200-pixel-wide transparent WebP for the shared image workflow; original SVG retained."
+    ]
+  },
+  "image": "image-library/objects/b3812c85950297574cb919407ac02948a7266b2ac09bb5129931ee9ba16d9c86.webp",
+  "sha256": "b3812c85950297574cb919407ac02948a7266b2ac09bb5129931ee9ba16d9c86"
+}

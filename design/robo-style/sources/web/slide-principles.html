@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Slide Principles — 15 rules that make a slide land</title>
+<meta name="description" content="15 research-backed principles that make a slide land, not just look good. By RoboNuggets.">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Doto:wght@400;600;700;900&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#f2efe8; --card:#f4f2f1; --card-ink:#1c1a16; --mini:#f2efe8; --black:#131311;
+    --ink:#1c1a16; --cream:#e8e2d2; --muted:#6f6a5c; --line:#dcd7cb; --orange:#ff6b1a; --wave:#1c1a16;
+  }
+  html[data-theme="dark"]{
+    --paper:#131311; --card:#242422; --card-ink:#e8e2d2; --mini:#f2efe8;
+    --ink:#e8e2d2; --muted:#8d8775; --line:#2f2d28; --wave:#e8e2d2;
+    color-scheme:dark;
+  }
+  html{ color-scheme:light; scroll-behavior:smooth; }
+  *{ margin:0; padding:0; box-sizing:border-box; }
+  body{ font-family:'Outfit',sans-serif; background:var(--paper); color:var(--ink); transition:background .3s,color .3s; overflow-x:hidden; }
+  /* TOPLINE /robo rule: Doto needs breathing room on BOTH edges */
+  .doto{ font-family:'Doto',monospace; font-weight:900; margin:0 0.18em; }
+  canvas#dotBg{ position:fixed; inset:0; width:100vw; height:100vh; z-index:0; pointer-events:none; }
+  .wrap{ position:relative; z-index:1; }
+
+  .hero{ min-height:90vh; display:flex; flex-direction:column; justify-content:center; align-items:center; text-align:center; padding:9vh 7vw 6vh; }
+  .hero .mark{ width:78px; height:78px; color:var(--orange); margin-bottom:22px; display:block; }
+  .hero h1{ font-weight:500; letter-spacing:-2.5px; line-height:1; font-size:clamp(46px,9vw,124px); }
+  .hero .tag{ font-weight:400; letter-spacing:7px; text-transform:uppercase; font-size:12.5px; color:var(--muted); margin-bottom:20px; }
+  .hero .sub{ font-weight:400; color:var(--muted); font-size:clamp(16px,1.7vw,21px); margin-top:24px; max-width:50ch; line-height:1.55; }
+  .hero .meta{ margin-top:28px; font-size:13px; letter-spacing:1px; color:var(--muted); }
+  .hero .meta b{ color:var(--orange); font-weight:600; }
+  .scroll-cue{ margin-top:44px; font-size:12px; letter-spacing:3px; text-transform:uppercase; color:var(--muted); opacity:.7; }
+
+  .toc{ position:sticky; top:0; z-index:20; background:color-mix(in srgb, var(--paper) 86%, transparent); backdrop-filter:blur(10px); border-top:1px solid var(--line); border-bottom:1px solid var(--line); }
+  .toc-inner{ max-width:1180px; margin:0 auto; display:flex; align-items:center; gap:10px; padding:11px 24px; flex-wrap:wrap; }
+  .toc .brand{ font-weight:600; letter-spacing:-0.5px; font-size:15px; margin-right:auto; }
+  .toc .brand .doto{ color:var(--orange); }
+  .toc a.chip{ text-decoration:none; color:var(--muted); font-size:12.5px; font-weight:500; padding:6px 12px; border:1.5px solid var(--line); border-radius:40px; transition:.2s; white-space:nowrap; }
+  .toc a.chip:hover{ color:var(--ink); border-color:var(--muted); }
+  .toc a.chip.active{ color:var(--orange); border-color:var(--orange); }
+  .tbtn{ background:none; border:1.5px solid var(--line); color:var(--muted); height:32px; padding:0 13px; border-radius:40px; cursor:pointer; display:flex; align-items:center; gap:7px; font-family:'Outfit'; font-size:12px; font-weight:500; letter-spacing:0.3px; }
+  .tbtn:hover{ color:var(--ink); border-color:var(--muted); }
+  .tbtn svg{ width:14px; height:14px; }
+
+  main{ max-width:1180px; margin:0 auto; padding:20px 24px 60px; }
+  .job{ padding-top:62px; }
+  .job-head{ display:flex; align-items:baseline; gap:16px; margin-bottom:24px; border-bottom:2px solid var(--ink); padding-bottom:15px; }
+  .job-head .jn{ font-family:'Doto',monospace; font-weight:900; font-size:clamp(30px,4vw,46px); color:var(--orange); line-height:1; margin:0 0.1em; }
+  .job-head .jt{ font-weight:500; font-size:clamp(22px,2.6vw,33px); letter-spacing:-1px; }
+  .job-head .jd{ margin-left:auto; color:var(--muted); font-size:13.5px; max-width:30ch; text-align:right; }
+
+  .grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:18px; }
+  @media(max-width:900px){ .grid{ grid-template-columns:1fr; } }
+  .card{ background:var(--card); color:var(--card-ink); border:1.5px solid var(--line); border-radius:5px; overflow:hidden; cursor:pointer; transition:transform .15s, box-shadow .15s, border-color .15s; display:flex; flex-direction:column; }
+  .card:hover{ transform:translateY(-3px); box-shadow:7px 7px 0 rgba(255,107,26,0.18); border-color:var(--orange); }
+  .mini{ height:148px; background:var(--mini); border-bottom:1.5px solid var(--line); display:flex; align-items:center; justify-content:center; gap:10px; position:relative; overflow:hidden; font-size:15px; }
+  .mini.black{ background:var(--black); }
+  .pnum{ position:absolute; top:8px; left:11px; font-family:'Doto',monospace; font-weight:900; font-size:15px; color:var(--muted); margin:0; }
+  .cbody{ padding:16px 17px 17px; }
+  .pname{ font-weight:500; font-size:18px; letter-spacing:-0.5px; line-height:1.16; }
+  .pname .doto{ color:var(--orange); }
+  .prule{ color:var(--muted); font-size:13.5px; line-height:1.45; margin-top:8px; }
+  .psrc{ font-size:11.5px; font-style:italic; color:var(--muted); margin-top:11px; }
+  .open-hint{ margin-top:12px; font-size:11px; letter-spacing:1.5px; text-transform:uppercase; color:var(--orange); font-weight:600; display:flex; align-items:center; gap:6px; }
+
+  /* mini content helpers */
+  .chips{ display:flex; flex-direction:column; gap:0.55em; align-items:center; }
+  .chip2{ border:2px solid; padding:0.36em 0.85em; font-weight:500; font-size:1.05em; letter-spacing:-0.5px; background:#faf8f2; color:#1c1a16; }
+  .chip2.cold{ border-color:#6f6a5c; color:#6f6a5c; }
+  .chip2.hot{ border-color:#ff6b1a; box-shadow:0.18em 0.18em 0 #ff6b1a; }
+  .chip2 .doto{ color:#ff6b1a; }
+  .starbig{ font-family:'Doto',monospace; font-weight:900; font-size:3.7em; color:#ff6b1a; line-height:1; margin:0; }
+
+  /* modal */
+  .modal{ position:fixed; inset:0; z-index:100; display:none; align-items:center; justify-content:center; padding:4vh 4vw; background:rgba(19,19,17,0.62); backdrop-filter:blur(6px); }
+  .modal.show{ display:flex; }
+  .mcard{ background:var(--paper); color:var(--ink); border:2px solid var(--ink); border-radius:6px; width:min(820px,94vw); max-height:92vh; overflow:auto; position:relative; box-shadow:14px 14px 0 rgba(255,107,26,0.25); }
+  .mart{ height:min(46vh,360px); background:var(--mini); display:flex; align-items:center; justify-content:center; gap:16px; border-bottom:2px solid var(--ink); font-size:26px; position:relative; }
+  .mart.black{ background:var(--black); }
+  .mbody{ padding:28px 34px 34px; }
+  .mjob{ font-weight:400; letter-spacing:4px; text-transform:uppercase; font-size:11.5px; color:var(--orange); }
+  .mname{ font-weight:500; font-size:clamp(26px,3.4vw,40px); letter-spacing:-1.2px; line-height:1.08; margin-top:10px; }
+  .mname .doto{ color:var(--orange); }
+  .mrule{ font-size:clamp(16px,1.8vw,20px); color:var(--ink); margin-top:14px; line-height:1.45; }
+  .mgrid{ display:grid; grid-template-columns:1fr 1fr; gap:22px; margin-top:22px; }
+  @media(max-width:620px){ .mgrid{ grid-template-columns:1fr; } }
+  .mgrid .lbl{ font-weight:600; font-size:11px; letter-spacing:1.5px; text-transform:uppercase; color:var(--orange); }
+  .mgrid p{ font-size:14.5px; line-height:1.5; margin-top:5px; color:var(--ink); }
+  .msrc{ margin-top:22px; font-style:italic; font-size:13px; color:var(--muted); border-top:1px solid var(--line); padding-top:16px; }
+  .mclose{ position:absolute; top:12px; right:14px; z-index:3; width:34px; height:34px; border-radius:50%; border:2px solid var(--ink); background:var(--paper); color:var(--ink); font-size:20px; line-height:1; cursor:pointer; display:grid; place-items:center; }
+  .mnav{ position:absolute; top:calc(min(46vh,360px) / 2); transform:translateY(-50%); width:40px; height:40px; border-radius:50%; border:2px solid var(--ink); background:var(--paper); color:var(--ink); font-size:20px; cursor:pointer; display:grid; place-items:center; z-index:3; }
+  .mprev{ left:-20px; } .mnext{ right:-20px; }
+  @media(max-width:900px){ .mprev{ left:8px; } .mnext{ right:8px; } }
+
+  footer{ position:relative; z-index:1; background:var(--black); color:var(--cream); text-align:center; padding:74px 24px 60px; margin-top:40px; }
+  footer h2{ font-weight:500; font-size:clamp(26px,3.6vw,44px); letter-spacing:-1px; line-height:1.12; }
+  footer h2 .doto{ color:var(--orange); }
+  footer p{ color:var(--muted); margin-top:16px; font-size:15px; }
+  footer a.cta{ display:inline-block; margin-top:26px; color:var(--black); background:var(--orange); text-decoration:none; font-weight:600; padding:13px 28px; border-radius:40px; }
+  footer .fine{ margin-top:28px; font-size:12px; color:var(--muted); max-width:60ch; margin-left:auto; margin-right:auto; line-height:1.6; }
+</style>
+</head>
+<body>
+<canvas id="dotBg"></canvas>
+
+<div class="wrap">
+  <header class="hero">
+    <svg class="mark" viewBox="0 0 80 80" aria-label="RoboLabs mark">
+      <path d="M58 24 L62 28 L66 46 L62 42 Z" fill="currentColor" opacity="0.55" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+      <path d="M62 42 L66 46 L52 64 L48 60 Z" fill="currentColor" opacity="0.55" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+      <path d="M48 60 L52 64 L28 60 L24 56 Z" fill="currentColor" opacity="0.55" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+      <path d="M38 18 L58 24 L62 42 L48 60 L24 56 L18 34 Z" fill="currentColor" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+    </svg>
+    <div class="tag">RoboNuggets · Slide Principles</div>
+    <h1>SLIDE<span class="doto" style="color:var(--orange)">PRINCIPLES</span></h1>
+    <p class="sub">15 research-backed rules that make a slide <em>land</em>, not just look good. The half of slide design most rules skip: what it says, and why it sticks.</p>
+    <div class="meta"><b>15</b> principles · <b>5</b> jobs · click any card to open it full screen</div>
+    <div class="scroll-cue">scroll ↓</div>
+  </header>
+
+  <nav class="toc" id="toc">
+    <div class="toc-inner">
+      <span class="brand">Slide<span class="doto">Principles</span></span>
+      <a class="chip" href="#job1">1 · Say it straight</a>
+      <a class="chip" href="#job2">2 · Win the glance</a>
+      <a class="chip" href="#job3">3 · Make it stick</a>
+      <a class="chip" href="#job4">4 · Ease the load</a>
+      <a class="chip" href="#job5">5 · Let data argue</a>
+      <button class="tbtn" id="themeToggle" aria-label="Toggle dark mode"></button>
+    </div>
+  </nav>
+
+  <main id="main"></main>
+</div>
+
+<footer>
+  <h2>Import these into<span class="doto">Claude Design</span><br>and make every slide land.</h2>
+  <p>Build and sell AI systems. Master Claude Code + Claude Design.</p>
+  <a class="cta" href="https://skool.com/robonuggets">Join RoboNuggets →</a>
+  <div class="fine">15 principles, sourced from Minto · Duarte · Mayer · Medina · Knaflic · Zelazny · Abela · Schwabish · Phillips · Heath · Gallo · Reynolds · Godin · Kawasaki · Alley.</div>
+</footer>
+
+<!-- MODAL -->
+<div class="modal" id="modal">
+  <div class="mcard">
+    <button class="mclose" id="mclose" aria-label="Close">×</button>
+    <button class="mnav mprev" id="mprev" aria-label="Previous">‹</button>
+    <button class="mnav mnext" id="mnext" aria-label="Next">›</button>
+    <div class="mart" id="mart"></div>
+    <div class="mbody">
+      <div class="mjob" id="mjob"></div>
+      <div class="mname" id="mname"></div>
+      <div class="mrule" id="mrule"></div>
+      <div class="mgrid">
+        <div><div class="lbl">Why it works</div><p id="mwhy"></p></div>
+        <div><div class="lbl">How to apply it</div><p id="mhow"></p></div>
+      </div>
+      <div class="msrc" id="msrc"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+/* ===================== drawing core ===================== */
+const INK='#1c1a16', INKD='rgba(28,26,22,0.9)', GRAY='rgba(111,106,92,0.5)', ORANGE='#ff6b1a';
+function paint(cv,w,h,fn){ if(!cv) return; const ctx=cv.getContext('2d'); const d=window.devicePixelRatio||1; cv.width=w*d; cv.height=h*d; cv.style.width=w+'px'; cv.style.height=h+'px'; ctx.setTransform(d,0,0,d,0,0); ctx.clearRect(0,0,w,h); fn(ctx,w,h); }
+function ht(ctx,w,h,step,maxR,color,fn,color2,fn2){
+  for(let y=step/2;y<h;y+=step) for(let x=step/2;x<w;x+=step){
+    const u=x/w, v=y/h; let b=fn(u,v), col=color;
+    if(fn2){ const b2=fn2(u,v); if(b2>b){ b=b2; col=color2; } }
+    if(b<=0.02) continue;
+    ctx.fillStyle=col; ctx.beginPath(); ctx.arc(x,y,Math.min(maxR,b*maxR),0,Math.PI*2); ctx.fill();
+  }
+}
+function pn(x,y){ const v=Math.sin(x*127.1+y*311.7)*43758.5453; return v-Math.floor(v); }
+
+/* agent sprites (8x8, 4-col mirrored) */
+const AGENTS={
+ robo:[[0,0,1,0],[1,1,1,1],[1,1,1,1],[1,0,1,1],[1,1,1,1],[1,1,1,1],[1,0,0,1],[0,0,0,0]],
+ devo:[[0,0,1,0],[0,1,1,1],[1,1,1,1],[0,1,0,1],[0,1,1,1],[1,1,1,0],[0,0,1,0],[0,0,0,0]],
+ eddo:[[0,0,1,0],[0,0,1,1],[0,1,1,1],[0,1,0,1],[0,1,1,1],[1,1,1,1],[1,0,1,0],[0,0,0,0]],
+ bizo:[[1,0,0,0],[1,1,0,0],[0,1,1,1],[0,1,1,1],[1,1,0,1],[0,1,1,1],[0,1,0,1],[0,0,0,0]],
+ como:[[0,0,1,0],[0,0,1,1],[0,1,1,1],[1,1,0,1],[1,1,1,1],[1,1,1,1],[1,0,0,1],[0,0,0,0]],
+ asto:[[0,0,1,1],[0,1,1,1],[1,1,1,1],[1,1,0,1],[1,1,1,1],[0,1,1,1],[0,0,1,1],[0,0,0,0]]
+};
+const TEAM=['robo','devo','eddo','bizo','como','asto'];
+function agent(ctx,key,cx,cy,px,color){
+  const d=AGENTS[key]||AGENTS.robo; ctx.fillStyle=color; const s=Math.ceil(px);
+  for(let y=0;y<8;y++) for(let x=0;x<4;x++){ if(d[y][x]){
+    const ya=Math.round(cy-4*px+y*px);
+    ctx.fillRect(Math.round(cx-4*px+x*px),ya,s,s);
+    ctx.fillRect(Math.round(cx-4*px+(7-x)*px),ya,s,s);
+  } }
+}
+
+/* hero mark is now the inline official RoboLabs faceted SVG (design/brand-mark.svg) in the markup */
+
+/* brightness fns */
+function pyr(u,v){ const half=v*0.46; return Math.abs(u-0.5)>half?0:0.5; }
+function pyrTop(u,v){ if(v>0.36) return 0; const half=v*0.46; return Math.abs(u-0.5)>half?0:0.95; }
+function bands(u,v){ return Math.floor(v*6)%2===0?0.5:0.1; }
+function rise(u,v){ const y=0.85-0.62*u; return Math.abs(v-y)<0.05?1:0; }
+function textWall(u,v){ const row=Math.floor(v*9); if(row%2===1) return 0; const w=0.5+0.42*pn(row*3.3,1.7); return u>w?0:0.5; }
+function p7left(u,v){ if(u>0.4) return 0; const lu=u/0.4; const row=Math.floor(v*8); if(row%2===1) return 0; const w=0.55+0.4*pn(row*3.3,1.7); return lu>w?0:0.5; }
+const BH=[0.5,0.72,0.42,0.92,0.6,0.78];
+function barsG(u,v){ const i=Math.floor(u*6); if(i<0||i>5) return 0; const f=u*6-i; if(f<0.16||f>0.84) return 0; return v<1-BH[i]?0:0.55; }
+function barsH(u,v){ const i=Math.floor(u*6); if(i!==3) return 0; const f=u*6-i; if(f<0.16||f>0.84) return 0; return v<1-BH[3]?0:0.95; }
+function smult(u,v){ const lu=(u*2)%1, cx=Math.floor(u*2), cy=Math.floor(v*2), lv=(v*2)%1; const y=0.72-0.42*lu-0.05*(cx+cy); return Math.abs(lv-y)<0.08?0.6:0; }
+function smultH(u,v){ const cx=Math.floor(u*2), cy=Math.floor(v*2); if(cx!==1||cy!==0) return 0; const lu=(u*2)%1, lv=(v*2)%1; const y=0.72-0.42*lu-0.05; return Math.abs(lv-y)<0.1?0.95:0; }
+function p13(u,v){ const t=Math.floor(u*3), lu=(u*3)%1; if(t===0){ const i=Math.floor(lu*3),f=lu*3-i; if(f<0.26||f>0.74) return 0; return v<1-[0.5,0.82,0.62][i]?0:0.5; } if(t===1){ const y=0.82-0.58*lu; return Math.abs(v-y)<0.06?0.55:0; } if(lu<0.34||lu>0.66) return 0; return v<0.3?0:0.5; }
+function p13h(u,v){ const t=Math.floor(u*3), lu=(u*3)%1; if(t===0){ const i=Math.floor(lu*3); if(i!==1) return 0; const f=lu*3-i; if(f<0.26||f>0.74) return 0; return v<1-0.82?0:0.9; } if(t===1){ const y=0.82-0.58*lu; return (lu>0.7&&Math.abs(v-y)<0.09)?0.9:0; } if(lu<0.34||lu>0.66) return 0; return (v<0.3||v>0.55)?0:0.9; }
+
+/* agent scene draws */
+function sOne(ctx,w,h){ agent(ctx,'robo',w*0.5,h*0.5,h*0.1,ORANGE); }
+function sPop(ctx,w,h){ const px=w/56, sx=w/6, sy=h/3.6; for(let r=0;r<3;r++) for(let c=0;c<5;c++){ const hot=(r===1&&c===3); agent(ctx,'robo', w*0.5+(c-2)*sx, h*0.5+(r-1)*sy, px, hot?ORANGE:INK); } }
+function sSix(ctx,w,h){ const slot=w/6.6, px=slot/9.5; for(let i=0;i<6;i++) agent(ctx,TEAM[i], w*0.5+(i-2.5)*slot, h*0.5, px, i===0?ORANGE:INK); }
+function sPicture(ctx,w,h){ ht(ctx,w,h,8,3,GRAY,p7left); agent(ctx,'robo',w*0.74,h*0.5,h*0.085,ORANGE); }
+function sLabel(ctx,w,h){ agent(ctx,'robo',w*0.34,h*0.5,h*0.085,INK); const bx=w*0.55,bw=w*0.32,by=h*0.4,bh=h*0.2; ctx.strokeStyle=ORANGE; ctx.lineWidth=2.5; ctx.strokeRect(bx,by,bw,bh); ctx.fillStyle=INK; ctx.font='600 '+(h*0.13)+"px Outfit, sans-serif"; ctx.textAlign='center'; ctx.textBaseline='middle'; ctx.fillText('42%',bx+bw/2,by+bh/2); }
+function sEmpty(ctx,w,h){ agent(ctx,'robo',w*0.4,h*0.52,h*0.062,ORANGE); }
+
+/* ===================== principles data ===================== */
+const JOBS=[
+ {n:'01',name:'Say it straight',desc:'Decide what it says before how it looks.'},
+ {n:'02',name:'Win the glance',desc:'Earn the first 3 seconds.'},
+ {n:'03',name:'Make it stick',desc:'Survive the look-away.'},
+ {n:'04',name:'Ease the load',desc:"Respect the brain's limits."},
+ {n:'05',name:'Let data argue',desc:'Make the chart prove the point.'},
+];
+const D=(html)=>({kind:'html',html});
+const C=(fn,black)=>({kind:'canvas',draw:fn,black:black||false});
+const P=[
+ {n:'01',j:0,name:'Lead with the <span class="doto">answer</span>',rule:'Open with the conclusion. Every later slide supports it.',why:'People judge relevance from the conclusion, then choose how deep to go.',how:'Slide 1 is one sentence stating the takeaway. The rest is evidence under it.',src:'Barbara Minto — The Pyramid Principle',art:C((c,w,h)=>ht(c,w,h,9,4,INKD,pyr,ORANGE,pyrTop))},
+ {n:'02',j:0,name:'Titles are takeaways,<br>not <span class="doto">topics</span>',rule:'Make each title a full claim, never a label.',why:'A sentence headline forces one clear point and carries it at a glance.',how:'Every heading is a complete claim; the body is the visual evidence, not bullets.',src:'Minto + Michael Alley (assertion–evidence)',art:D('<div class="chips"><span class="chip2 cold">Churn</span><span class="chip2 hot">Churn fell<span class="doto">40%</span></span></div>')},
+ {n:'03',j:0,name:'Ride the contrast <span class="doto">rhythm</span>',rule:'Alternate "what is" and "what could be" so the deck has an arc.',why:'The gap between now and possible is tension the audience wants resolved.',how:'Tag slides what-is / what-could-be and alternate them; end on the new reality.',src:'Nancy Duarte — Resonate (the Sparkline)',art:C((c,w,h)=>ht(c,w,h,9,3.6,INKD,bands,ORANGE,rise))},
+ {n:'04',j:1,name:'One message per <span class="doto">slide</span>',rule:"If it needs two ideas, it's two slides.",why:'Two messages split attention; a slide is glance media, grasped in ~3 seconds.',how:'One claim per slide. Overflow becomes a new slide, never a second column.',src:'David JP Phillips · Duarte (glance media)',art:C(sOne)},
+ {n:'05',j:1,name:'Make one thing <span class="doto">pop</span>',rule:'One accent on the one element that matters; mute the rest.',why:'The eye flags a single deviating element in under 250ms, before conscious thought.',how:'Exactly one accent or size jump per slide. Look away, look back to test it.',src:'Ware · Few · Knaflic — preattentive attributes',art:C(sPop)},
+ {n:'06',j:1,name:'Cap it at <span class="doto">six</span>',rule:'Keep distinct objects to six or fewer.',why:'Past six the brain switches from perceiving to effortful counting, and people disengage.',how:'Hard-cap distinct elements at 6; if there are more, split the slide.',src:'David JP Phillips — the subitizing limit',art:C(sSix)},
+ {n:'07',j:2,name:'Let the picture <span class="doto">carry</span> it',rule:'Lead with a visual; demote text to a caption.',why:'Words alone: ~10% recall after three days. Add a picture: ~65%.',how:'Visual first, words second. Aim for near-zero 40-word text slides.',src:'John Medina — Brain Rules',art:C(sPicture)},
+ {n:'08',j:2,name:'Concrete beats <span class="doto">abstract</span>',rule:'Turn every claim into a tangible number or image.',why:'The brain remembers "1,000 songs in your pocket" far better than "large storage".',how:'Replace abstract copy with a concrete figure, object, or comparison.',src:'Chip & Dan Heath — Made to Stick',art:D('<div class="chips"><span class="chip2 cold">More efficient</span><span class="chip2 hot">Saves<span class="doto">4 hrs</span></span></div>')},
+ {n:'09',j:2,name:'Build one unforgettable <span class="doto">beat</span>',rule:'Make one slide the peak and style it bigger than the rest.',why:'Memory encodes high-arousal moments far more strongly than flat information.',how:'One full-bleed slide, one giant statement, no clutter. Let it breathe.',src:'Nancy Duarte — the S.T.A.R. moment',art:{kind:'html',black:true,html:'<div class="starbig">90%</div>'}},
+ {n:'10',j:3,name:"Don't put your script on the <span class=\"doto\">slide</span>",rule:'Sentences go in speaker notes, not on screen.',why:'Reading and hearing the same words at once overloads one channel; recall drops toward zero.',how:'The slide gets a short cue plus a visual. The full script lives in notes.',src:'Mayer (redundancy) · Godin · Phillips',art:C((c,w,h)=>ht(c,w,h,8,3.2,GRAY,textWall))},
+ {n:'11',j:3,name:'Labels touch the thing they <span class="doto">name</span>',rule:'Put each callout beside its element; kill the far-off legend.',why:'A stranded label burns working memory while you hunt for the match (effect size g = 0.63).',how:'Annotate directly on or next to the element with a short connector.',src:'Richard Mayer — spatial contiguity',art:C(sLabel)},
+ {n:'12',j:3,name:'Empty space is <span class="doto">working</span>',rule:'Treat negative space as design, not waste.',why:'Space directs the eye to what is left and reads as quality; every element earns its place.',how:'Generous margins on purpose; remove logos and footers that do no work.',src:'Garr Reynolds — Presentation Zen',art:C(sEmpty)},
+ {n:'13',j:4,name:'Pick the chart from the <span class="doto">message</span>',rule:"Read the headline's verb, then choose the chart form.",why:'Picking a chart by habit makes the visual and the claim disagree; the verb keeps them matched.',how:'compare → bar · share → stacked · trend → line · spread → histogram · relate → scatter.',src:'Gene Zelazny · Andrew Abela',art:C((c,w,h)=>ht(c,w,h,8,3.2,GRAY,p13,ORANGE,p13h))},
+ {n:'14',j:4,name:'Start with <span class="doto">gray</span>',rule:'Default every series gray; earn back one color for the point.',why:'If everything is coloured, nothing leads the eye; one earned colour is an instruction.',how:'Render charts gray by default; recolour only the message element in the accent.',src:'Cole Knaflic · Jon Schwabish',art:C((c,w,h)=>ht(c,w,h,9,4,GRAY,barsG,ORANGE,barsH))},
+ {n:'15',j:4,name:'One chart, one <span class="doto">point</span>',rule:'Label on the chart; untangle spaghetti into small multiples.',why:"In-chart labels cut the eye's round-trip to a legend; small multiples each read in one glance.",how:'Put labels on the lines and bars; split 5+ tangled series into a grid of mini-panels.',src:'Jon Schwabish',art:C((c,w,h)=>ht(c,w,h,8,3.2,GRAY,smult,ORANGE,smultH))},
+];
+
+/* ===================== build cards ===================== */
+const main=document.getElementById('main');
+JOBS.forEach((job,ji)=>{
+  const sec=document.createElement('section'); sec.className='job'; sec.id='job'+(ji+1);
+  sec.innerHTML=`<div class="job-head"><span class="jn">${job.n}</span><span class="jt">${job.name}</span><span class="jd">${job.desc}</span></div><div class="grid"></div>`;
+  const grid=sec.querySelector('.grid');
+  P.filter(p=>p.j===ji).forEach(p=>{
+    const i=P.indexOf(p);
+    const card=document.createElement('article'); card.className='card'; card.dataset.i=i;
+    const miniInner = p.art.kind==='html' ? p.art.html : `<canvas class="cardcv" width="248" height="150"></canvas>`;
+    card.innerHTML=`<div class="mini ${p.art.black?'black':''}"><span class="pnum">${p.n}</span>${miniInner}</div>
+      <div class="cbody"><div class="pname">${p.name}</div><div class="prule">${p.rule}</div>
+      <div class="psrc">${p.src}</div><div class="open-hint">⤢ Open full screen</div></div>`;
+    grid.appendChild(card);
+    if(p.art.kind==='canvas'){ const cv=card.querySelector('.cardcv'); paint(cv,248,150,(ctx,w,h)=>p.art.draw(ctx,w,h)); }
+    card.addEventListener('click',()=>openModal(i));
+  });
+  main.appendChild(sec);
+});
+
+/* ===================== modal ===================== */
+const modal=document.getElementById('modal'), mart=document.getElementById('mart');
+let cur=0;
+function openModal(i){
+  cur=i; const p=P[i];
+  document.getElementById('mjob').textContent='Job '+JOBS[p.j].n+' · '+JOBS[p.j].name;
+  document.getElementById('mname').innerHTML=p.name;
+  document.getElementById('mrule').textContent=p.rule;
+  document.getElementById('mwhy').textContent=p.why;
+  document.getElementById('mhow').innerHTML=p.how;
+  document.getElementById('msrc').textContent=p.src;
+  mart.className='mart'+(p.art.black?' black':'');
+  if(p.art.kind==='html'){ mart.innerHTML=p.art.html; }
+  else { mart.innerHTML='<canvas id="mcv"></canvas>'; const cv=document.getElementById('mcv'); const W=Math.min(520, window.innerWidth*0.8), H=Math.min(330, window.innerHeight*0.42); paint(cv,W,H,(ctx,w,h)=>p.art.draw(ctx,w,h)); }
+  modal.classList.add('show'); document.body.style.overflow='hidden';
+}
+function closeModal(){ modal.classList.remove('show'); document.body.style.overflow=''; }
+function step(d){ openModal((cur+d+P.length)%P.length); }
+document.getElementById('mclose').addEventListener('click',closeModal);
+document.getElementById('mprev').addEventListener('click',e=>{e.stopPropagation();step(-1);});
+document.getElementById('mnext').addEventListener('click',e=>{e.stopPropagation();step(1);});
+modal.addEventListener('click',e=>{ if(e.target===modal) closeModal(); });
+addEventListener('keydown',e=>{ if(!modal.classList.contains('show')) return; if(e.key==='Escape') closeModal(); else if(e.key==='ArrowRight') step(1); else if(e.key==='ArrowLeft') step(-1); });
+
+/* hero mark = inline RoboLabs faceted SVG (in markup); no canvas render needed */
+
+/* ===================== animated dot-wave bg ===================== */
+const bg=document.getElementById('dotBg'); const bctx=bg.getContext('2d');
+let BW,BH2; function bgResize(){ const d=window.devicePixelRatio||1; BW=innerWidth; BH2=innerHeight; bg.width=BW*d; bg.height=BH2*d; bctx.setTransform(d,0,0,d,0,0); }
+bgResize(); addEventListener('resize', bgResize);
+function bgFn(u,v,t){ const TAU=Math.PI*2; const base=0.78+0.05*Math.sin(u*3+t*TAU/12); const ripple=0.018*Math.sin(u*22+t*TAU/4)+0.012*Math.sin(u*35-t*TAU/3+2); const d=v-(base+ripple); if(d<0) return 0; if(d<0.008) return 1; return Math.min(1,0.4+d*3); }
+function bgDraw(ms){ const t=ms/1000; if(bg.offsetWidth!==BW||bg.offsetHeight!==BH2) bgResize();
+  bctx.clearRect(0,0,BW,BH2); bctx.fillStyle=getComputedStyle(document.documentElement).getPropertyValue('--wave').trim(); bctx.globalAlpha=0.2;
+  for(let y=6;y<BH2;y+=12) for(let x=6;x<BW;x+=12){ const b=bgFn(x/BW,y/BH2,t); if(b<=0.02) continue; bctx.beginPath(); bctx.arc(x,y,Math.min(2.4,b*2.4),0,Math.PI*2); bctx.fill(); }
+  bctx.globalAlpha=1; requestAnimationFrame(bgDraw);
+}
+requestAnimationFrame(bgDraw);
+
+/* ===================== theme ===================== */
+const SUN='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4 12H2M22 12h-2M5 5l1.5 1.5M17.5 17.5L19 19M19 5l-1.5 1.5M6.5 17.5L5 19"/></svg>';
+const MOON='<svg viewBox="0 0 24 24" fill="currentColor"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>';
+const tg=document.getElementById('themeToggle');
+function setTheme(m){ document.documentElement.dataset.theme=m; tg.innerHTML=(m==='dark'?SUN:MOON)+'<span>'+(m==='dark'?'Light':'Dark')+'</span>'; try{ localStorage.setItem('rn-slide-theme',m); }catch(e){} }
+setTheme((()=>{ const q=new URLSearchParams(location.search).get('theme'); if(q) return q; try{ return localStorage.getItem('rn-slide-theme')||'light'; }catch(e){ return 'light'; } })());
+tg.addEventListener('click', ()=> setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark'));
+
+/* nav active state */
+const chips=document.querySelectorAll('.toc a.chip');
+const obs=new IntersectionObserver(es=>{ es.forEach(e=>{ if(e.isIntersecting){ const id='#'+e.target.id; chips.forEach(c=>c.classList.toggle('active', c.getAttribute('href')===id)); } }); }, { rootMargin:'-20% 0px -70% 0px' });
+document.querySelectorAll('.job').forEach(s=>obs.observe(s));
+</script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+{
+  "id": "a885d0c85024cf8534b82ab295c32b3eb38caef570703cc59ca5a97c25cd3695",
+  "name": "Stability AI",
+  "project": "共用素材",
+  "design": "通用",
+  "category": "圖示與標誌",
+  "tags": [
+    "圖示與標誌",
+    "Icons",
+    "svg",
+    "brand",
+    "logo",
+    "stability-color"
+  ],
+  "provider": "imported",
+  "sourceFile": "video-talkcraft/assets/robonuggets-animate/assets/items/059-stability-color.svg",
+  "provenance": {
+    "name": "Animate contributors (RoboNuggets)",
+    "sourceId": "asset-94",
+    "archiveSha256": "dcadcdfe35557359eca1efd9e3ba254ed9f52652927e962f250c1707c2f320e3",
+    "licenseFile": "video-talkcraft/assets/robonuggets-animate/LICENSE",
+    "thirdPartyNotices": "video-talkcraft/assets/robonuggets-animate/THIRD-PARTY-NOTICES.md",
+    "originalMetadata": {
+      "category": "Icons",
+      "name": "Stability AI",
+      "description": "Stability mark. Faithful source SVG with transparent background.",
+      "status": "Reusable",
+      "image": "assets/items/059-stability-color.svg",
+      "tags": [
+        "svg",
+        "brand",
+        "logo",
+        "stability-color"
+      ],
+      "license": "MIT",
+      "rightsNote": "Brand trademarks belong to their respective owners. Repository artwork license does not grant trademark rights or endorsement.",
+      "publicAsset": true,
+      "links": [
+        {
+          "label": "Image / SVG source",
+          "path": "assets/items/059-stability-color.svg"
+        },
+        {
+          "label": "Source manifest",
+          "path": "assets/ai-logos/manifest.json"
+        },
+        {
+          "label": "License",
+          "path": "assets/ai-logos/LICENSE-LobeHub.txt"
+        }
+      ],
+      "id": "asset-94",
+      "external": "https://github.com/lobehub/lobe-icons"
+    },
+    "sourceSha256": "61c4593effe20b4fa1f0811861bb6ac199348d955b21a5c3f719bc07c9d27d3a",
+    "changes": [
+      "SVG rendered to a 1200-pixel-wide transparent WebP for the shared image workflow; original SVG retained."
+    ]
+  },
+  "image": "image-library/objects/36d55d6e7d073449bb866c31b02808553bfa7c6e0a6f65fbfae183428be18248.webp",
+  "sha256": "36d55d6e7d073449bb866c31b02808553bfa7c6e0a6f65fbfae183428be18248"
+}

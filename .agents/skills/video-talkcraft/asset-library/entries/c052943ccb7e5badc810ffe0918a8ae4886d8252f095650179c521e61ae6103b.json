@@ -1,0 +1,62 @@
+{
+  "id": "c052943ccb7e5badc810ffe0918a8ae4886d8252f095650179c521e61ae6103b",
+  "kind": "model",
+  "title": "Layer Stack",
+  "tag": "3D 模型",
+  "summary": "CERAMIC / GLASS / ALUMINUM",
+  "semantic": "3D 模型 · 3D objects · 3D · GLB · editable · shine · shimmer",
+  "source": "video-talkcraft/assets/robonuggets-animate/assets/items/018-object.glb",
+  "doc": "references/robonuggets-animate.md",
+  "thumb": "video-talkcraft/assets/robonuggets-animate/assets/items/017-transparent-object.png",
+  "image": "video-talkcraft/assets/robonuggets-animate/assets/items/017-transparent-object.png",
+  "audio": "",
+  "video": "",
+  "demo": "video-talkcraft/assets/robonuggets-animate/library/index.html#category=3D+objects&q=Layer+Stack",
+  "extraLinks": [
+    [
+      "Editable GLB",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/018-object.glb"
+    ],
+    [
+      "Image / SVG source",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/017-transparent-object.png"
+    ]
+  ],
+  "provenance": {
+    "name": "Animate contributors (RoboNuggets)",
+    "sourceId": "asset-7",
+    "archiveSha256": "dcadcdfe35557359eca1efd9e3ba254ed9f52652927e962f250c1707c2f320e3",
+    "licenseFile": "video-talkcraft/assets/robonuggets-animate/LICENSE",
+    "thirdPartyNotices": "video-talkcraft/assets/robonuggets-animate/THIRD-PARTY-NOTICES.md",
+    "originalMetadata": {
+      "category": "3D objects",
+      "engine": "Robo3D",
+      "enginePath": "assets/items/014-object-engine.bundle.js",
+      "kind": "stack",
+      "name": "Layer Stack",
+      "description": "CERAMIC / GLASS / ALUMINUM",
+      "status": "Reusable",
+      "image": "assets/items/017-transparent-object.png",
+      "model": "assets/items/018-object.glb",
+      "tags": [
+        "3D",
+        "GLB",
+        "editable",
+        "shine",
+        "shimmer"
+      ],
+      "links": [
+        {
+          "label": "Editable GLB",
+          "path": "assets/items/018-object.glb"
+        },
+        {
+          "label": "Image / SVG source",
+          "path": "assets/items/017-transparent-object.png"
+        }
+      ],
+      "id": "asset-7"
+    }
+  },
+  "format": "GLB／3D"
+}

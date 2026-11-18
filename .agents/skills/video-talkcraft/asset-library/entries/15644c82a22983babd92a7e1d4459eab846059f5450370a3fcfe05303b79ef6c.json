@@ -1,0 +1,62 @@
+{
+  "id": "15644c82a22983babd92a7e1d4459eab846059f5450370a3fcfe05303b79ef6c",
+  "kind": "model",
+  "title": "Titan Orbit",
+  "tag": "3D 模型",
+  "summary": "POLISHED METAL / THREE AXES",
+  "semantic": "3D 模型 · 3D objects · 3D · GLB · editable · shine · shimmer",
+  "source": "video-talkcraft/assets/robonuggets-animate/assets/items/016-object.glb",
+  "doc": "references/robonuggets-animate.md",
+  "thumb": "video-talkcraft/assets/robonuggets-animate/assets/items/015-transparent-object.png",
+  "image": "video-talkcraft/assets/robonuggets-animate/assets/items/015-transparent-object.png",
+  "audio": "",
+  "video": "",
+  "demo": "video-talkcraft/assets/robonuggets-animate/library/index.html#category=3D+objects&q=Titan+Orbit",
+  "extraLinks": [
+    [
+      "Editable GLB",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/016-object.glb"
+    ],
+    [
+      "Image / SVG source",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/015-transparent-object.png"
+    ]
+  ],
+  "provenance": {
+    "name": "Animate contributors (RoboNuggets)",
+    "sourceId": "asset-6",
+    "archiveSha256": "dcadcdfe35557359eca1efd9e3ba254ed9f52652927e962f250c1707c2f320e3",
+    "licenseFile": "video-talkcraft/assets/robonuggets-animate/LICENSE",
+    "thirdPartyNotices": "video-talkcraft/assets/robonuggets-animate/THIRD-PARTY-NOTICES.md",
+    "originalMetadata": {
+      "category": "3D objects",
+      "engine": "Robo3D",
+      "enginePath": "assets/items/014-object-engine.bundle.js",
+      "kind": "orbit",
+      "name": "Titan Orbit",
+      "description": "POLISHED METAL / THREE AXES",
+      "status": "Reusable",
+      "image": "assets/items/015-transparent-object.png",
+      "model": "assets/items/016-object.glb",
+      "tags": [
+        "3D",
+        "GLB",
+        "editable",
+        "shine",
+        "shimmer"
+      ],
+      "links": [
+        {
+          "label": "Editable GLB",
+          "path": "assets/items/016-object.glb"
+        },
+        {
+          "label": "Image / SVG source",
+          "path": "assets/items/015-transparent-object.png"
+        }
+      ],
+      "id": "asset-6"
+    }
+  },
+  "format": "GLB／3D"
+}

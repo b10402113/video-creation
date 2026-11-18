@@ -1,0 +1,62 @@
+{
+  "id": "bb56977532849187bd8ca1fccee9b22dbf7fc02edc88b86d55eef941c76afa1b",
+  "name": "Runway",
+  "project": "共用素材",
+  "design": "通用",
+  "category": "圖示與標誌",
+  "tags": [
+    "圖示與標誌",
+    "Icons",
+    "svg",
+    "brand",
+    "logo",
+    "runway"
+  ],
+  "provider": "imported",
+  "sourceFile": "video-talkcraft/assets/robonuggets-animate/assets/items/058-runway.svg",
+  "provenance": {
+    "name": "Animate contributors (RoboNuggets)",
+    "sourceId": "asset-93",
+    "archiveSha256": "dcadcdfe35557359eca1efd9e3ba254ed9f52652927e962f250c1707c2f320e3",
+    "licenseFile": "video-talkcraft/assets/robonuggets-animate/LICENSE",
+    "thirdPartyNotices": "video-talkcraft/assets/robonuggets-animate/THIRD-PARTY-NOTICES.md",
+    "originalMetadata": {
+      "category": "Icons",
+      "name": "Runway",
+      "description": "Runway mark. Faithful source SVG with transparent background.",
+      "status": "Reusable",
+      "image": "assets/items/058-runway.svg",
+      "tags": [
+        "svg",
+        "brand",
+        "logo",
+        "runway"
+      ],
+      "license": "MIT",
+      "rightsNote": "Brand trademarks belong to their respective owners. Repository artwork license does not grant trademark rights or endorsement.",
+      "publicAsset": true,
+      "links": [
+        {
+          "label": "Image / SVG source",
+          "path": "assets/items/058-runway.svg"
+        },
+        {
+          "label": "Source manifest",
+          "path": "assets/ai-logos/manifest.json"
+        },
+        {
+          "label": "License",
+          "path": "assets/ai-logos/LICENSE-LobeHub.txt"
+        }
+      ],
+      "id": "asset-93",
+      "external": "https://github.com/lobehub/lobe-icons"
+    },
+    "sourceSha256": "dba3459264af7b4fffb5c4bfc909748e1ec1f122ffcaf0a8fbb626781888eaf2",
+    "changes": [
+      "SVG rendered to a 1200-pixel-wide transparent WebP for the shared image workflow; original SVG retained."
+    ]
+  },
+  "image": "image-library/objects/03134882fa5288b04dc0e9fea522337b099ae9c46de8ce1bdaf5d4d177c2eaa2.webp",
+  "sha256": "03134882fa5288b04dc0e9fea522337b099ae9c46de8ce1bdaf5d4d177c2eaa2"
+}

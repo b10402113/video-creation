@@ -1,0 +1,73 @@
+{
+  "id": "d1cf882347c86ecaa1f7ebcfc11dbea076a86cfefc50e9df6b1ad2ea28fee167",
+  "kind": "animation",
+  "title": "reference-build",
+  "tag": "資訊圖表",
+  "summary": "",
+  "semantic": "資訊圖表 · Infographics · current · portrait · editable",
+  "source": "video-talkcraft/assets/robonuggets-animate/assets/items/148-reference-build.svg",
+  "doc": "references/robonuggets-animate.md",
+  "thumb": "video-talkcraft/assets/robonuggets-animate/assets/items/149-reference-build.png",
+  "image": "video-talkcraft/assets/robonuggets-animate/assets/items/149-reference-build.png",
+  "audio": "",
+  "video": "video-talkcraft/assets/robonuggets-animate/assets/items/147-reference-build.mp4",
+  "demo": "video-talkcraft/assets/robonuggets-animate/assets/items/147-reference-build.mp4",
+  "extraLinks": [
+    [
+      "Animated scene preview",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/147-reference-build.mp4"
+    ],
+    [
+      "Editable SVG artwork",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/148-reference-build.svg"
+    ],
+    [
+      "Image / SVG source",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/149-reference-build.png"
+    ]
+  ],
+  "provenance": {
+    "name": "Animate contributors (RoboNuggets)",
+    "sourceId": "asset-179",
+    "archiveSha256": "dcadcdfe35557359eca1efd9e3ba254ed9f52652927e962f250c1707c2f320e3",
+    "licenseFile": "video-talkcraft/assets/robonuggets-animate/LICENSE",
+    "thirdPartyNotices": "video-talkcraft/assets/robonuggets-animate/THIRD-PARTY-NOTICES.md",
+    "originalMetadata": {
+      "key": "current-reels-v10-06-screenshot-to-code-1",
+      "name": "reference-build",
+      "category": "Infographics",
+      "image": "assets/items/149-reference-build.png",
+      "componentClip": true,
+      "componentSvg": "assets/items/148-reference-build.svg",
+      "shareable": true,
+      "tags": [
+        "current",
+        "portrait",
+        "editable"
+      ],
+      "provenance": {
+        "source": "reels-v10/06-screenshot-to-code",
+        "duration": 4.999999999999998,
+        "start": 12.4,
+        "end": 17.4
+      },
+      "links": [
+        {
+          "label": "Animated scene preview",
+          "path": "assets/items/147-reference-build.mp4"
+        },
+        {
+          "label": "Editable SVG artwork",
+          "path": "assets/items/148-reference-build.svg"
+        },
+        {
+          "label": "Image / SVG source",
+          "path": "assets/items/149-reference-build.png"
+        }
+      ],
+      "id": "asset-179",
+      "video": "assets/items/147-reference-build.mp4"
+    }
+  },
+  "format": "HTML／GSAP 參考"
+}

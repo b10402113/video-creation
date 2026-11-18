@@ -1,0 +1,90 @@
+{
+  "id": "383c68372e989be9055b7baef7cf478e7da30d00ebc6fec639af0261a6235120",
+  "kind": "audio",
+  "title": "Soft click",
+  "tag": "音效",
+  "summary": "Softer click for sequential icon reveals. 0.019 seconds. Audition before selecting.",
+  "semantic": "音效 · Sound effects · audio · sound effect · CC0 · click_003",
+  "source": "video-talkcraft/assets/robonuggets-animate/assets/items/061-click_003.wav",
+  "doc": "references/robonuggets-animate.md",
+  "thumb": "",
+  "image": "",
+  "audio": "video-talkcraft/assets/robonuggets-animate/assets/items/061-click_003.wav",
+  "video": "",
+  "demo": "video-talkcraft/assets/robonuggets-animate/assets/sound-effects/index.html",
+  "extraLinks": [
+    [
+      "Source manifest",
+      "video-talkcraft/assets/robonuggets-animate/assets/sound-effects/manifest.json"
+    ],
+    [
+      "License",
+      "video-talkcraft/assets/robonuggets-animate/assets/sound-effects/LICENSE-Kenney.txt"
+    ],
+    [
+      "Audition and select all sounds",
+      "video-talkcraft/assets/robonuggets-animate/assets/sound-effects/index.html"
+    ],
+    [
+      "Download WAV",
+      "video-talkcraft/assets/robonuggets-animate/assets/items/061-click_003.wav"
+    ]
+  ],
+  "provenance": {
+    "name": "Animate contributors (RoboNuggets)",
+    "sourceId": "asset-96",
+    "archiveSha256": "dcadcdfe35557359eca1efd9e3ba254ed9f52652927e962f250c1707c2f320e3",
+    "licenseFile": "video-talkcraft/assets/robonuggets-animate/LICENSE",
+    "thirdPartyNotices": "video-talkcraft/assets/robonuggets-animate/THIRD-PARTY-NOTICES.md",
+    "originalMetadata": {
+      "category": "Sound effects",
+      "name": "Soft click",
+      "description": "Softer click for sequential icon reveals. 0.019 seconds. Audition before selecting.",
+      "status": "Reusable",
+      "audio": "assets/items/061-click_003.wav",
+      "tags": [
+        "audio",
+        "sound effect",
+        "CC0",
+        "click_003"
+      ],
+      "license": "CC0-1.0",
+      "publicAsset": true,
+      "duration": 0.019,
+      "personalVideo": {
+        "approved": true,
+        "use": "Cut between scenes",
+        "gain": 0.8,
+        "gainDb": -1.938200260161128,
+        "gainNote": "20 percent quieter than the actual processed v7 beat click. Attenuate after the unchanged limiter.",
+        "gainReference": "v7 cue after source gain 2 and limiter 0.8",
+        "sourceGain": 2,
+        "limiterLimit": 0.8,
+        "postLimiterGain": 0.8,
+        "processingFilter": "volume=2,alimiter=limit=0.8:attack=1:release=20:level=false:latency=true,volume=0.8"
+      },
+      "links": [
+        {
+          "label": "Source manifest",
+          "path": "assets/sound-effects/manifest.json"
+        },
+        {
+          "label": "License",
+          "path": "assets/sound-effects/LICENSE-Kenney.txt"
+        },
+        {
+          "label": "Audition and select all sounds",
+          "path": "assets/sound-effects/index.html"
+        },
+        {
+          "label": "Download WAV",
+          "path": "assets/items/061-click_003.wav"
+        }
+      ],
+      "id": "asset-96",
+      "external": "https://kenney.nl/assets/interface-sounds",
+      "html": "assets/sound-effects/index.html"
+    }
+  },
+  "format": "音效"
+}

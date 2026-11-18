@@ -1,0 +1,62 @@
+{
+  "id": "b87981b05652425606ecda25cbda177ba61b8c01b0d7522989333b9434ccd2dd",
+  "name": "DeepSeek",
+  "project": "共用素材",
+  "design": "通用",
+  "category": "圖示與標誌",
+  "tags": [
+    "圖示與標誌",
+    "Icons",
+    "svg",
+    "brand",
+    "logo",
+    "deepseek-color"
+  ],
+  "provider": "imported",
+  "sourceFile": "video-talkcraft/assets/robonuggets-animate/assets/items/047-deepseek-color.svg",
+  "provenance": {
+    "name": "Animate contributors (RoboNuggets)",
+    "sourceId": "asset-82",
+    "archiveSha256": "dcadcdfe35557359eca1efd9e3ba254ed9f52652927e962f250c1707c2f320e3",
+    "licenseFile": "video-talkcraft/assets/robonuggets-animate/LICENSE",
+    "thirdPartyNotices": "video-talkcraft/assets/robonuggets-animate/THIRD-PARTY-NOTICES.md",
+    "originalMetadata": {
+      "category": "Icons",
+      "name": "DeepSeek",
+      "description": "Whale mark. Faithful source SVG with transparent background.",
+      "status": "Reusable",
+      "image": "assets/items/047-deepseek-color.svg",
+      "tags": [
+        "svg",
+        "brand",
+        "logo",
+        "deepseek-color"
+      ],
+      "license": "MIT",
+      "rightsNote": "Brand trademarks belong to their respective owners. Repository artwork license does not grant trademark rights or endorsement.",
+      "publicAsset": true,
+      "links": [
+        {
+          "label": "Image / SVG source",
+          "path": "assets/items/047-deepseek-color.svg"
+        },
+        {
+          "label": "Source manifest",
+          "path": "assets/ai-logos/manifest.json"
+        },
+        {
+          "label": "License",
+          "path": "assets/ai-logos/LICENSE-LobeHub.txt"
+        }
+      ],
+      "id": "asset-82",
+      "external": "https://github.com/lobehub/lobe-icons"
+    },
+    "sourceSha256": "deba5f98a5c1796e20fcac3149bcd7eb8a32f0bdd04d048819400b1f28bd1439",
+    "changes": [
+      "SVG rendered to a 1200-pixel-wide transparent WebP for the shared image workflow; original SVG retained."
+    ]
+  },
+  "image": "image-library/objects/21d7aab4bbf15eeb26483daca0fd3e21111cacebb80006a3bcbf93f1c5608fe9.webp",
+  "sha256": "21d7aab4bbf15eeb26483daca0fd3e21111cacebb80006a3bcbf93f1c5608fe9"
+}

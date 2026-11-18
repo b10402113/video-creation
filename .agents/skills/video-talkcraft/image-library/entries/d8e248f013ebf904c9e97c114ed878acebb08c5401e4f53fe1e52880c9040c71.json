@@ -1,0 +1,62 @@
+{
+  "id": "d8e248f013ebf904c9e97c114ed878acebb08c5401e4f53fe1e52880c9040c71",
+  "name": "Grok",
+  "project": "共用素材",
+  "design": "通用",
+  "category": "圖示與標誌",
+  "tags": [
+    "圖示與標誌",
+    "Icons",
+    "svg",
+    "brand",
+    "logo",
+    "grok"
+  ],
+  "provider": "imported",
+  "sourceFile": "video-talkcraft/assets/robonuggets-animate/assets/items/050-grok.svg",
+  "provenance": {
+    "name": "Animate contributors (RoboNuggets)",
+    "sourceId": "asset-85",
+    "archiveSha256": "dcadcdfe35557359eca1efd9e3ba254ed9f52652927e962f250c1707c2f320e3",
+    "licenseFile": "video-talkcraft/assets/robonuggets-animate/LICENSE",
+    "thirdPartyNotices": "video-talkcraft/assets/robonuggets-animate/THIRD-PARTY-NOTICES.md",
+    "originalMetadata": {
+      "category": "Icons",
+      "name": "Grok",
+      "description": "Grok mark. Faithful source SVG with transparent background.",
+      "status": "Reusable",
+      "image": "assets/items/050-grok.svg",
+      "tags": [
+        "svg",
+        "brand",
+        "logo",
+        "grok"
+      ],
+      "license": "MIT",
+      "rightsNote": "Brand trademarks belong to their respective owners. Repository artwork license does not grant trademark rights or endorsement.",
+      "publicAsset": true,
+      "links": [
+        {
+          "label": "Image / SVG source",
+          "path": "assets/items/050-grok.svg"
+        },
+        {
+          "label": "Source manifest",
+          "path": "assets/ai-logos/manifest.json"
+        },
+        {
+          "label": "License",
+          "path": "assets/ai-logos/LICENSE-LobeHub.txt"
+        }
+      ],
+      "id": "asset-85",
+      "external": "https://github.com/lobehub/lobe-icons"
+    },
+    "sourceSha256": "9175fc90c22655160231976c849f25a03b888d7cc0e04c5f1b987b659bb07c95",
+    "changes": [
+      "SVG rendered to a 1200-pixel-wide transparent WebP for the shared image workflow; original SVG retained."
+    ]
+  },
+  "image": "image-library/objects/756988922f8909096eef7f57d3705a5c20993772879ef2a2a41e5a44dd1a2fc6.webp",
+  "sha256": "756988922f8909096eef7f57d3705a5c20993772879ef2a2a41e5a44dd1a2fc6"
+}
